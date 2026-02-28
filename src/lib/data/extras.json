@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ext1",
+    "slug": "travel-insurance-comprehensive",
+    "name": "Comprehensive Travel Insurance",
+    "description": "Full cover including cancellation, medical, and baggage",
+    "longDescription": "Our comprehensive travel insurance policy covers medical emergencies up to £10 million, trip cancellation or curtailment, lost or delayed baggage up to £2,500, and personal liability up to £2 million. Policy covers all passengers named on the booking.",
+    "category": "insurance",
+    "icon": "🛡️",
+    "pricePerPerson": 42,
+    "priceType": "per-person",
+    "isRecommended": true,
+    "compatibleTypes": ["ski", "beach", "city", "summer"]
+  },
+  {
+    "id": "ext2",
+    "slug": "airport-transfer-return",
+    "name": "Return Airport Transfers",
+    "description": "Private coach transfer to and from the resort",
+    "longDescription": "Door-to-door private coach transfers between the airport and your hotel. Air-conditioned vehicles with professional drivers. Meet & greet service included. Luggage assistance provided.",
+    "category": "transfer",
+    "icon": "🚌",
+    "pricePerPerson": 38,
+    "priceType": "per-person",
+    "isRecommended": true,
+    "compatibleTypes": ["ski", "beach", "city", "summer"]
+  },
+  {
+    "id": "ext3",
+    "slug": "ski-equipment-hire",
+    "name": "Ski Equipment Hire",
+    "description": "Full ski or snowboard hire for the duration of your stay",
+    "longDescription": "Quality ski or snowboard rental including skis or board, boots, helmet, and poles. Equipment is fitted by certified technicians at the resort. Upgrade to premium equipment available on arrival.",
+    "category": "sport",
+    "icon": "⛷️",
+    "pricePerPerson": 95,
+    "priceType": "per-person",
+    "isRecommended": false,
+    "compatibleTypes": ["ski"]
+  },
+  {
+    "id": "ext4",
+    "slug": "ski-school-6-days",
+    "name": "Ski School (6 Days)",
+    "description": "Group lessons with qualified instructors — all abilities",
+    "longDescription": "Six days of group ski lessons (2 hours each morning) with ESF-qualified instructors. Groups divided by ability from complete beginner to advanced. All instruction is in English. Maximum 8 people per group.",
+    "category": "sport",
+    "icon": "🎿",
+    "pricePerPerson": 175,
+    "priceType": "per-person",
+    "isRecommended": false,
+    "compatibleTypes": ["ski"]
+  },
+  {
+    "id": "ext5",
+    "slug": "room-upgrade",
+    "name": "Room Upgrade Request",
+    "description": "Upgrade to the next room category on arrival (subject to availability)",
+    "longDescription": "Request a complimentary room upgrade on arrival. Subject to availability at check-in. Where an upgrade is available you will be moved to the next room category at no additional cost. Includes welcome fruit basket.",
+    "category": "upgrade",
+    "icon": "⬆️",
+    "pricePerPerson": 0,
+    "priceType": "per-booking",
+    "isRecommended": false,
+    "compatibleTypes": ["ski", "beach", "city", "summer"]
+  },
+  {
+    "id": "ext6",
+    "slug": "dining-package",
+    "name": "Half Board Dining Package",
+    "description": "Breakfast and evening meal included every day",
+    "longDescription": "Enjoy breakfast and a three-course dinner in the hotel restaurant every day of your stay. Includes a welcome cocktail on arrival. A selection of house wines and soft drinks included with dinner.",
+    "category": "dining",
+    "icon": "🍽️",
+    "pricePerPerson": 85,
+    "priceType": "per-person",
+    "isRecommended": false,
+    "compatibleTypes": ["ski", "beach", "summer"]
+  }
+]

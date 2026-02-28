@@ -14,12 +14,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/val-thorens/800/500",
+        "url": "https://picsum.photos/seed/val-thorens-ski-week/800/500",
         "alt": "Val Thorens snowy slopes",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/val-thorens-2/800/500",
+        "url": "https://picsum.photos/seed/val-thorens-ski-week-2/800/500",
         "alt": "Val Thorens resort village",
         "isPrimary": false
       }
@@ -167,7 +167,8 @@
       "Guaranteed snow at 2300m altitude",
       "Vibrant apres-ski scene",
       "Suits all abilities"
-    ]
+    ],
+    "hotelSlug": "hotel-altitude-val-thorens"
   },
   {
     "id": "h2",
@@ -184,12 +185,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/verbier/800/500",
+        "url": "https://picsum.photos/seed/verbier-ski-escape/800/500",
         "alt": "Verbier ski terrain",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/verbier-2/800/500",
+        "url": "https://picsum.photos/seed/verbier-ski-escape-2/800/500",
         "alt": "Verbier village at night",
         "isPrimary": false
       }
@@ -337,7 +338,8 @@
       "World-famous off-piste routes",
       "Lively international crowd",
       "Stunning Swiss mountain scenery"
-    ]
+    ],
+    "hotelSlug": "chalet-royale-verbier"
   },
   {
     "id": "h3",
@@ -354,12 +356,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/courchevel/800/500",
+        "url": "https://picsum.photos/seed/courchevel-ski-luxury/800/500",
         "alt": "Courchevel luxury resort",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/courchevel-2/800/500",
+        "url": "https://picsum.photos/seed/courchevel-ski-luxury-2/800/500",
         "alt": "Courchevel slopes",
         "isPrimary": false
       }
@@ -509,7 +511,8 @@
       "Michelin-star restaurants on the slopes",
       "Exclusive boutiques and spas",
       "Helicopter transfers available"
-    ]
+    ],
+    "hotelSlug": "le-grand-hotel-courchevel"
   },
   {
     "id": "h4",
@@ -526,12 +529,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/meribel/800/500",
+        "url": "https://picsum.photos/seed/meribel-ski-week/800/500",
         "alt": "Meribel ski village",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/meribel-2/800/500",
+        "url": "https://picsum.photos/seed/meribel-ski-week-2/800/500",
         "alt": "Meribel slopes",
         "isPrimary": false
       }
@@ -679,7 +682,8 @@
       "Central Three Valleys location",
       "Award-winning ski school",
       "Traditional chalet-style resort"
-    ]
+    ],
+    "hotelSlug": "hotel-du-village-meribel"
   },
   {
     "id": "h5",
@@ -696,12 +700,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/chamonix/800/500",
+        "url": "https://picsum.photos/seed/chamonix-adventure/800/500",
         "alt": "Chamonix and Mont Blanc",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/chamonix-2/800/500",
+        "url": "https://picsum.photos/seed/chamonix-adventure-2/800/500",
         "alt": "Chamonix town",
         "isPrimary": false
       }
@@ -849,7 +853,8 @@
       "Famous Vallee Blanche glacier run",
       "Rich alpine history and culture",
       "Great for intermediate to expert skiers"
-    ]
+    ],
+    "hotelSlug": "hotel-mont-blanc-chamonix"
   },
   {
     "id": "h6",
@@ -866,12 +871,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/mayrhofen/800/500",
+        "url": "https://picsum.photos/seed/mayrhofen-ski-week/800/500",
         "alt": "Mayrhofen ski resort",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/mayrhofen-2/800/500",
+        "url": "https://picsum.photos/seed/mayrhofen-ski-week-2/800/500",
         "alt": "Mayrhofen village",
         "isPrimary": false
       }
@@ -1019,7 +1024,8 @@
       "Famous for lively apres-ski",
       "Traditional Tyrolean village atmosphere",
       "Great value for money"
-    ]
+    ],
+    "hotelSlug": "hotel-strass-mayrhofen"
   },
   {
     "id": "h7",
@@ -1036,12 +1042,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/st-anton/800/500",
+        "url": "https://picsum.photos/seed/st-anton-ski-holiday/800/500",
         "alt": "St. Anton slopes",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/st-anton-2/800/500",
+        "url": "https://picsum.photos/seed/st-anton-ski-holiday-2/800/500",
         "alt": "St. Anton village",
         "isPrimary": false
       }
@@ -1189,7 +1195,8 @@
       "Access to vast Arlberg ski area",
       "World-famous off-piste terrain",
       "Legendary party atmosphere"
-    ]
+    ],
+    "hotelSlug": "hotel-alte-post-st-anton"
   },
   {
     "id": "h8",
@@ -1206,12 +1213,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/cortina/800/500",
+        "url": "https://picsum.photos/seed/cortina-dolomites-ski/800/500",
         "alt": "Cortina Dolomites scenery",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/cortina-2/800/500",
+        "url": "https://picsum.photos/seed/cortina-dolomites-ski-2/800/500",
         "alt": "Cortina town centre",
         "isPrimary": false
       }
@@ -1359,7 +1366,8 @@
       "Italian cuisine and glamour on the slopes",
       "Hosted 1956 Winter Olympics",
       "Suitable for intermediate and advanced skiers"
-    ]
+    ],
+    "hotelSlug": "cristallo-resort-cortina"
   },
   {
     "id": "h9",
@@ -1376,12 +1384,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/grandvalira/800/500",
+        "url": "https://picsum.photos/seed/grandvalira-andorra-ski/800/500",
         "alt": "Grandvalira Andorra slopes",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/grandvalira-2/800/500",
+        "url": "https://picsum.photos/seed/grandvalira-andorra-ski-2/800/500",
         "alt": "Grandvalira resort",
         "isPrimary": false
       }
@@ -1531,7 +1539,8 @@
       "Duty-free shopping in Andorra",
       "Best value ski destination in Europe",
       "Suits all abilities"
-    ]
+    ],
+    "hotelSlug": "hotel-sport-andorra"
   },
   {
     "id": "h10",
@@ -1548,12 +1557,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/flaine/800/500",
+        "url": "https://picsum.photos/seed/flaine-ski-week/800/500",
         "alt": "Flaine ski resort",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/flaine-2/800/500",
+        "url": "https://picsum.photos/seed/flaine-ski-week-2/800/500",
         "alt": "Flaine slopes",
         "isPrimary": false
       }
@@ -1701,7 +1710,8 @@
       "Access to 265km Grand Massif ski area",
       "High altitude snow guarantee above 1600m",
       "Compact and easy to navigate"
-    ]
+    ],
+    "hotelSlug": "hotel-les-grandes-platières-flaine"
   },
   {
     "id": "h11",
@@ -1718,12 +1728,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/tenerife/800/500",
+        "url": "https://picsum.photos/seed/tenerife-sun-escape/800/500",
         "alt": "Tenerife beach",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/tenerife-2/800/500",
+        "url": "https://picsum.photos/seed/tenerife-sun-escape-2/800/500",
         "alt": "Tenerife resort",
         "isPrimary": false
       }
@@ -1872,7 +1882,8 @@
       "Beautiful beaches and volcanic scenery",
       "Iconic Mount Teide National Park",
       "Excellent family facilities"
-    ]
+    ],
+    "hotelSlug": "hotel-sol-tenerife"
   },
   {
     "id": "h12",
@@ -1889,12 +1900,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/lanzarote/800/500",
+        "url": "https://picsum.photos/seed/lanzarote-beach-break/800/500",
         "alt": "Lanzarote volcanic beach",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/lanzarote-2/800/500",
+        "url": "https://picsum.photos/seed/lanzarote-beach-break-2/800/500",
         "alt": "Lanzarote resort pool",
         "isPrimary": false
       }
@@ -2045,7 +2056,8 @@
       "Stunning golden and black sand beaches",
       "UNESCO Biosphere Reserve status",
       "César Manrique architectural legacy"
-    ]
+    ],
+    "hotelSlug": "hotel-sol-tenerife"
   },
   {
     "id": "h13",
@@ -2062,12 +2074,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/mallorca/800/500",
+        "url": "https://picsum.photos/seed/mallorca-beach-holiday/800/500",
         "alt": "Mallorca cove beach",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/mallorca-2/800/500",
+        "url": "https://picsum.photos/seed/mallorca-beach-holiday-2/800/500",
         "alt": "Mallorca resort",
         "isPrimary": false
       }
@@ -2216,7 +2228,8 @@
       "Historic Palma city and cathedral",
       "Serra de Tramuntana UNESCO mountain range",
       "World-class Mediterranean cuisine"
-    ]
+    ],
+    "hotelSlug": "hotel-valparaiso-mallorca"
   },
   {
     "id": "h14",
@@ -2233,12 +2246,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/mykonos/800/500",
+        "url": "https://picsum.photos/seed/mykonos-island-escape/800/500",
         "alt": "Mykonos windmills and harbour",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/mykonos-2/800/500",
+        "url": "https://picsum.photos/seed/mykonos-island-escape-2/800/500",
         "alt": "Mykonos white buildings",
         "isPrimary": false
       }
@@ -2387,7 +2400,8 @@
       "Beautiful beaches including Paradise Beach",
       "World-famous nightlife and beach clubs",
       "Charming Little Venice waterfront area"
-    ]
+    ],
+    "hotelSlug": "mykonos-princess-hotel"
   },
   {
     "id": "h15",
@@ -2404,12 +2418,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/santorini/800/500",
+        "url": "https://picsum.photos/seed/santorini-dream/800/500",
         "alt": "Santorini blue domes and caldera",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/santorini-2/800/500",
+        "url": "https://picsum.photos/seed/santorini-dream-2/800/500",
         "alt": "Santorini sunset Oia",
         "isPrimary": false
       }
@@ -2560,7 +2574,8 @@
       "World-famous Oia sunset experience",
       "Unique black and red volcanic beaches",
       "Excellent local wine and cuisine"
-    ]
+    ],
+    "hotelSlug": "santorini-secret-hotel"
   },
   {
     "id": "h16",
@@ -2577,12 +2592,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/bodrum/800/500",
+        "url": "https://picsum.photos/seed/bodrum-turkish-riviera/800/500",
         "alt": "Bodrum harbour and castle",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/bodrum-2/800/500",
+        "url": "https://picsum.photos/seed/bodrum-turkish-riviera-2/800/500",
         "alt": "Bodrum beach",
         "isPrimary": false
       }
@@ -2731,7 +2746,8 @@
       "Ancient castle of St. Peter in the harbour",
       "Traditional gulet boat trip experiences",
       "Excellent value all-inclusive options"
-    ]
+    ],
+    "hotelSlug": "santorini-secret-hotel"
   },
   {
     "id": "h17",
@@ -2748,12 +2764,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/fuerteventura/800/500",
+        "url": "https://picsum.photos/seed/fuerteventura-beach/800/500",
         "alt": "Fuerteventura dunes and beach",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/fuerteventura-2/800/500",
+        "url": "https://picsum.photos/seed/fuerteventura-beach-2/800/500",
         "alt": "Fuerteventura resort",
         "isPrimary": false
       }
@@ -2902,7 +2918,8 @@
       "Corralejo Natural Park sand dunes",
       "World-class windsurfing and kite-surfing",
       "Consistent sunshine and warm trade winds"
-    ]
+    ],
+    "hotelSlug": "iberostar-fuerteventura"
   },
   {
     "id": "h18",
@@ -2919,12 +2936,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/crete/800/500",
+        "url": "https://picsum.photos/seed/crete-family-holiday/800/500",
         "alt": "Crete beach and clear water",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/crete-2/800/500",
+        "url": "https://picsum.photos/seed/crete-family-holiday-2/800/500",
         "alt": "Crete village",
         "isPrimary": false
       }
@@ -3073,7 +3090,8 @@
       "Ancient Minoan Palace of Knossos",
       "Dramatic Samaria Gorge hike",
       "Exceptional Cretan food and hospitality"
-    ]
+    ],
+    "hotelSlug": "iberostar-fuerteventura"
   },
   {
     "id": "h19",
@@ -3090,12 +3108,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/barcelona/800/500",
+        "url": "https://picsum.photos/seed/barcelona-city-break/800/500",
         "alt": "Barcelona Sagrada Familia",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/barcelona-2/800/500",
+        "url": "https://picsum.photos/seed/barcelona-city-break-2/800/500",
         "alt": "Barcelona waterfront",
         "isPrimary": false
       }
@@ -3234,7 +3252,8 @@
       "La Rambla boulevard and La Boqueria market",
       "Beautiful Barceloneta beach",
       "World-class tapas and Catalan cuisine"
-    ]
+    ],
+    "hotelSlug": "hotel-arts-barcelona"
   },
   {
     "id": "h20",
@@ -3251,12 +3270,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/prague/800/500",
+        "url": "https://picsum.photos/seed/prague-city-escape/800/500",
         "alt": "Prague old town and Vltava river",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/prague-2/800/500",
+        "url": "https://picsum.photos/seed/prague-city-escape-2/800/500",
         "alt": "Prague Charles Bridge",
         "isPrimary": false
       }
@@ -3394,7 +3413,8 @@
       "Iconic Charles Bridge and Prague Castle",
       "Excellent value for money in Europe",
       "Vibrant arts, music and nightlife scene"
-    ]
+    ],
+    "hotelSlug": "aria-hotel-prague"
   },
   {
     "id": "h21",
@@ -3411,12 +3431,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/amsterdam/800/500",
+        "url": "https://picsum.photos/seed/amsterdam-city-break/800/500",
         "alt": "Amsterdam canals",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/amsterdam-2/800/500",
+        "url": "https://picsum.photos/seed/amsterdam-city-break-2/800/500",
         "alt": "Amsterdam Rijksmuseum",
         "isPrimary": false
       }
@@ -3554,7 +3574,8 @@
       "Rijksmuseum and Van Gogh Museum",
       "Vibrant Jordaan neighbourhood",
       "Easy cycling throughout the city"
-    ]
+    ],
+    "hotelSlug": "aria-hotel-prague"
   },
   {
     "id": "h22",
@@ -3571,12 +3592,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/lisbon/800/500",
+        "url": "https://picsum.photos/seed/lisbon-city-break/800/500",
         "alt": "Lisbon Alfama district",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/lisbon-2/800/500",
+        "url": "https://picsum.photos/seed/lisbon-city-break-2/800/500",
         "alt": "Lisbon tram",
         "isPrimary": false
       }
@@ -3708,13 +3729,16 @@
       "culture"
     ],
     "isFeatured": true,
-    "isSpecialOffer": false,
+    "isSpecialOffer": true,
     "highlights": [
       "Charming Alfama historic district and São Jorge Castle",
       "Iconic vintage trams including the famous Tram 28",
       "World-famous pastéis de nata custard tarts",
       "Spectacular views over the Tagus from Miradouros"
-    ]
+    ],
+    "specialOfferLabel": "Early Bird Deal",
+    "originalFromPrice": 749,
+    "hotelSlug": "bairro-alto-hotel-lisbon"
   },
   {
     "id": "h23",
@@ -3731,12 +3755,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/paris/800/500",
+        "url": "https://picsum.photos/seed/paris-romantic-break/800/500",
         "alt": "Paris Eiffel Tower",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/paris-2/800/500",
+        "url": "https://picsum.photos/seed/paris-romantic-break-2/800/500",
         "alt": "Paris riverside",
         "isPrimary": false
       }
@@ -3875,7 +3899,8 @@
       "The Louvre — world's greatest art museum",
       "Charming Montmartre and Sacré-Cœur",
       "Unparalleled French cuisine and patisseries"
-    ]
+    ],
+    "hotelSlug": "hotel-arts-barcelona"
   },
   {
     "id": "h24",
@@ -3892,12 +3917,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/rome/800/500",
+        "url": "https://picsum.photos/seed/rome-eternal-city/800/500",
         "alt": "Rome Colosseum",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/rome-2/800/500",
+        "url": "https://picsum.photos/seed/rome-eternal-city-2/800/500",
         "alt": "Rome Trevi Fountain",
         "isPrimary": false
       }
@@ -4036,7 +4061,8 @@
       "Vatican City and Sistine Chapel",
       "Trevi Fountain and Spanish Steps",
       "Outstanding Roman cuisine and gelato"
-    ]
+    ],
+    "hotelSlug": "aria-hotel-prague"
   },
   {
     "id": "h25",
@@ -4053,12 +4079,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/dubrovnik/800/500",
+        "url": "https://picsum.photos/seed/dubrovnik-summer/800/500",
         "alt": "Dubrovnik old city and Adriatic",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/dubrovnik-2/800/500",
+        "url": "https://picsum.photos/seed/dubrovnik-summer-2/800/500",
         "alt": "Dubrovnik harbour",
         "isPrimary": false
       }
@@ -4208,7 +4234,8 @@
       "Crystal-clear Adriatic swimming and snorkelling",
       "Island boat trips to Lokrum and Elafiti Islands",
       "Excellent fresh Dalmatian seafood"
-    ]
+    ],
+    "hotelSlug": "hotel-excelsior-dubrovnik"
   },
   {
     "id": "h26",
@@ -4225,12 +4252,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/split/800/500",
+        "url": "https://picsum.photos/seed/split-dalmatian-coast/800/500",
         "alt": "Split Diocletian Palace",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/split-2/800/500",
+        "url": "https://picsum.photos/seed/split-dalmatian-coast-2/800/500",
         "alt": "Split Adriatic beach",
         "isPrimary": false
       }
@@ -4380,7 +4407,8 @@
       "Day trips to Hvar, Brac and Vis islands",
       "Beautiful Bacvice beach and swimming",
       "Vibrant café culture and nightlife"
-    ]
+    ],
+    "hotelSlug": "hotel-excelsior-dubrovnik"
   },
   {
     "id": "h27",
@@ -4397,12 +4425,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/algarve/800/500",
+        "url": "https://picsum.photos/seed/algarve-summer-holiday/800/500",
         "alt": "Algarve golden cliffs and beach",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/algarve-2/800/500",
+        "url": "https://picsum.photos/seed/algarve-summer-holiday-2/800/500",
         "alt": "Algarve sea caves",
         "isPrimary": false
       }
@@ -4551,7 +4579,8 @@
       "Hidden sea caves and grottoes",
       "World-class golf courses",
       "Fresh Atlantic seafood cuisine"
-    ]
+    ],
+    "hotelSlug": "hotel-bela-vista-algarve"
   },
   {
     "id": "h28",
@@ -4568,12 +4597,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/tuscany/800/500",
+        "url": "https://picsum.photos/seed/tuscany-italian-summer/800/500",
         "alt": "Tuscany rolling hills and cypress trees",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/tuscany-2/800/500",
+        "url": "https://picsum.photos/seed/tuscany-italian-summer-2/800/500",
         "alt": "Tuscan villa",
         "isPrimary": false
       }
@@ -4725,7 +4754,8 @@
       "Day trips to Florence, Siena and Pisa",
       "Authentic Tuscan farmhouse accommodation",
       "World-class wine and cuisine experiences"
-    ]
+    ],
+    "hotelSlug": "hotel-bela-vista-algarve"
   },
   {
     "id": "h29",
@@ -4742,12 +4772,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/amalfi/800/500",
+        "url": "https://picsum.photos/seed/amalfi-coast-escape/800/500",
         "alt": "Amalfi Coast cliffs and sea",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/amalfi-2/800/500",
+        "url": "https://picsum.photos/seed/amalfi-coast-escape-2/800/500",
         "alt": "Positano colourful buildings",
         "isPrimary": false
       }
@@ -4897,7 +4927,8 @@
       "Iconic Positano cliffside village",
       "Ravello gardens and Amalfi cathedral",
       "Boat trips to the Blue Grotto of Capri"
-    ]
+    ],
+    "hotelSlug": "hotel-bela-vista-algarve"
   },
   {
     "id": "h30",
@@ -4914,12 +4945,12 @@
     },
     "images": [
       {
-        "url": "https://picsum.photos/seed/malaga/800/500",
+        "url": "https://picsum.photos/seed/malaga-costa-del-sol/800/500",
         "alt": "Malaga harbour and city",
         "isPrimary": true
       },
       {
-        "url": "https://picsum.photos/seed/malaga-2/800/500",
+        "url": "https://picsum.photos/seed/malaga-costa-del-sol-2/800/500",
         "alt": "Costa del Sol beach",
         "isPrimary": false
       }
@@ -5068,6 +5099,7 @@
       "Moorish Alcazaba citadel and Gibralfaro castle",
       "Beautiful La Malagueta beach",
       "Outstanding Andalusian tapas culture"
-    ]
+    ],
+    "hotelSlug": "hotel-bela-vista-algarve"
   }
 ]

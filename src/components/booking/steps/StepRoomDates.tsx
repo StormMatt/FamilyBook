@@ -21,11 +21,6 @@ export function StepRoomDates({ holiday }: { holiday: Holiday }) {
     if (!state.selectedAirportCode) {
       dispatch({ type: "SET_AIRPORT", airportCode: holiday.departures[0].airportCode });
     }
-    // Initialize guest array
-    const total = state.adultCount + state.childCount;
-    for (let i = 0; i < total; i++) {
-      dispatch({ type: "UPDATE_GUEST", index: i, guest: { isLeadGuest: i === 0 } });
-    }
     dispatch({ type: "SET_STEP", step: 2 });
   }
 
@@ -147,7 +142,7 @@ export function StepRoomDates({ holiday }: { holiday: Holiday }) {
           disabled={!canContinue()}
           className="bg-primary-600 hover:bg-primary-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold px-8 py-3 rounded-xl transition-colors"
         >
-          Continue to Guest Details →
+          Continue to Extras →
         </button>
       </div>
 

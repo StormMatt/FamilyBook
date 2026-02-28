@@ -23,8 +23,9 @@ export function formatDate(dateStr: string): string {
 
 export function generateBookingRef(): string {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-  return Array.from(
-    { length: 8 },
-    () => chars[Math.floor(Math.random() * chars.length)]
-  ).join("");
+  return Array.from({ length: 8 }, () => chars[Math.floor(Math.random() * chars.length)]).join("");
+}
+
+export function slugify(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }

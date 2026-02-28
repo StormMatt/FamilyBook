@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Beach", href: "/holidays?type=beach" },
   { label: "City Breaks", href: "/holidays?type=city" },
   { label: "Summer", href: "/holidays?type=summer" },
+  { label: "Hotels", href: "/hotels" },
   { label: "Special Offers", href: "/holidays?offer=true" },
 ];
 

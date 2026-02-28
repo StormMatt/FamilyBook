@@ -11,6 +11,7 @@ const initialState: BookingState = {
   selectedDate: null,
   adultCount: 2,
   childCount: 0,
+  selectedExtras: [],
   guests: [],
   contactInfo: {},
   paymentInfo: {},
@@ -33,10 +34,30 @@ function bookingReducer(state: BookingState, action: BookingAction): BookingStat
       return { ...state, adultCount: action.count };
     case "SET_CHILD_COUNT":
       return { ...state, childCount: action.count };
-    case "UPDATE_GUEST":
+    case "ADD_EXTRA": {
+      const existing = state.selectedExtras.find((e) => e.extraId === action.extra.extraId);
+      if (existing) {
+        return {
+          ...state,
+          selectedExtras: state.selectedExtras.map((e) =>
+            e.extraId === action.extra.extraId ? action.extra : e
+          ),
+        };
+      }
+      return { ...state, selectedExtras: [...state.selectedExtras, action.extra] };
+    }
+    case "REMOVE_EXTRA":
+      return {
+        ...state,
+        selectedExtras: state.selectedExtras.filter((e) => e.extraId !== action.extraId),
+      };
+    case "CLEAR_EXTRAS":
+      return { ...state, selectedExtras: [] };
+    case "UPDATE_GUEST": {
       const guests = [...state.guests];
       guests[action.index] = { ...guests[action.index], ...action.guest };
       return { ...state, guests };
+    }
     case "SET_CONTACT":
       return { ...state, contactInfo: { ...state.contactInfo, ...action.contact } };
     case "SET_PAYMENT":
@@ -46,7 +67,7 @@ function bookingReducer(state: BookingState, action: BookingAction): BookingStat
     case "SET_TOTAL_PRICE":
       return { ...state, totalPrice: action.price };
     case "CONFIRM_BOOKING":
-      return { ...state, currentStep: 4, bookingReference: action.reference };
+      return { ...state, bookingReference: action.reference };
     default:
       return state;
   }

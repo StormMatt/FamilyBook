@@ -27,3 +27,8 @@ export async function filterHolidays(
   const filtered = applyFilters(holidays, params);
   return { holidays: filtered, total: filtered.length };
 }
+
+export async function getHolidaysByType(type: Holiday["type"], limit?: number): Promise<Holiday[]> {
+  const result = holidays.filter((h) => h.type === type);
+  return limit ? result.slice(0, limit) : result;
+}

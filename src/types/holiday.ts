@@ -86,4 +86,5 @@ export interface Holiday {
   specialOfferLabel?: string;
   originalFromPrice?: number;
   highlights: string[];
+  hotelSlug?: string;
 }

@@ -13,6 +13,7 @@ const navLinks = [
   { label: "Beach Holidays", href: "/holidays?type=beach" },
   { label: "City Breaks", href: "/holidays?type=city" },
   { label: "Summer Holidays", href: "/holidays?type=summer" },
+  { label: "Browse Hotels", href: "/hotels" },
   { label: "Special Offers", href: "/holidays?offer=true" },
 ];
 

@@ -1,11 +1,20 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useBooking } from "../BookingContext";
 import { generateBookingRef } from "@/lib/utils";
 import { formatPrice } from "@/lib/utils";
+import type { SavedBooking } from "@/types/booking";
 
-export function StepPayment() {
+export function StepPayment({ holidayName, durationNights, destination, hotelName, hotelSlug }: {
+  holidayName: string;
+  durationNights: number;
+  destination: string;
+  hotelName?: string;
+  hotelSlug?: string;
+}) {
   const { state, dispatch } = useBooking();
+  const router = useRouter();
 
   function updatePayment(key: string, value: string) {
     dispatch({ type: "SET_PAYMENT", payment: { [key]: value } as never });
@@ -19,6 +28,34 @@ export function StepPayment() {
   function handleConfirm() {
     const ref = generateBookingRef();
     dispatch({ type: "CONFIRM_BOOKING", reference: ref });
+
+    // Persist booking to localStorage for post-booking pages
+    const saved: SavedBooking = {
+      reference: ref,
+      holidaySlug: state.holidaySlug,
+      holidayName,
+      destination,
+      selectedDate: state.selectedDate ?? "",
+      selectedAirportCode: state.selectedAirportCode ?? "",
+      selectedRoomId: state.selectedRoomId ?? "",
+      adultCount: state.adultCount,
+      childCount: state.childCount,
+      selectedExtras: state.selectedExtras,
+      guests: state.guests,
+      contactInfo: state.contactInfo,
+      totalPrice: state.totalPrice,
+      bookedAt: new Date().toISOString(),
+      durationNights,
+      hotelName,
+      hotelSlug,
+    };
+    try {
+      localStorage.setItem(`booking_${ref}`, JSON.stringify(saved));
+    } catch {
+      // localStorage not available in SSR — silently ignore
+    }
+
+    router.push(`/booking/confirmed/${ref}`);
   }
 
   function formatCard(value: string) {
@@ -136,7 +173,7 @@ export function StepPayment() {
       <div className="flex justify-between pt-2">
         <button
           type="button"
-          onClick={() => dispatch({ type: "SET_STEP", step: 2 })}
+          onClick={() => dispatch({ type: "SET_STEP", step: 4 })}
           className="border border-slate-200 text-slate-700 font-semibold px-6 py-3 rounded-xl hover:bg-slate-50 transition-colors"
         >
           ← Back

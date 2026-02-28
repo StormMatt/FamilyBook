@@ -81,6 +81,15 @@ export function BookingCTA({ holiday }: BookingCTAProps) {
       <p className="text-xs text-center text-slate-500 mt-3">
         🛡️ ATOL & ABTA protected · Free cancellation available
       </p>
+
+      {holiday.hotelSlug && (
+        <Link
+          href={`/hotels/${holiday.hotelSlug}`}
+          className="block w-full text-center text-sm text-primary-600 font-medium mt-3 hover:underline"
+        >
+          🏨 View hotel details →
+        </Link>
+      )}
     </div>
   );
 }

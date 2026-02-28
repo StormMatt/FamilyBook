@@ -99,7 +99,7 @@ export function parseSearchParams(params: Record<string, string | string[]>): Fi
     priceMax: getNum("priceMax"),
     durationMin: getNum("durationMin"),
     durationMax: getNum("durationMax"),
-    sort: params["sort"] as FilterParams["sort"],
+    sort: (params["sort"] as FilterParams["sort"]) ?? "featured",
     q: typeof params["q"] === "string" ? params["q"] : undefined,
   };
 }

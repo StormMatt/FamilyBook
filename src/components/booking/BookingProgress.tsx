@@ -2,9 +2,10 @@ import type { BookingStep } from "@/types/booking";
 
 const steps = [
   { n: 1 as BookingStep, label: "Room & Dates" },
-  { n: 2 as BookingStep, label: "Guest Details" },
-  { n: 3 as BookingStep, label: "Payment" },
-  { n: 4 as BookingStep, label: "Confirmation" },
+  { n: 2 as BookingStep, label: "Extras" },
+  { n: 3 as BookingStep, label: "Guest Details" },
+  { n: 4 as BookingStep, label: "Review" },
+  { n: 5 as BookingStep, label: "Payment" },
 ];
 
 export function BookingProgress({ currentStep }: { currentStep: BookingStep }) {
