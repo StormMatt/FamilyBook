@@ -9,6 +9,7 @@ const initialState: BookingState = {
   selectedRoomId: null,
   selectedAirportCode: null,
   selectedDate: null,
+  flightFlexibility: "standard",
   adultCount: 2,
   childCount: 0,
   selectedExtras: [],
@@ -30,6 +31,8 @@ function bookingReducer(state: BookingState, action: BookingAction): BookingStat
       return { ...state, selectedAirportCode: action.airportCode };
     case "SET_DATE":
       return { ...state, selectedDate: action.date };
+    case "SET_FLIGHT_FLEXIBILITY":
+      return { ...state, flightFlexibility: action.flexibility };
     case "SET_ADULT_COUNT":
       return { ...state, adultCount: action.count };
     case "SET_CHILD_COUNT":

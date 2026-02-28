@@ -136,23 +136,17 @@ export function StepExtras({ holidayType }: { holidayType: string }) {
       <div className="flex justify-between pt-2">
         <button
           type="button"
-          onClick={() => dispatch({ type: "SET_STEP", step: 1 })}
+          onClick={() => dispatch({ type: "SET_STEP", step: 2 })}
           className="border border-slate-200 text-slate-700 font-semibold px-6 py-3 rounded-xl hover:bg-slate-50 transition-colors"
         >
           ← Back
         </button>
         <button
           type="button"
-          onClick={() => {
-            const total = state.adultCount + state.childCount;
-            for (let i = 0; i < total; i++) {
-              dispatch({ type: "UPDATE_GUEST", index: i, guest: { isLeadGuest: i === 0 } });
-            }
-            dispatch({ type: "SET_STEP", step: 3 });
-          }}
+          onClick={() => dispatch({ type: "SET_STEP", step: 4 })}
           className="bg-primary-600 hover:bg-primary-700 text-white font-semibold px-8 py-3 rounded-xl transition-colors"
         >
-          Continue to Guest Details →
+          Continue to Payment →
         </button>
       </div>
 

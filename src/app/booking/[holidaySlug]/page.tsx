@@ -6,9 +6,8 @@ import { BookingProvider, useBooking } from "@/components/booking/BookingContext
 import { BookingProgress } from "@/components/booking/BookingProgress";
 import { BookingSummary } from "@/components/booking/BookingSummary";
 import { StepRoomDates } from "@/components/booking/steps/StepRoomDates";
-import { StepExtras } from "@/components/booking/steps/StepExtras";
 import { StepGuestDetails } from "@/components/booking/steps/StepGuestDetails";
-import { StepOrderSummary } from "@/components/booking/steps/StepOrderSummary";
+import { StepExtras } from "@/components/booking/steps/StepExtras";
 import { StepPayment } from "@/components/booking/steps/StepPayment";
 import { getAllHolidays } from "@/lib/holidays";
 import { getHotelByHolidaySlug } from "@/lib/hotels";
@@ -34,14 +33,11 @@ function BookingPageInner({ holiday, hotel }: { holiday: Holiday; hotel: Hotel |
           <div className="lg:col-span-2">
             <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
               {state.currentStep === 1 && <StepRoomDates holiday={holiday} />}
-              {state.currentStep === 2 && <StepExtras holidayType={holiday.type} />}
-              {state.currentStep === 3 && <StepGuestDetails />}
-              {state.currentStep === 4 && <StepOrderSummary holiday={holiday} />}
-              {state.currentStep === 5 && (
+              {state.currentStep === 2 && <StepGuestDetails />}
+              {state.currentStep === 3 && <StepExtras holidayType={holiday.type} />}
+              {state.currentStep === 4 && (
                 <StepPayment
-                  holidayName={holiday.name}
-                  durationNights={holiday.durationNights}
-                  destination={`${holiday.destination.resort}, ${holiday.destination.country}`}
+                  holiday={holiday}
                   hotelName={hotel?.name}
                   hotelSlug={hotel?.slug}
                 />

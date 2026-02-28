@@ -28,7 +28,7 @@ export interface PaymentInfo {
   cvv: string;
 }
 
-export type BookingStep = 1 | 2 | 3 | 4 | 5;
+export type BookingStep = 1 | 2 | 3 | 4;
 
 export interface BookingState {
   currentStep: BookingStep;
@@ -36,6 +36,7 @@ export interface BookingState {
   selectedRoomId: string | null;
   selectedAirportCode: string | null;
   selectedDate: string | null;
+  flightFlexibility: "standard" | "flexible";
   adultCount: number;
   childCount: number;
   selectedExtras: SelectedExtra[];
@@ -52,6 +53,7 @@ export type BookingAction =
   | { type: "SET_ROOM"; roomId: string }
   | { type: "SET_AIRPORT"; airportCode: string }
   | { type: "SET_DATE"; date: string }
+  | { type: "SET_FLIGHT_FLEXIBILITY"; flexibility: "standard" | "flexible" }
   | { type: "SET_ADULT_COUNT"; count: number }
   | { type: "SET_CHILD_COUNT"; count: number }
   | { type: "ADD_EXTRA"; extra: SelectedExtra }

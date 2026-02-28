@@ -138,18 +138,18 @@ export function StepGuestDetails() {
       <div className="flex justify-between pt-2">
         <button
           type="button"
-          onClick={() => dispatch({ type: "SET_STEP", step: 2 })}
+          onClick={() => dispatch({ type: "SET_STEP", step: 1 })}
           className="border border-slate-200 text-slate-700 font-semibold px-6 py-3 rounded-xl hover:bg-slate-50 transition-colors"
         >
           ← Back
         </button>
         <button
           type="button"
-          onClick={() => dispatch({ type: "SET_STEP", step: 4 })}
+          onClick={() => dispatch({ type: "SET_STEP", step: 3 })}
           disabled={!canContinue()}
           className="bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-semibold px-8 py-3 rounded-xl transition-colors"
         >
-          Review Order →
+          Continue to Extras →
         </button>
       </div>
     </div>

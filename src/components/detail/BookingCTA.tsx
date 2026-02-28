@@ -3,11 +3,17 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { Holiday } from "@/types/holiday";
-import { PriceTag } from "@/components/ui/PriceTag";
 import { formatDate } from "@/lib/utils";
 
 interface BookingCTAProps {
   holiday: Holiday;
+}
+
+// Deterministic viewer count from slug so it's consistent server/client
+function viewerCount(slug: string): number {
+  let h = 0;
+  for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) & 0xffff;
+  return 3 + (h % 14); // 3–16 viewers
 }
 
 export function BookingCTA({ holiday }: BookingCTAProps) {
@@ -16,20 +22,40 @@ export function BookingCTA({ holiday }: BookingCTAProps) {
 
   const dep = holiday.departures[selectedDep];
 
+  // Dynamic price: cheapest room pppn × nights + selected airport return
+  const minRoomPppn = Math.min(...holiday.rooms.map((r) => r.pricePerPersonPerNight));
+  const dynamicPrice = minRoomPppn * holiday.durationNights + dep.priceAdultReturn;
+
+  const viewers = viewerCount(holiday.slug);
+
   return (
     <div className="bg-white rounded-2xl border border-slate-200 shadow-lg p-5 sticky top-20">
-      <PriceTag
-        price={holiday.pricing.fromPrice}
-        originalPrice={holiday.originalFromPrice}
-        suffix="per person"
-        size="lg"
-        className="mb-1"
-      />
-      <p className="text-xs text-slate-500 mb-5">
+      {/* Live price */}
+      <div className="mb-1">
+        <div className="flex items-baseline gap-2">
+          {holiday.originalFromPrice && (
+            <span className="text-slate-400 line-through text-lg">
+              £{Math.round(holiday.originalFromPrice + dep.priceAdultReturn)}
+            </span>
+          )}
+          <span className="text-3xl font-bold text-slate-900">£{dynamicPrice}</span>
+        </div>
+        <p className="text-xs text-slate-500">per person · updates with airport selection</p>
+      </div>
+
+      <p className="text-xs text-slate-500 mb-4">
         {holiday.pricing.depositType === "fixed"
           ? `Secure with £${holiday.pricing.deposit} deposit`
           : `${holiday.pricing.deposit}% deposit available`}
       </p>
+
+      {/* Urgency signal */}
+      <div className="flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-xl px-3 py-2 mb-4 text-xs">
+        <span className="w-2 h-2 bg-amber-500 rounded-full animate-pulse shrink-0" />
+        <span className="text-amber-800 font-medium">
+          {viewers} people viewing this holiday right now
+        </span>
+      </div>
 
       {/* Departure airport */}
       <div className="mb-4">
@@ -47,6 +73,9 @@ export function BookingCTA({ holiday }: BookingCTAProps) {
             </option>
           ))}
         </select>
+        <p className="text-[11px] text-primary-600 mt-1 font-medium">
+          Price updated for {dep.airport}
+        </p>
       </div>
 
       {/* Dates */}
@@ -75,7 +104,7 @@ export function BookingCTA({ holiday }: BookingCTAProps) {
         href={`/booking/${holiday.slug}${selectedDate ? `?date=${selectedDate}&airport=${dep.airportCode}` : ""}`}
         className="block w-full text-center bg-primary-600 hover:bg-primary-700 text-white font-semibold py-4 rounded-xl transition-colors text-base"
       >
-        Book Now
+        Book Now — from £{dynamicPrice}pp
       </Link>
 
       <p className="text-xs text-center text-slate-500 mt-3">

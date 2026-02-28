@@ -215,7 +215,7 @@ export function StepOrderSummary({ holiday }: StepOrderSummaryProps) {
         </button>
         <button
           type="button"
-          onClick={() => dispatch({ type: "SET_STEP", step: 5 })}
+          onClick={() => dispatch({ type: "SET_STEP", step: 4 })}
           className="bg-primary-600 hover:bg-primary-700 text-white font-semibold px-8 py-3 rounded-xl transition-colors"
         >
           Continue to Payment →
