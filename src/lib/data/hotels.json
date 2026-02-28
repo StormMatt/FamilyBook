@@ -6,30 +6,146 @@
     "starRating": 4,
     "tagline": "Ski-in, ski-out luxury at Europe's highest resort",
     "description": "Perched at 2300m in the Three Valleys ski area, Hotel Altitude offers direct slope access and stunning Alpine panoramas. Cosy mountain-lodge interiors blend rustic charm with modern comforts, and the rooftop spa is the perfect après-ski retreat.",
-    "holidaySlugs": ["val-thorens-ski-week"],
+    "holidaySlugs": [
+      "val-thorens-ski-week"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-altitude-val-thorens/800/500", "alt": "Hotel exterior in snow", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-altitude-val-thorens-2/800/500", "alt": "Cosy lounge with fireplace", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-altitude-val-thorens-3/800/500", "alt": "Heated rooftop terrace", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-altitude-val-thorens/800/500",
+        "alt": "Hotel exterior in snow",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-altitude-val-thorens-2/800/500",
+        "alt": "Cosy lounge with fireplace",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-altitude-val-thorens-3/800/500",
+        "alt": "Heated rooftop terrace",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🎿", "label": "Ski-in ski-out", "category": "sport"},
-      {"icon": "🧖", "label": "Spa & sauna", "category": "wellness"},
-      {"icon": "🍽️", "label": "Mountain restaurant", "category": "dining"},
-      {"icon": "🍺", "label": "Après-ski bar", "category": "dining"},
-      {"icon": "💪", "label": "Fitness centre", "category": "wellness"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"},
-      {"icon": "🛷", "label": "Ski storage & boot dryers", "category": "sport"}
+      {
+        "icon": "🎿",
+        "label": "Ski-in ski-out",
+        "category": "sport"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa & sauna",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍽️",
+        "label": "Mountain restaurant",
+        "category": "dining"
+      },
+      {
+        "icon": "🍺",
+        "label": "Après-ski bar",
+        "category": "dining"
+      },
+      {
+        "icon": "💪",
+        "label": "Fitness centre",
+        "category": "wellness"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski storage & boot dryers",
+        "category": "sport"
+      }
     ],
     "rooms": [
-      {"id": "rm-std", "name": "Standard Room", "description": "Warm mountain room with Alpine views and all essentials.", "maxOccupancy": 2, "sizeSqm": 22, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-altitude-rm1/400/300"], "highlights": ["Mountain view", "En-suite", "Flat-screen TV"]},
-      {"id": "rm-sup", "name": "Superior Suite", "description": "Spacious suite with private balcony and kitchenette.", "maxOccupancy": 4, "sizeSqm": 45, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-altitude-rm2/400/300"], "highlights": ["Panoramic balcony", "Kitchenette", "Lounge area"]}
+      {
+        "id": "rm-std",
+        "name": "Standard Room",
+        "description": "Warm mountain room with Alpine views and all essentials.",
+        "maxOccupancy": 2,
+        "sizeSqm": 22,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-altitude-rm1/400/300"
+        ],
+        "highlights": [
+          "Mountain view",
+          "En-suite",
+          "Flat-screen TV"
+        ]
+      },
+      {
+        "id": "rm-sup",
+        "name": "Superior Suite",
+        "description": "Spacious suite with private balcony and kitchenette.",
+        "maxOccupancy": 4,
+        "sizeSqm": 45,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-altitude-rm2/400/300"
+        ],
+        "highlights": [
+          "Panoramic balcony",
+          "Kitchenette",
+          "Lounge area"
+        ]
+      }
     ],
-    "location": {"address": "Route des Balcons, Val Thorens 73440", "resort": "Val Thorens", "country": "France", "countryCode": "FR", "mapLat": 45.2979, "mapLng": 6.5832, "nearbyAttractions": ["Three Valleys ski area", "Val Thorens village", "Caron gondola"], "distanceToSlopes": "Ski-in ski-out", "distanceToCenter": "200m to village centre"},
-    "checkInTime": "15:00", "checkOutTime": "11:00",
-    "rating": {"average": 4.6, "count": 312, "breakdown": [{"label": "Location", "score": 4.9}, {"label": "Cleanliness", "score": 4.7}, {"label": "Value", "score": 4.4}, {"label": "Service", "score": 4.6}]},
-    "highlights": ["Ski-in ski-out access", "Rooftop heated pool & terrace", "Weekly gala dinner"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Pets not permitted", "Children welcome"]
+    "location": {
+      "address": "Route des Balcons, Val Thorens 73440",
+      "resort": "Val Thorens",
+      "country": "France",
+      "countryCode": "FR",
+      "mapLat": 45.2979,
+      "mapLng": 6.5832,
+      "nearbyAttractions": [
+        "Three Valleys ski area",
+        "Val Thorens village",
+        "Caron gondola"
+      ],
+      "distanceToSlopes": "Ski-in ski-out",
+      "distanceToCenter": "200m to village centre"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "11:00",
+    "rating": {
+      "average": 4.6,
+      "count": 312,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.9
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.7
+        },
+        {
+          "label": "Value",
+          "score": 4.4
+        },
+        {
+          "label": "Service",
+          "score": 4.6
+        }
+      ]
+    },
+    "highlights": [
+      "Ski-in ski-out access",
+      "Rooftop heated pool & terrace",
+      "Weekly gala dinner"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Pets not permitted",
+      "Children welcome"
+    ]
   },
   {
     "id": "hot2",
@@ -38,30 +154,146 @@
     "starRating": 5,
     "tagline": "Five-star Alpine luxury in Switzerland's most glamorous resort",
     "description": "Chalet Royale is the pinnacle of Alpine luxury — a 5-star retreat in the heart of Verbier with direct access to the 4 Vallées ski area. Michelin-recommended dining, an award-winning spa, and impeccable service define every stay.",
-    "holidaySlugs": ["verbier-ski-escape"],
+    "holidaySlugs": [
+      "verbier-ski-escape"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/chalet-royale-verbier/800/500", "alt": "Chalet exterior", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/chalet-royale-verbier-2/800/500", "alt": "Gourmet restaurant", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/chalet-royale-verbier-3/800/500", "alt": "Infinity pool with mountain view", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/chalet-royale-verbier/800/500",
+        "alt": "Chalet exterior",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/chalet-royale-verbier-2/800/500",
+        "alt": "Gourmet restaurant",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/chalet-royale-verbier-3/800/500",
+        "alt": "Infinity pool with mountain view",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🎿", "label": "Ski-in ski-out", "category": "sport"},
-      {"icon": "🏊", "label": "Heated infinity pool", "category": "pool"},
-      {"icon": "🧖", "label": "Award-winning spa", "category": "wellness"},
-      {"icon": "⭐", "label": "Michelin-recommended dining", "category": "dining"},
-      {"icon": "🍾", "label": "Champagne bar", "category": "dining"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"},
-      {"icon": "🛷", "label": "Private ski concierge", "category": "sport"}
+      {
+        "icon": "🎿",
+        "label": "Ski-in ski-out",
+        "category": "sport"
+      },
+      {
+        "icon": "🏊",
+        "label": "Heated infinity pool",
+        "category": "pool"
+      },
+      {
+        "icon": "🧖",
+        "label": "Award-winning spa",
+        "category": "wellness"
+      },
+      {
+        "icon": "⭐",
+        "label": "Michelin-recommended dining",
+        "category": "dining"
+      },
+      {
+        "icon": "🍾",
+        "label": "Champagne bar",
+        "category": "dining"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "🛷",
+        "label": "Private ski concierge",
+        "category": "sport"
+      }
     ],
     "rooms": [
-      {"id": "rm-dlx", "name": "Deluxe Room", "description": "Elegant room with hand-crafted furniture and mountain vistas.", "maxOccupancy": 2, "sizeSqm": 35, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/chalet-royale-rm1/400/300"], "highlights": ["Floor-to-ceiling windows", "Marble bathroom", "Nespresso machine"]},
-      {"id": "rm-ste", "name": "Junior Suite", "description": "Expansive suite with separate sitting room and butler service.", "maxOccupancy": 3, "sizeSqm": 65, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/chalet-royale-rm2/400/300"], "highlights": ["Butler service", "Deep-soak tub", "Private balcony"]}
+      {
+        "id": "rm-dlx",
+        "name": "Deluxe Room",
+        "description": "Elegant room with hand-crafted furniture and mountain vistas.",
+        "maxOccupancy": 2,
+        "sizeSqm": 35,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/chalet-royale-rm1/400/300"
+        ],
+        "highlights": [
+          "Floor-to-ceiling windows",
+          "Marble bathroom",
+          "Nespresso machine"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Junior Suite",
+        "description": "Expansive suite with separate sitting room and butler service.",
+        "maxOccupancy": 3,
+        "sizeSqm": 65,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/chalet-royale-rm2/400/300"
+        ],
+        "highlights": [
+          "Butler service",
+          "Deep-soak tub",
+          "Private balcony"
+        ]
+      }
     ],
-    "location": {"address": "Place Centrale 12, Verbier 1936", "resort": "Verbier", "country": "Switzerland", "countryCode": "CH", "mapLat": 46.0964, "mapLng": 7.2279, "nearbyAttractions": ["4 Vallées ski area", "Verbier village square", "Mont-Fort cable car"], "distanceToSlopes": "50m to nearest lift", "distanceToCenter": "On the main square"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.9, "count": 187, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 5.0}, {"label": "Value", "score": 4.6}, {"label": "Service", "score": 4.9}]},
-    "highlights": ["Private ski concierge", "Infinity pool views", "Michelin-starred tasting menu"],
-    "policies": ["Free cancellation up to 30 days before arrival", "Minimum 5-night stay in peak season", "Children 12+ only"]
+    "location": {
+      "address": "Place Centrale 12, Verbier 1936",
+      "resort": "Verbier",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "mapLat": 46.0964,
+      "mapLng": 7.2279,
+      "nearbyAttractions": [
+        "4 Vallées ski area",
+        "Verbier village square",
+        "Mont-Fort cable car"
+      ],
+      "distanceToSlopes": "50m to nearest lift",
+      "distanceToCenter": "On the main square"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.9,
+      "count": 187,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 5.0
+        },
+        {
+          "label": "Value",
+          "score": 4.6
+        },
+        {
+          "label": "Service",
+          "score": 4.9
+        }
+      ]
+    },
+    "highlights": [
+      "Private ski concierge",
+      "Infinity pool views",
+      "Michelin-starred tasting menu"
+    ],
+    "policies": [
+      "Free cancellation up to 30 days before arrival",
+      "Minimum 5-night stay in peak season",
+      "Children 12+ only"
+    ]
   },
   {
     "id": "hot3",
@@ -70,30 +302,146 @@
     "starRating": 5,
     "tagline": "Ultimate ski-in ski-out grandeur in Courchevel 1850",
     "description": "Courchevel's most prestigious address combines Belle Époque architecture with ski-in ski-out convenience on the Bellecôte piste. Seven dining outlets, a 2000m² spa, and curated art collections set the scene for an unforgettable stay.",
-    "holidaySlugs": ["courchevel-ski-luxury"],
+    "holidaySlugs": [
+      "courchevel-ski-luxury"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/le-grand-hotel-courchevel/800/500", "alt": "Grand hotel facade", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/le-grand-hotel-courchevel-2/800/500", "alt": "Ski-in ski-out terrace", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/le-grand-hotel-courchevel-3/800/500", "alt": "Grand spa pool", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/le-grand-hotel-courchevel/800/500",
+        "alt": "Grand hotel facade",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/le-grand-hotel-courchevel-2/800/500",
+        "alt": "Ski-in ski-out terrace",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/le-grand-hotel-courchevel-3/800/500",
+        "alt": "Grand spa pool",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🎿", "label": "Ski-in ski-out piste", "category": "sport"},
-      {"icon": "🏊", "label": "2000m² spa & pool complex", "category": "wellness"},
-      {"icon": "🍽️", "label": "7 dining outlets", "category": "dining"},
-      {"icon": "🎭", "label": "Curated art collection", "category": "general"},
-      {"icon": "🛷", "label": "Ski valet & storage", "category": "sport"},
-      {"icon": "📶", "label": "Free high-speed WiFi", "category": "connectivity"},
-      {"icon": "🎪", "label": "Kids' club", "category": "kids"}
+      {
+        "icon": "🎿",
+        "label": "Ski-in ski-out piste",
+        "category": "sport"
+      },
+      {
+        "icon": "🏊",
+        "label": "2000m² spa & pool complex",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍽️",
+        "label": "7 dining outlets",
+        "category": "dining"
+      },
+      {
+        "icon": "🎭",
+        "label": "Curated art collection",
+        "category": "general"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski valet & storage",
+        "category": "sport"
+      },
+      {
+        "icon": "📶",
+        "label": "Free high-speed WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "🎪",
+        "label": "Kids' club",
+        "category": "kids"
+      }
     ],
     "rooms": [
-      {"id": "rm-sup", "name": "Superior Room", "description": "Classically furnished room overlooking the Bellecôte piste.", "maxOccupancy": 2, "sizeSqm": 40, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/le-grand-rm1/400/300"], "highlights": ["Piste views", "Heated bathroom floor", "Twice-daily housekeeping"]},
-      {"id": "rm-ste", "name": "Prestige Suite", "description": "Grand suite with panoramic balcony and private dining area.", "maxOccupancy": 4, "sizeSqm": 90, "boardBasis": "full-board", "images": ["https://picsum.photos/seed/le-grand-rm2/400/300"], "highlights": ["Private butler", "180° panoramic views", "In-suite dining"]}
+      {
+        "id": "rm-sup",
+        "name": "Superior Room",
+        "description": "Classically furnished room overlooking the Bellecôte piste.",
+        "maxOccupancy": 2,
+        "sizeSqm": 40,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/le-grand-rm1/400/300"
+        ],
+        "highlights": [
+          "Piste views",
+          "Heated bathroom floor",
+          "Twice-daily housekeeping"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Prestige Suite",
+        "description": "Grand suite with panoramic balcony and private dining area.",
+        "maxOccupancy": 4,
+        "sizeSqm": 90,
+        "boardBasis": "full-board",
+        "images": [
+          "https://picsum.photos/seed/le-grand-rm2/400/300"
+        ],
+        "highlights": [
+          "Private butler",
+          "180° panoramic views",
+          "In-suite dining"
+        ]
+      }
     ],
-    "location": {"address": "Rue de Bellecôte, Courchevel 1850 73120", "resort": "Courchevel 1850", "country": "France", "countryCode": "FR", "mapLat": 45.4159, "mapLng": 6.6335, "nearbyAttractions": ["Les 3 Vallées ski area", "Courchevel 1850 village", "La Saulire gondola"], "distanceToSlopes": "Direct piste access", "distanceToCenter": "5-minute walk to village"},
-    "checkInTime": "16:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.8, "count": 241, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 4.9}, {"label": "Value", "score": 4.5}, {"label": "Service", "score": 4.9}]},
-    "highlights": ["Direct piste access", "Art-filled interiors", "Michelin-star dining"],
-    "policies": ["Free cancellation up to 30 days before arrival", "Children welcome with dedicated kids' club", "Pets welcome on request"]
+    "location": {
+      "address": "Rue de Bellecôte, Courchevel 1850 73120",
+      "resort": "Courchevel 1850",
+      "country": "France",
+      "countryCode": "FR",
+      "mapLat": 45.4159,
+      "mapLng": 6.6335,
+      "nearbyAttractions": [
+        "Les 3 Vallées ski area",
+        "Courchevel 1850 village",
+        "La Saulire gondola"
+      ],
+      "distanceToSlopes": "Direct piste access",
+      "distanceToCenter": "5-minute walk to village"
+    },
+    "checkInTime": "16:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.8,
+      "count": 241,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.9
+        },
+        {
+          "label": "Value",
+          "score": 4.5
+        },
+        {
+          "label": "Service",
+          "score": 4.9
+        }
+      ]
+    },
+    "highlights": [
+      "Direct piste access",
+      "Art-filled interiors",
+      "Michelin-star dining"
+    ],
+    "policies": [
+      "Free cancellation up to 30 days before arrival",
+      "Children welcome with dedicated kids' club",
+      "Pets welcome on request"
+    ]
   },
   {
     "id": "hot4",
@@ -102,29 +450,141 @@
     "starRating": 4,
     "tagline": "Charming Savoyard village hotel in the heart of Méribel",
     "description": "Hôtel du Village is a beloved 4-star retreat built in traditional Savoyard chalet style in the heart of Méribel village. Skiers step straight from the slopes to the terrace, and the wood-panelled restaurant serves classic mountain cuisine.",
-    "holidaySlugs": ["meribel-ski-week"],
+    "holidaySlugs": [
+      "meribel-ski-week"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-du-village-meribel/800/500", "alt": "Chalet-style hotel exterior", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-du-village-meribel-2/800/500", "alt": "Wood-panelled restaurant", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-du-village-meribel-3/800/500", "alt": "Outdoor sun terrace", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-du-village-meribel/800/500",
+        "alt": "Chalet-style hotel exterior",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-du-village-meribel-2/800/500",
+        "alt": "Wood-panelled restaurant",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-du-village-meribel-3/800/500",
+        "alt": "Outdoor sun terrace",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🎿", "label": "Ski-to-door access", "category": "sport"},
-      {"icon": "♨️", "label": "Indoor hot tub & sauna", "category": "wellness"},
-      {"icon": "🍷", "label": "Savoyard restaurant", "category": "dining"},
-      {"icon": "☀️", "label": "Sun terrace", "category": "general"},
-      {"icon": "🛷", "label": "Ski storage", "category": "sport"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🎿",
+        "label": "Ski-to-door access",
+        "category": "sport"
+      },
+      {
+        "icon": "♨️",
+        "label": "Indoor hot tub & sauna",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍷",
+        "label": "Savoyard restaurant",
+        "category": "dining"
+      },
+      {
+        "icon": "☀️",
+        "label": "Sun terrace",
+        "category": "general"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski storage",
+        "category": "sport"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-std", "name": "Classic Room", "description": "Cosy room with pine furnishings and village or mountain views.", "maxOccupancy": 2, "sizeSqm": 20, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-du-village-rm1/400/300"], "highlights": ["Pine-clad interiors", "Village or mountain views", "En-suite shower"]},
-      {"id": "rm-fam", "name": "Family Chalet Room", "description": "Spacious interconnecting room ideal for families with young children.", "maxOccupancy": 4, "sizeSqm": 38, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-du-village-rm2/400/300"], "highlights": ["Bunk beds available", "Extra storage", "Family dining setup"]}
+      {
+        "id": "rm-std",
+        "name": "Classic Room",
+        "description": "Cosy room with pine furnishings and village or mountain views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 20,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-du-village-rm1/400/300"
+        ],
+        "highlights": [
+          "Pine-clad interiors",
+          "Village or mountain views",
+          "En-suite shower"
+        ]
+      },
+      {
+        "id": "rm-fam",
+        "name": "Family Chalet Room",
+        "description": "Spacious interconnecting room ideal for families with young children.",
+        "maxOccupancy": 4,
+        "sizeSqm": 38,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-du-village-rm2/400/300"
+        ],
+        "highlights": [
+          "Bunk beds available",
+          "Extra storage",
+          "Family dining setup"
+        ]
+      }
     ],
-    "location": {"address": "Route du Centre, Méribel 73550", "resort": "Meribel", "country": "France", "countryCode": "FR", "mapLat": 45.3966, "mapLng": 6.5622, "nearbyAttractions": ["Les 3 Vallées ski area", "Méribel village centre", "Saulire cable car"], "distanceToSlopes": "30m to nearest piste", "distanceToCenter": "In village centre"},
-    "checkInTime": "15:00", "checkOutTime": "11:00",
-    "rating": {"average": 4.4, "count": 289, "breakdown": [{"label": "Location", "score": 4.8}, {"label": "Cleanliness", "score": 4.5}, {"label": "Value", "score": 4.3}, {"label": "Service", "score": 4.4}]},
-    "highlights": ["Traditional Savoyard atmosphere", "Ski-to-door convenience", "Family-friendly setup"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children very welcome", "Pets on request"]
+    "location": {
+      "address": "Route du Centre, Méribel 73550",
+      "resort": "Meribel",
+      "country": "France",
+      "countryCode": "FR",
+      "mapLat": 45.3966,
+      "mapLng": 6.5622,
+      "nearbyAttractions": [
+        "Les 3 Vallées ski area",
+        "Méribel village centre",
+        "Saulire cable car"
+      ],
+      "distanceToSlopes": "30m to nearest piste",
+      "distanceToCenter": "In village centre"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "11:00",
+    "rating": {
+      "average": 4.4,
+      "count": 289,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.8
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.5
+        },
+        {
+          "label": "Value",
+          "score": 4.3
+        },
+        {
+          "label": "Service",
+          "score": 4.4
+        }
+      ]
+    },
+    "highlights": [
+      "Traditional Savoyard atmosphere",
+      "Ski-to-door convenience",
+      "Family-friendly setup"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children very welcome",
+      "Pets on request"
+    ]
   },
   {
     "id": "hot5",
@@ -133,29 +593,141 @@
     "starRating": 4,
     "tagline": "Classic Alpine grandeur in the shadow of Mont Blanc",
     "description": "Hôtel Mont Blanc has been welcoming adventurers and skiers since 1849, making it one of the oldest hotels in the Alps. Today its art deco interiors and views directly onto Mont Blanc remain as spectacular as ever.",
-    "holidaySlugs": ["chamonix-adventure"],
+    "holidaySlugs": [
+      "chamonix-adventure"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-mont-blanc-chamonix/800/500", "alt": "Art deco hotel facade with Mont Blanc backdrop", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-mont-blanc-chamonix-2/800/500", "alt": "Grand lobby", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-mont-blanc-chamonix-3/800/500", "alt": "Pool with mountain view", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-mont-blanc-chamonix/800/500",
+        "alt": "Art deco hotel facade with Mont Blanc backdrop",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-mont-blanc-chamonix-2/800/500",
+        "alt": "Grand lobby",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-mont-blanc-chamonix-3/800/500",
+        "alt": "Pool with mountain view",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏔️", "label": "Direct Mont Blanc views", "category": "general"},
-      {"icon": "🏊", "label": "Indoor pool & spa", "category": "pool"},
-      {"icon": "🍽️", "label": "Brasserie & fine dining", "category": "dining"},
-      {"icon": "🧗", "label": "Climbing wall & activity desk", "category": "sport"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"},
-      {"icon": "🛷", "label": "Ski storage & boot drying", "category": "sport"}
+      {
+        "icon": "🏔️",
+        "label": "Direct Mont Blanc views",
+        "category": "general"
+      },
+      {
+        "icon": "🏊",
+        "label": "Indoor pool & spa",
+        "category": "pool"
+      },
+      {
+        "icon": "🍽️",
+        "label": "Brasserie & fine dining",
+        "category": "dining"
+      },
+      {
+        "icon": "🧗",
+        "label": "Climbing wall & activity desk",
+        "category": "sport"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski storage & boot drying",
+        "category": "sport"
+      }
     ],
     "rooms": [
-      {"id": "rm-clsc", "name": "Classic Room", "description": "Elegant art deco room with period furnishings and mountain views.", "maxOccupancy": 2, "sizeSqm": 25, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-mont-blanc-rm1/400/300"], "highlights": ["Art deco decor", "Mountain views", "Freestanding bathtub"]},
-      {"id": "rm-prm", "name": "Premium Suite", "description": "Stunning suite with floor-to-ceiling Mont Blanc panorama.", "maxOccupancy": 3, "sizeSqm": 55, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-mont-blanc-rm2/400/300"], "highlights": ["Panoramic Mont Blanc views", "Separate lounge", "Champagne on arrival"]}
+      {
+        "id": "rm-clsc",
+        "name": "Classic Room",
+        "description": "Elegant art deco room with period furnishings and mountain views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 25,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-mont-blanc-rm1/400/300"
+        ],
+        "highlights": [
+          "Art deco decor",
+          "Mountain views",
+          "Freestanding bathtub"
+        ]
+      },
+      {
+        "id": "rm-prm",
+        "name": "Premium Suite",
+        "description": "Stunning suite with floor-to-ceiling Mont Blanc panorama.",
+        "maxOccupancy": 3,
+        "sizeSqm": 55,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-mont-blanc-rm2/400/300"
+        ],
+        "highlights": [
+          "Panoramic Mont Blanc views",
+          "Separate lounge",
+          "Champagne on arrival"
+        ]
+      }
     ],
-    "location": {"address": "62 Allée du Majestic, Chamonix 74400", "resort": "Chamonix", "country": "France", "countryCode": "FR", "mapLat": 45.9237, "mapLng": 6.8694, "nearbyAttractions": ["Aiguille du Midi cable car", "Mer de Glace glacier", "Chamonix village"], "distanceToSlopes": "5-minute walk to Les Planards", "distanceToCenter": "In town centre"},
-    "checkInTime": "15:00", "checkOutTime": "11:00",
-    "rating": {"average": 4.5, "count": 334, "breakdown": [{"label": "Location", "score": 4.9}, {"label": "Cleanliness", "score": 4.6}, {"label": "Value", "score": 4.2}, {"label": "Service", "score": 4.5}]},
-    "highlights": ["Historic 1849 property", "Mont Blanc views from every room", "Central Chamonix location"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Dogs welcome in Classic rooms"]
+    "location": {
+      "address": "62 Allée du Majestic, Chamonix 74400",
+      "resort": "Chamonix",
+      "country": "France",
+      "countryCode": "FR",
+      "mapLat": 45.9237,
+      "mapLng": 6.8694,
+      "nearbyAttractions": [
+        "Aiguille du Midi cable car",
+        "Mer de Glace glacier",
+        "Chamonix village"
+      ],
+      "distanceToSlopes": "5-minute walk to Les Planards",
+      "distanceToCenter": "In town centre"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "11:00",
+    "rating": {
+      "average": 4.5,
+      "count": 334,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.9
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.6
+        },
+        {
+          "label": "Value",
+          "score": 4.2
+        },
+        {
+          "label": "Service",
+          "score": 4.5
+        }
+      ]
+    },
+    "highlights": [
+      "Historic 1849 property",
+      "Mont Blanc views from every room",
+      "Central Chamonix location"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Dogs welcome in Classic rooms"
+    ]
   },
   {
     "id": "hot6",
@@ -164,29 +736,141 @@
     "starRating": 3,
     "tagline": "Lively ski hotel at the heart of Austria's Zillertal",
     "description": "Hotel Strass is Mayrhofen's most famous après-ski destination — right next to the Penken gondola and home to the legendary Ice Bar. By day it's a comfortable ski hotel; by night it transforms into the valley's entertainment hub.",
-    "holidaySlugs": ["mayrhofen-ski-week"],
+    "holidaySlugs": [
+      "mayrhofen-ski-week"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-strass-mayrhofen/800/500", "alt": "Hotel exterior and gondola station", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-strass-mayrhofen-2/800/500", "alt": "Ice Bar après-ski", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-strass-mayrhofen-3/800/500", "alt": "Indoor pool", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-strass-mayrhofen/800/500",
+        "alt": "Hotel exterior and gondola station",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-strass-mayrhofen-2/800/500",
+        "alt": "Ice Bar après-ski",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-strass-mayrhofen-3/800/500",
+        "alt": "Indoor pool",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🚡", "label": "Next to Penken gondola", "category": "sport"},
-      {"icon": "🧊", "label": "Famous Ice Bar", "category": "dining"},
-      {"icon": "🏊", "label": "Indoor pool & sauna", "category": "pool"},
-      {"icon": "🎵", "label": "Live music & DJ nights", "category": "general"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"},
-      {"icon": "🛷", "label": "Ski storage", "category": "sport"}
+      {
+        "icon": "🚡",
+        "label": "Next to Penken gondola",
+        "category": "sport"
+      },
+      {
+        "icon": "🧊",
+        "label": "Famous Ice Bar",
+        "category": "dining"
+      },
+      {
+        "icon": "🏊",
+        "label": "Indoor pool & sauna",
+        "category": "pool"
+      },
+      {
+        "icon": "🎵",
+        "label": "Live music & DJ nights",
+        "category": "general"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski storage",
+        "category": "sport"
+      }
     ],
     "rooms": [
-      {"id": "rm-std", "name": "Standard Room", "description": "Comfortable Tyrolean-style room with all essentials.", "maxOccupancy": 2, "sizeSqm": 18, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-strass-rm1/400/300"], "highlights": ["Tyrolean decor", "En-suite shower", "TV & WiFi"]},
-      {"id": "rm-sup", "name": "Superior Room", "description": "Larger room with balcony overlooking the valley.", "maxOccupancy": 3, "sizeSqm": 28, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-strass-rm2/400/300"], "highlights": ["Valley-view balcony", "Bathtub", "Mini-bar"]}
+      {
+        "id": "rm-std",
+        "name": "Standard Room",
+        "description": "Comfortable Tyrolean-style room with all essentials.",
+        "maxOccupancy": 2,
+        "sizeSqm": 18,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-strass-rm1/400/300"
+        ],
+        "highlights": [
+          "Tyrolean decor",
+          "En-suite shower",
+          "TV & WiFi"
+        ]
+      },
+      {
+        "id": "rm-sup",
+        "name": "Superior Room",
+        "description": "Larger room with balcony overlooking the valley.",
+        "maxOccupancy": 3,
+        "sizeSqm": 28,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-strass-rm2/400/300"
+        ],
+        "highlights": [
+          "Valley-view balcony",
+          "Bathtub",
+          "Mini-bar"
+        ]
+      }
     ],
-    "location": {"address": "Hauptstrasse 420, Mayrhofen 6290", "resort": "Mayrhofen", "country": "Austria", "countryCode": "AT", "mapLat": 47.1675, "mapLng": 11.8646, "nearbyAttractions": ["Penken ski area", "Hintertux Glacier", "Zell am Ziller"], "distanceToSlopes": "50m to Penken gondola", "distanceToCenter": "On main street"},
-    "checkInTime": "14:00", "checkOutTime": "11:00",
-    "rating": {"average": 4.1, "count": 521, "breakdown": [{"label": "Location", "score": 4.8}, {"label": "Cleanliness", "score": 4.0}, {"label": "Value", "score": 4.3}, {"label": "Service", "score": 4.0}]},
-    "highlights": ["Famous Ice Bar on-site", "Steps from Penken gondola", "Best après-ski in Mayrhofen"],
-    "policies": ["Free cancellation up to 7 days before arrival", "18+ for bar after 10pm", "Children welcome in hotel"]
+    "location": {
+      "address": "Hauptstrasse 420, Mayrhofen 6290",
+      "resort": "Mayrhofen",
+      "country": "Austria",
+      "countryCode": "AT",
+      "mapLat": 47.1675,
+      "mapLng": 11.8646,
+      "nearbyAttractions": [
+        "Penken ski area",
+        "Hintertux Glacier",
+        "Zell am Ziller"
+      ],
+      "distanceToSlopes": "50m to Penken gondola",
+      "distanceToCenter": "On main street"
+    },
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "rating": {
+      "average": 4.1,
+      "count": 521,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.8
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.0
+        },
+        {
+          "label": "Value",
+          "score": 4.3
+        },
+        {
+          "label": "Service",
+          "score": 4.0
+        }
+      ]
+    },
+    "highlights": [
+      "Famous Ice Bar on-site",
+      "Steps from Penken gondola",
+      "Best après-ski in Mayrhofen"
+    ],
+    "policies": [
+      "Free cancellation up to 7 days before arrival",
+      "18+ for bar after 10pm",
+      "Children welcome in hotel"
+    ]
   },
   {
     "id": "hot7",
@@ -195,29 +879,141 @@
     "starRating": 4,
     "tagline": "Historic Tyrolean hotel in the world's après-ski capital",
     "description": "The Alte Post has stood in St. Anton's main square since 1779 and remains the soul of the resort. Its timber-framed façade, antler-adorned interiors and legendary Mooserwirt views make it the quintessential Arlberg experience.",
-    "holidaySlugs": ["st-anton-ski-holiday"],
+    "holidaySlugs": [
+      "st-anton-ski-holiday"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-alte-post-st-anton/800/500", "alt": "Historic hotel on main square", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-alte-post-st-anton-2/800/500", "alt": "Traditional Austrian interior", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-alte-post-st-anton-3/800/500", "alt": "Spa and wellness area", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-alte-post-st-anton/800/500",
+        "alt": "Historic hotel on main square",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-alte-post-st-anton-2/800/500",
+        "alt": "Traditional Austrian interior",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-alte-post-st-anton-3/800/500",
+        "alt": "Spa and wellness area",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏔️", "label": "Arlberg ski area access", "category": "sport"},
-      {"icon": "♨️", "label": "Spa, steam room & sauna", "category": "wellness"},
-      {"icon": "🍷", "label": "Traditional Stuben dining", "category": "dining"},
-      {"icon": "🎶", "label": "Live Tyrolean folk music", "category": "dining"},
-      {"icon": "🛷", "label": "Ski hire & storage", "category": "sport"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🏔️",
+        "label": "Arlberg ski area access",
+        "category": "sport"
+      },
+      {
+        "icon": "♨️",
+        "label": "Spa, steam room & sauna",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍷",
+        "label": "Traditional Stuben dining",
+        "category": "dining"
+      },
+      {
+        "icon": "🎶",
+        "label": "Live Tyrolean folk music",
+        "category": "dining"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski hire & storage",
+        "category": "sport"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-tyr", "name": "Tyrolean Room", "description": "Authentic Alpine room with hand-carved furniture and mountain views.", "maxOccupancy": 2, "sizeSqm": 22, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-alte-post-rm1/400/300"], "highlights": ["Hand-carved furnishings", "Mountain views", "Cosy feel"]},
-      {"id": "rm-dlx", "name": "Deluxe Stube Suite", "description": "Traditional suite with private living room and panoramic Alpine views.", "maxOccupancy": 4, "sizeSqm": 50, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-alte-post-rm2/400/300"], "highlights": ["Private living room", "Panoramic Arlberg views", "Priority restaurant booking"]}
+      {
+        "id": "rm-tyr",
+        "name": "Tyrolean Room",
+        "description": "Authentic Alpine room with hand-carved furniture and mountain views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 22,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-alte-post-rm1/400/300"
+        ],
+        "highlights": [
+          "Hand-carved furnishings",
+          "Mountain views",
+          "Cosy feel"
+        ]
+      },
+      {
+        "id": "rm-dlx",
+        "name": "Deluxe Stube Suite",
+        "description": "Traditional suite with private living room and panoramic Alpine views.",
+        "maxOccupancy": 4,
+        "sizeSqm": 50,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-alte-post-rm2/400/300"
+        ],
+        "highlights": [
+          "Private living room",
+          "Panoramic Arlberg views",
+          "Priority restaurant booking"
+        ]
+      }
     ],
-    "location": {"address": "Dorfstrasse 11, St. Anton am Arlberg 6580", "resort": "St. Anton", "country": "Austria", "countryCode": "AT", "mapLat": 47.1291, "mapLng": 10.2671, "nearbyAttractions": ["Galzig cable car", "Arlberg ski area", "Mooserwirt bar"], "distanceToSlopes": "200m to Galzig lift", "distanceToCenter": "On the main square"},
-    "checkInTime": "15:00", "checkOutTime": "11:00",
-    "rating": {"average": 4.5, "count": 278, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 4.6}, {"label": "Value", "score": 4.2}, {"label": "Service", "score": 4.5}]},
-    "highlights": ["Historic 1779 building", "Main square location", "Authentic après-ski atmosphere"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Pets on request"]
+    "location": {
+      "address": "Dorfstrasse 11, St. Anton am Arlberg 6580",
+      "resort": "St. Anton",
+      "country": "Austria",
+      "countryCode": "AT",
+      "mapLat": 47.1291,
+      "mapLng": 10.2671,
+      "nearbyAttractions": [
+        "Galzig cable car",
+        "Arlberg ski area",
+        "Mooserwirt bar"
+      ],
+      "distanceToSlopes": "200m to Galzig lift",
+      "distanceToCenter": "On the main square"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "11:00",
+    "rating": {
+      "average": 4.5,
+      "count": 278,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.6
+        },
+        {
+          "label": "Value",
+          "score": 4.2
+        },
+        {
+          "label": "Service",
+          "score": 4.5
+        }
+      ]
+    },
+    "highlights": [
+      "Historic 1779 building",
+      "Main square location",
+      "Authentic après-ski atmosphere"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Pets on request"
+    ]
   },
   {
     "id": "hot8",
@@ -226,29 +1022,141 @@
     "starRating": 4,
     "tagline": "Elegance in the Dolomites — Cortina's most celebrated address",
     "description": "The Cristallo Resort occupies a prime hillside position with sweeping views across the Dolomite peaks that surround Cortina d'Ampezzo. Blend of Belle Époque architecture and Venetian flair, with a world-class spa and fine Italian dining.",
-    "holidaySlugs": ["cortina-dolomites-ski"],
+    "holidaySlugs": [
+      "cortina-dolomites-ski"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/cristallo-resort-cortina/800/500", "alt": "Hotel with Dolomite backdrop", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/cristallo-resort-cortina-2/800/500", "alt": "Italian restaurant terrace", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/cristallo-resort-cortina-3/800/500", "alt": "Spa pool", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/cristallo-resort-cortina/800/500",
+        "alt": "Hotel with Dolomite backdrop",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/cristallo-resort-cortina-2/800/500",
+        "alt": "Italian restaurant terrace",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/cristallo-resort-cortina-3/800/500",
+        "alt": "Spa pool",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏔️", "label": "Dolomite panoramas", "category": "general"},
-      {"icon": "🧖", "label": "Luxury spa & indoor pool", "category": "wellness"},
-      {"icon": "🍝", "label": "Fine Italian dining", "category": "dining"},
-      {"icon": "🎿", "label": "Ski shuttle to lifts", "category": "sport"},
-      {"icon": "🛷", "label": "Ski storage & boot dryers", "category": "sport"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🏔️",
+        "label": "Dolomite panoramas",
+        "category": "general"
+      },
+      {
+        "icon": "🧖",
+        "label": "Luxury spa & indoor pool",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍝",
+        "label": "Fine Italian dining",
+        "category": "dining"
+      },
+      {
+        "icon": "🎿",
+        "label": "Ski shuttle to lifts",
+        "category": "sport"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski storage & boot dryers",
+        "category": "sport"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-dlm", "name": "Dolomite Room", "description": "Elegant room with Venetian-inspired décor and mountain views.", "maxOccupancy": 2, "sizeSqm": 30, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/cristallo-rm1/400/300"], "highlights": ["Venetian décor", "Dolomite views", "Marble bathroom"]},
-      {"id": "rm-ste", "name": "Grand Suite", "description": "Opulent suite with panoramic terrace and private Jacuzzi.", "maxOccupancy": 4, "sizeSqm": 75, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/cristallo-rm2/400/300"], "highlights": ["Private Jacuzzi terrace", "Butler on request", "Complimentary minibar"]}
+      {
+        "id": "rm-dlm",
+        "name": "Dolomite Room",
+        "description": "Elegant room with Venetian-inspired décor and mountain views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 30,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/cristallo-rm1/400/300"
+        ],
+        "highlights": [
+          "Venetian décor",
+          "Dolomite views",
+          "Marble bathroom"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Grand Suite",
+        "description": "Opulent suite with panoramic terrace and private Jacuzzi.",
+        "maxOccupancy": 4,
+        "sizeSqm": 75,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/cristallo-rm2/400/300"
+        ],
+        "highlights": [
+          "Private Jacuzzi terrace",
+          "Butler on request",
+          "Complimentary minibar"
+        ]
+      }
     ],
-    "location": {"address": "Via Menardi 42, Cortina d'Ampezzo 32043", "resort": "Cortina d'Ampezzo", "country": "Italy", "countryCode": "IT", "mapLat": 46.5362, "mapLng": 12.1355, "nearbyAttractions": ["Tofana di Rozes cable car", "Corso Italia shopping street", "Olympic ice stadium"], "distanceToSlopes": "Free shuttle to Faloria lift", "distanceToCenter": "5-minute walk to Corso Italia"},
-    "checkInTime": "15:00", "checkOutTime": "11:00",
-    "rating": {"average": 4.6, "count": 198, "breakdown": [{"label": "Location", "score": 4.8}, {"label": "Cleanliness", "score": 4.7}, {"label": "Value", "score": 4.3}, {"label": "Service", "score": 4.6}]},
-    "highlights": ["Spectacular Dolomite views", "Award-winning Italian dining", "Spa with indoor pool"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Pets on request in selected rooms"]
+    "location": {
+      "address": "Via Menardi 42, Cortina d'Ampezzo 32043",
+      "resort": "Cortina d'Ampezzo",
+      "country": "Italy",
+      "countryCode": "IT",
+      "mapLat": 46.5362,
+      "mapLng": 12.1355,
+      "nearbyAttractions": [
+        "Tofana di Rozes cable car",
+        "Corso Italia shopping street",
+        "Olympic ice stadium"
+      ],
+      "distanceToSlopes": "Free shuttle to Faloria lift",
+      "distanceToCenter": "5-minute walk to Corso Italia"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "11:00",
+    "rating": {
+      "average": 4.6,
+      "count": 198,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.8
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.7
+        },
+        {
+          "label": "Value",
+          "score": 4.3
+        },
+        {
+          "label": "Service",
+          "score": 4.6
+        }
+      ]
+    },
+    "highlights": [
+      "Spectacular Dolomite views",
+      "Award-winning Italian dining",
+      "Spa with indoor pool"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Pets on request in selected rooms"
+    ]
   },
   {
     "id": "hot9",
@@ -257,29 +1165,141 @@
     "starRating": 3,
     "tagline": "Great-value ski base in Europe's largest ski area",
     "description": "Hotel Sport is a reliable 3-star base for the Grandvalira ski area — the largest in the Pyrenees. Budget-friendly rates, a convenient shuttle stop outside, and duty-free shopping on the doorstep make this a popular choice for value-seekers.",
-    "holidaySlugs": ["grandvalira-andorra-ski"],
+    "holidaySlugs": [
+      "grandvalira-andorra-ski"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-sport-andorra/800/500", "alt": "Hotel exterior in Pas de la Casa", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-sport-andorra-2/800/500", "alt": "Ski-themed bar", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-sport-andorra-3/800/500", "alt": "Cosy restaurant", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-sport-andorra/800/500",
+        "alt": "Hotel exterior in Pas de la Casa",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-sport-andorra-2/800/500",
+        "alt": "Ski-themed bar",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-sport-andorra-3/800/500",
+        "alt": "Cosy restaurant",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🚌", "label": "Free ski shuttle", "category": "sport"},
-      {"icon": "🛍️", "label": "Duty-free shopping nearby", "category": "general"},
-      {"icon": "🍺", "label": "Ski bar & lounge", "category": "dining"},
-      {"icon": "♨️", "label": "Sauna & steam room", "category": "wellness"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"},
-      {"icon": "🛷", "label": "Ski storage", "category": "sport"}
+      {
+        "icon": "🚌",
+        "label": "Free ski shuttle",
+        "category": "sport"
+      },
+      {
+        "icon": "🛍️",
+        "label": "Duty-free shopping nearby",
+        "category": "general"
+      },
+      {
+        "icon": "🍺",
+        "label": "Ski bar & lounge",
+        "category": "dining"
+      },
+      {
+        "icon": "♨️",
+        "label": "Sauna & steam room",
+        "category": "wellness"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski storage",
+        "category": "sport"
+      }
     ],
     "rooms": [
-      {"id": "rm-std", "name": "Standard Room", "description": "Clean and comfortable room with mountain views.", "maxOccupancy": 2, "sizeSqm": 16, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-sport-rm1/400/300"], "highlights": ["Mountain views", "En-suite shower", "TV & WiFi"]},
-      {"id": "rm-fam", "name": "Family Room", "description": "Larger room with bunk beds, perfect for families.", "maxOccupancy": 4, "sizeSqm": 28, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-sport-rm2/400/300"], "highlights": ["Bunk beds", "Extra storage", "Family-sized bathroom"]}
+      {
+        "id": "rm-std",
+        "name": "Standard Room",
+        "description": "Clean and comfortable room with mountain views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 16,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-sport-rm1/400/300"
+        ],
+        "highlights": [
+          "Mountain views",
+          "En-suite shower",
+          "TV & WiFi"
+        ]
+      },
+      {
+        "id": "rm-fam",
+        "name": "Family Room",
+        "description": "Larger room with bunk beds, perfect for families.",
+        "maxOccupancy": 4,
+        "sizeSqm": 28,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-sport-rm2/400/300"
+        ],
+        "highlights": [
+          "Bunk beds",
+          "Extra storage",
+          "Family-sized bathroom"
+        ]
+      }
     ],
-    "location": {"address": "Carrer dels Escalls 12, Pas de la Casa, Andorra", "resort": "Grandvalira", "country": "Andorra", "countryCode": "AD", "mapLat": 42.5428, "mapLng": 1.7334, "nearbyAttractions": ["Grandvalira ski area (210km)", "Pas de la Casa duty-free shops", "Caldea spa Andorra la Vella"], "distanceToSlopes": "Free shuttle every 20 minutes", "distanceToCenter": "5-minute walk"},
-    "checkInTime": "14:00", "checkOutTime": "11:00",
-    "rating": {"average": 3.9, "count": 445, "breakdown": [{"label": "Location", "score": 4.2}, {"label": "Cleanliness", "score": 3.9}, {"label": "Value", "score": 4.5}, {"label": "Service", "score": 3.8}]},
-    "highlights": ["Unbeatable value for Grandvalira", "Duty-free shopping on doorstep", "Free ski shuttle"],
-    "policies": ["Free cancellation up to 7 days before arrival", "Children welcome", "Pets not permitted"]
+    "location": {
+      "address": "Carrer dels Escalls 12, Pas de la Casa, Andorra",
+      "resort": "Grandvalira",
+      "country": "Andorra",
+      "countryCode": "AD",
+      "mapLat": 42.5428,
+      "mapLng": 1.7334,
+      "nearbyAttractions": [
+        "Grandvalira ski area (210km)",
+        "Pas de la Casa duty-free shops",
+        "Caldea spa Andorra la Vella"
+      ],
+      "distanceToSlopes": "Free shuttle every 20 minutes",
+      "distanceToCenter": "5-minute walk"
+    },
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "rating": {
+      "average": 3.9,
+      "count": 445,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.2
+        },
+        {
+          "label": "Cleanliness",
+          "score": 3.9
+        },
+        {
+          "label": "Value",
+          "score": 4.5
+        },
+        {
+          "label": "Service",
+          "score": 3.8
+        }
+      ]
+    },
+    "highlights": [
+      "Unbeatable value for Grandvalira",
+      "Duty-free shopping on doorstep",
+      "Free ski shuttle"
+    ],
+    "policies": [
+      "Free cancellation up to 7 days before arrival",
+      "Children welcome",
+      "Pets not permitted"
+    ]
   },
   {
     "id": "hot10",
@@ -288,29 +1308,141 @@
     "starRating": 3,
     "tagline": "Ski-in ski-out in the purpose-built Grand Massif resort",
     "description": "Located right at the foot of the Grandes Platières cable car, this efficient 3-star hotel is ideal for skiers who want to maximise their time on the mountain. The Grand Massif ski area offers 265km of piste starting from your hotel door.",
-    "holidaySlugs": ["flaine-ski-week"],
+    "holidaySlugs": [
+      "flaine-ski-week"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-les-grandes-platières-flaine/800/500", "alt": "Modern hotel at ski resort", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-les-grandes-platières-flaine-2/800/500", "alt": "Ski-in access", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-les-grandes-platières-flaine-3/800/500", "alt": "Cosy bar area", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-les-grandes-platières-flaine/800/500",
+        "alt": "Modern hotel at ski resort",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-les-grandes-platières-flaine-2/800/500",
+        "alt": "Ski-in access",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-les-grandes-platières-flaine-3/800/500",
+        "alt": "Cosy bar area",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🎿", "label": "Ski-in ski-out", "category": "sport"},
-      {"icon": "♨️", "label": "Sauna & hot tub", "category": "wellness"},
-      {"icon": "🍷", "label": "Restaurant & bar", "category": "dining"},
-      {"icon": "🛷", "label": "Ski storage & boot dryers", "category": "sport"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"},
-      {"icon": "👶", "label": "Children's play area", "category": "kids"}
+      {
+        "icon": "🎿",
+        "label": "Ski-in ski-out",
+        "category": "sport"
+      },
+      {
+        "icon": "♨️",
+        "label": "Sauna & hot tub",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍷",
+        "label": "Restaurant & bar",
+        "category": "dining"
+      },
+      {
+        "icon": "🛷",
+        "label": "Ski storage & boot dryers",
+        "category": "sport"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "👶",
+        "label": "Children's play area",
+        "category": "kids"
+      }
     ],
     "rooms": [
-      {"id": "rm-std", "name": "Standard Room", "description": "Functional and comfortable room with piste or village views.", "maxOccupancy": 2, "sizeSqm": 18, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-flaine-rm1/400/300"], "highlights": ["Piste views", "En-suite", "TV & WiFi"]},
-      {"id": "rm-fam", "name": "Family Cabin Room", "description": "Multi-bunk cabin-style room great for families.", "maxOccupancy": 5, "sizeSqm": 32, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-flaine-rm2/400/300"], "highlights": ["Multi-bunk cabin style", "Locker storage", "Breakfast included"]}
+      {
+        "id": "rm-std",
+        "name": "Standard Room",
+        "description": "Functional and comfortable room with piste or village views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 18,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-flaine-rm1/400/300"
+        ],
+        "highlights": [
+          "Piste views",
+          "En-suite",
+          "TV & WiFi"
+        ]
+      },
+      {
+        "id": "rm-fam",
+        "name": "Family Cabin Room",
+        "description": "Multi-bunk cabin-style room great for families.",
+        "maxOccupancy": 5,
+        "sizeSqm": 32,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-flaine-rm2/400/300"
+        ],
+        "highlights": [
+          "Multi-bunk cabin style",
+          "Locker storage",
+          "Breakfast included"
+        ]
+      }
     ],
-    "location": {"address": "Flaine Forum, Flaine 74300", "resort": "Flaine", "country": "France", "countryCode": "FR", "mapLat": 46.0006, "mapLng": 6.6816, "nearbyAttractions": ["Grandes Platières (3250m)", "Grand Massif ski area", "Flaine Forum sculptures"], "distanceToSlopes": "Ski-in ski-out", "distanceToCenter": "In the Forum village"},
-    "checkInTime": "15:00", "checkOutTime": "10:00",
-    "rating": {"average": 3.8, "count": 367, "breakdown": [{"label": "Location", "score": 4.7}, {"label": "Cleanliness", "score": 3.8}, {"label": "Value", "score": 4.2}, {"label": "Service", "score": 3.7}]},
-    "highlights": ["Ski-in ski-out location", "265km Grand Massif ski area", "Great family value"],
-    "policies": ["Free cancellation up to 7 days before arrival", "Children welcome", "Pets not permitted"]
+    "location": {
+      "address": "Flaine Forum, Flaine 74300",
+      "resort": "Flaine",
+      "country": "France",
+      "countryCode": "FR",
+      "mapLat": 46.0006,
+      "mapLng": 6.6816,
+      "nearbyAttractions": [
+        "Grandes Platières (3250m)",
+        "Grand Massif ski area",
+        "Flaine Forum sculptures"
+      ],
+      "distanceToSlopes": "Ski-in ski-out",
+      "distanceToCenter": "In the Forum village"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "10:00",
+    "rating": {
+      "average": 3.8,
+      "count": 367,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.7
+        },
+        {
+          "label": "Cleanliness",
+          "score": 3.8
+        },
+        {
+          "label": "Value",
+          "score": 4.2
+        },
+        {
+          "label": "Service",
+          "score": 3.7
+        }
+      ]
+    },
+    "highlights": [
+      "Ski-in ski-out location",
+      "265km Grand Massif ski area",
+      "Great family value"
+    ],
+    "policies": [
+      "Free cancellation up to 7 days before arrival",
+      "Children welcome",
+      "Pets not permitted"
+    ]
   },
   {
     "id": "hot11",
@@ -319,30 +1451,147 @@
     "starRating": 4,
     "tagline": "Sun-drenched paradise on the volcanic shores of Tenerife",
     "description": "Hotel Sol commands a privileged position on the black volcanic beach of Playa de las Américas. Five pools, a full-service spa, and nightly entertainment make it a complete resort holiday destination in the Canary Islands.",
-    "holidaySlugs": ["tenerife-sun-escape", "lanzarote-beach-break"],
+    "holidaySlugs": [
+      "tenerife-sun-escape",
+      "lanzarote-beach-break"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-sol-tenerife/800/500", "alt": "Hotel pool overlooking the ocean", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-sol-tenerife-2/800/500", "alt": "Beach access", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-sol-tenerife-3/800/500", "alt": "Tropical pool garden", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-sol-tenerife/800/500",
+        "alt": "Hotel pool overlooking the ocean",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-sol-tenerife-2/800/500",
+        "alt": "Beach access",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-sol-tenerife-3/800/500",
+        "alt": "Tropical pool garden",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏊", "label": "5 outdoor pools", "category": "pool"},
-      {"icon": "🏖️", "label": "Private beach access", "category": "general"},
-      {"icon": "🧖", "label": "Full-service spa", "category": "wellness"},
-      {"icon": "🍹", "label": "4 restaurants & 3 bars", "category": "dining"},
-      {"icon": "🎭", "label": "Nightly entertainment", "category": "general"},
-      {"icon": "👶", "label": "Kids' club & waterslide", "category": "kids"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🏊",
+        "label": "5 outdoor pools",
+        "category": "pool"
+      },
+      {
+        "icon": "🏖️",
+        "label": "Private beach access",
+        "category": "general"
+      },
+      {
+        "icon": "🧖",
+        "label": "Full-service spa",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍹",
+        "label": "4 restaurants & 3 bars",
+        "category": "dining"
+      },
+      {
+        "icon": "🎭",
+        "label": "Nightly entertainment",
+        "category": "general"
+      },
+      {
+        "icon": "👶",
+        "label": "Kids' club & waterslide",
+        "category": "kids"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-std", "name": "Standard Garden Room", "description": "Bright room with garden or pool view and balcony.", "maxOccupancy": 2, "sizeSqm": 24, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-sol-rm1/400/300"], "highlights": ["Garden or pool view", "Private balcony", "Air conditioning"]},
-      {"id": "rm-sea", "name": "Sea View Suite", "description": "Spacious suite with panoramic Atlantic ocean views.", "maxOccupancy": 4, "sizeSqm": 48, "boardBasis": "all-inclusive", "images": ["https://picsum.photos/seed/hotel-sol-rm2/400/300"], "highlights": ["Panoramic ocean view", "All-inclusive included", "Upgraded bathroom"]}
+      {
+        "id": "rm-std",
+        "name": "Standard Garden Room",
+        "description": "Bright room with garden or pool view and balcony.",
+        "maxOccupancy": 2,
+        "sizeSqm": 24,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-sol-rm1/400/300"
+        ],
+        "highlights": [
+          "Garden or pool view",
+          "Private balcony",
+          "Air conditioning"
+        ]
+      },
+      {
+        "id": "rm-sea",
+        "name": "Sea View Suite",
+        "description": "Spacious suite with panoramic Atlantic ocean views.",
+        "maxOccupancy": 4,
+        "sizeSqm": 48,
+        "boardBasis": "all-inclusive",
+        "images": [
+          "https://picsum.photos/seed/hotel-sol-rm2/400/300"
+        ],
+        "highlights": [
+          "Panoramic ocean view",
+          "All-inclusive included",
+          "Upgraded bathroom"
+        ]
+      }
     ],
-    "location": {"address": "Avenida de las Américas 3, Playa de las Américas, Tenerife", "resort": "Tenerife", "country": "Spain", "countryCode": "ES", "mapLat": 28.0608, "mapLng": -16.7227, "nearbyAttractions": ["Siam Park water park", "Mount Teide National Park", "Los Cristianos market"], "distanceToBeach": "Direct beach access", "distanceToCenter": "10-minute walk to Playa de las Américas centre"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.3, "count": 612, "breakdown": [{"label": "Location", "score": 4.5}, {"label": "Cleanliness", "score": 4.4}, {"label": "Value", "score": 4.2}, {"label": "Service", "score": 4.3}]},
-    "highlights": ["5 pools including adults-only", "Direct beach access", "All-inclusive dining option"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome with kids' club", "Pets not permitted"]
+    "location": {
+      "address": "Avenida de las Américas 3, Playa de las Américas, Tenerife",
+      "resort": "Tenerife",
+      "country": "Spain",
+      "countryCode": "ES",
+      "mapLat": 28.0608,
+      "mapLng": -16.7227,
+      "nearbyAttractions": [
+        "Siam Park water park",
+        "Mount Teide National Park",
+        "Los Cristianos market"
+      ],
+      "distanceToBeach": "Direct beach access",
+      "distanceToCenter": "10-minute walk to Playa de las Américas centre"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.3,
+      "count": 612,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.5
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.4
+        },
+        {
+          "label": "Value",
+          "score": 4.2
+        },
+        {
+          "label": "Service",
+          "score": 4.3
+        }
+      ]
+    },
+    "highlights": [
+      "5 pools including adults-only",
+      "Direct beach access",
+      "All-inclusive dining option"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome with kids' club",
+      "Pets not permitted"
+    ]
   },
   {
     "id": "hot12",
@@ -351,29 +1600,141 @@
     "starRating": 4,
     "tagline": "Serene hillside retreat with panoramic Bay of Palma views",
     "description": "Set in lush Mediterranean gardens above Palma, the Valparaíso is a peaceful haven with sweeping Bay of Palma views. Three pools, a tapas restaurant, and a spa make for the perfect Mallorcan escape.",
-    "holidaySlugs": ["mallorca-beach-holiday"],
+    "holidaySlugs": [
+      "mallorca-beach-holiday"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-valparaiso-mallorca/800/500", "alt": "Hotel gardens with bay views", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-valparaiso-mallorca-2/800/500", "alt": "Mediterranean pool terrace", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-valparaiso-mallorca-3/800/500", "alt": "Tapas restaurant", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-valparaiso-mallorca/800/500",
+        "alt": "Hotel gardens with bay views",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-valparaiso-mallorca-2/800/500",
+        "alt": "Mediterranean pool terrace",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-valparaiso-mallorca-3/800/500",
+        "alt": "Tapas restaurant",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏊", "label": "3 outdoor pools", "category": "pool"},
-      {"icon": "🌿", "label": "Landscaped gardens", "category": "general"},
-      {"icon": "🧖", "label": "Spa & massage", "category": "wellness"},
-      {"icon": "🥘", "label": "Mallorcan tapas restaurant", "category": "dining"},
-      {"icon": "🚗", "label": "Free parking", "category": "general"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🏊",
+        "label": "3 outdoor pools",
+        "category": "pool"
+      },
+      {
+        "icon": "🌿",
+        "label": "Landscaped gardens",
+        "category": "general"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa & massage",
+        "category": "wellness"
+      },
+      {
+        "icon": "🥘",
+        "label": "Mallorcan tapas restaurant",
+        "category": "dining"
+      },
+      {
+        "icon": "🚗",
+        "label": "Free parking",
+        "category": "general"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-grd", "name": "Garden Room", "description": "Relaxing room with private terrace in the hotel gardens.", "maxOccupancy": 2, "sizeSqm": 26, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-valparaiso-rm1/400/300"], "highlights": ["Private garden terrace", "Air conditioning", "Handcrafted furniture"]},
-      {"id": "rm-bay", "name": "Bay View Junior Suite", "description": "Spacious suite with spectacular Bay of Palma panorama.", "maxOccupancy": 3, "sizeSqm": 50, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-valparaiso-rm2/400/300"], "highlights": ["Bay of Palma views", "Oversized terrace", "Pillow menu"]}
+      {
+        "id": "rm-grd",
+        "name": "Garden Room",
+        "description": "Relaxing room with private terrace in the hotel gardens.",
+        "maxOccupancy": 2,
+        "sizeSqm": 26,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-valparaiso-rm1/400/300"
+        ],
+        "highlights": [
+          "Private garden terrace",
+          "Air conditioning",
+          "Handcrafted furniture"
+        ]
+      },
+      {
+        "id": "rm-bay",
+        "name": "Bay View Junior Suite",
+        "description": "Spacious suite with spectacular Bay of Palma panorama.",
+        "maxOccupancy": 3,
+        "sizeSqm": 50,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-valparaiso-rm2/400/300"
+        ],
+        "highlights": [
+          "Bay of Palma views",
+          "Oversized terrace",
+          "Pillow menu"
+        ]
+      }
     ],
-    "location": {"address": "Carrer de Francisco Vidal i Sureda 23, Palma 07015", "resort": "Mallorca", "country": "Spain", "countryCode": "ES", "mapLat": 39.5537, "mapLng": 2.6131, "nearbyAttractions": ["Palma Cathedral", "Playa de Palma beach", "Bellver Castle"], "distanceToBeach": "5-minute drive to beach", "distanceToCenter": "15-minute walk to Palma old town"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.4, "count": 389, "breakdown": [{"label": "Location", "score": 4.6}, {"label": "Cleanliness", "score": 4.5}, {"label": "Value", "score": 4.2}, {"label": "Service", "score": 4.4}]},
-    "highlights": ["Bay of Palma panoramas", "Mediterranean gardens", "Walking distance to Palma old town"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Pets on request"]
+    "location": {
+      "address": "Carrer de Francisco Vidal i Sureda 23, Palma 07015",
+      "resort": "Mallorca",
+      "country": "Spain",
+      "countryCode": "ES",
+      "mapLat": 39.5537,
+      "mapLng": 2.6131,
+      "nearbyAttractions": [
+        "Palma Cathedral",
+        "Playa de Palma beach",
+        "Bellver Castle"
+      ],
+      "distanceToBeach": "5-minute drive to beach",
+      "distanceToCenter": "15-minute walk to Palma old town"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.4,
+      "count": 389,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.6
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.5
+        },
+        {
+          "label": "Value",
+          "score": 4.2
+        },
+        {
+          "label": "Service",
+          "score": 4.4
+        }
+      ]
+    },
+    "highlights": [
+      "Bay of Palma panoramas",
+      "Mediterranean gardens",
+      "Walking distance to Palma old town"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Pets on request"
+    ]
   },
   {
     "id": "hot13",
@@ -382,29 +1743,141 @@
     "starRating": 5,
     "tagline": "Cycladic luxury on Mykonos' most exclusive stretch of coastline",
     "description": "Perched above the crystal waters of Agios Stefanos, Mykonos Princess is an all-suite Cycladic retreat with plunge pools, bespoke concierge and private boat charters. A timeless Mykonos escape for discerning travellers.",
-    "holidaySlugs": ["mykonos-island-escape"],
+    "holidaySlugs": [
+      "mykonos-island-escape"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/mykonos-princess-hotel/800/500", "alt": "White Cycladic hotel with sea views", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/mykonos-princess-hotel-2/800/500", "alt": "Suite with infinity plunge pool", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/mykonos-princess-hotel-3/800/500", "alt": "Clifftop restaurant at sunset", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/mykonos-princess-hotel/800/500",
+        "alt": "White Cycladic hotel with sea views",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/mykonos-princess-hotel-2/800/500",
+        "alt": "Suite with infinity plunge pool",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/mykonos-princess-hotel-3/800/500",
+        "alt": "Clifftop restaurant at sunset",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏊", "label": "Infinity pool & private plunge pools", "category": "pool"},
-      {"icon": "🚢", "label": "Private boat charter service", "category": "general"},
-      {"icon": "🧖", "label": "Spa with sea views", "category": "wellness"},
-      {"icon": "🍷", "label": "Clifftop sunset restaurant", "category": "dining"},
-      {"icon": "🏖️", "label": "Private beach club", "category": "general"},
-      {"icon": "📶", "label": "High-speed WiFi", "category": "connectivity"}
+      {
+        "icon": "🏊",
+        "label": "Infinity pool & private plunge pools",
+        "category": "pool"
+      },
+      {
+        "icon": "🚢",
+        "label": "Private boat charter service",
+        "category": "general"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa with sea views",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍷",
+        "label": "Clifftop sunset restaurant",
+        "category": "dining"
+      },
+      {
+        "icon": "🏖️",
+        "label": "Private beach club",
+        "category": "general"
+      },
+      {
+        "icon": "📶",
+        "label": "High-speed WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-dlx", "name": "Deluxe Sea View Room", "description": "Elegant Cycladic room with private balcony and Aegean sea views.", "maxOccupancy": 2, "sizeSqm": 35, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/mykonos-princess-rm1/400/300"], "highlights": ["Aegean sea views", "Private balcony", "Luxury Korres toiletries"]},
-      {"id": "rm-ste", "name": "Prestige Suite with Pool", "description": "All-suite with private plunge pool and butler service.", "maxOccupancy": 2, "sizeSqm": 65, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/mykonos-princess-rm2/400/300"], "highlights": ["Private plunge pool", "Butler service", "Welcome champagne"]}
+      {
+        "id": "rm-dlx",
+        "name": "Deluxe Sea View Room",
+        "description": "Elegant Cycladic room with private balcony and Aegean sea views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 35,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/mykonos-princess-rm1/400/300"
+        ],
+        "highlights": [
+          "Aegean sea views",
+          "Private balcony",
+          "Luxury Korres toiletries"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Prestige Suite with Pool",
+        "description": "All-suite with private plunge pool and butler service.",
+        "maxOccupancy": 2,
+        "sizeSqm": 65,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/mykonos-princess-rm2/400/300"
+        ],
+        "highlights": [
+          "Private plunge pool",
+          "Butler service",
+          "Welcome champagne"
+        ]
+      }
     ],
-    "location": {"address": "Agios Stefanos, Mykonos 846 00", "resort": "Mykonos", "country": "Greece", "countryCode": "GR", "mapLat": 37.4659, "mapLng": 25.3282, "nearbyAttractions": ["Mykonos Town (Chora)", "Paradise Beach", "Delos island day trip"], "distanceToBeach": "Private beach club access", "distanceToCenter": "5-minute taxi to Mykonos Town"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.8, "count": 156, "breakdown": [{"label": "Location", "score": 4.9}, {"label": "Cleanliness", "score": 4.9}, {"label": "Value", "score": 4.5}, {"label": "Service", "score": 4.8}]},
-    "highlights": ["Private plunge pools in suites", "Clifftop sunset dining", "Private boat charter service"],
-    "policies": ["Free cancellation up to 21 days before arrival", "Adults only (18+)", "Minimum 3-night stay in season"]
+    "location": {
+      "address": "Agios Stefanos, Mykonos 846 00",
+      "resort": "Mykonos",
+      "country": "Greece",
+      "countryCode": "GR",
+      "mapLat": 37.4659,
+      "mapLng": 25.3282,
+      "nearbyAttractions": [
+        "Mykonos Town (Chora)",
+        "Paradise Beach",
+        "Delos island day trip"
+      ],
+      "distanceToBeach": "Private beach club access",
+      "distanceToCenter": "5-minute taxi to Mykonos Town"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.8,
+      "count": 156,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.9
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.9
+        },
+        {
+          "label": "Value",
+          "score": 4.5
+        },
+        {
+          "label": "Service",
+          "score": 4.8
+        }
+      ]
+    },
+    "highlights": [
+      "Private plunge pools in suites",
+      "Clifftop sunset dining",
+      "Private boat charter service"
+    ],
+    "policies": [
+      "Free cancellation up to 21 days before arrival",
+      "Adults only (18+)",
+      "Minimum 3-night stay in season"
+    ]
   },
   {
     "id": "hot14",
@@ -413,29 +1886,142 @@
     "starRating": 5,
     "tagline": "Cave suites carved into the caldera cliffs of Oia",
     "description": "Santorini Secret occupies a privileged position in Oia's caldera cliff face, its iconic blue-domed suites carved into the volcanic rock. Infinity pools seemingly merging with the Aegean Sea and world-famous sunset views set the scene for a truly romantic escape.",
-    "holidaySlugs": ["santorini-dream", "bodrum-turkish-riviera"],
+    "holidaySlugs": [
+      "santorini-dream",
+      "bodrum-turkish-riviera"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/santorini-secret-hotel/800/500", "alt": "Blue-domed cave suites with caldera views", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/santorini-secret-hotel-2/800/500", "alt": "Infinity pool at sunset", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/santorini-secret-hotel-3/800/500", "alt": "Cave suite interior", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/santorini-secret-hotel/800/500",
+        "alt": "Blue-domed cave suites with caldera views",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/santorini-secret-hotel-2/800/500",
+        "alt": "Infinity pool at sunset",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/santorini-secret-hotel-3/800/500",
+        "alt": "Cave suite interior",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🌊", "label": "Caldera infinity pool", "category": "pool"},
-      {"icon": "🌅", "label": "Famous Oia sunset views", "category": "general"},
-      {"icon": "🧖", "label": "Cliff-edge spa", "category": "wellness"},
-      {"icon": "🍷", "label": "Award-winning wine list", "category": "dining"},
-      {"icon": "🛥️", "label": "Catamaran sunset cruises", "category": "general"},
-      {"icon": "📶", "label": "High-speed WiFi", "category": "connectivity"}
+      {
+        "icon": "🌊",
+        "label": "Caldera infinity pool",
+        "category": "pool"
+      },
+      {
+        "icon": "🌅",
+        "label": "Famous Oia sunset views",
+        "category": "general"
+      },
+      {
+        "icon": "🧖",
+        "label": "Cliff-edge spa",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍷",
+        "label": "Award-winning wine list",
+        "category": "dining"
+      },
+      {
+        "icon": "🛥️",
+        "label": "Catamaran sunset cruises",
+        "category": "general"
+      },
+      {
+        "icon": "📶",
+        "label": "High-speed WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-cave", "name": "Caldera Cave Suite", "description": "Unique cave suite carved into volcanic rock with caldera and sea views.", "maxOccupancy": 2, "sizeSqm": 45, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/santorini-secret-rm1/400/300"], "highlights": ["Caldera & sea views", "Cave carved architecture", "Outdoor hot tub"]},
-      {"id": "rm-prm", "name": "Premium Honeymoon Suite", "description": "The ultimate Santorini experience — private pool and Aegean panorama.", "maxOccupancy": 2, "sizeSqm": 80, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/santorini-secret-rm2/400/300"], "highlights": ["Private infinity pool", "360° caldera panorama", "Champagne & rose petals on arrival"]}
+      {
+        "id": "rm-cave",
+        "name": "Caldera Cave Suite",
+        "description": "Unique cave suite carved into volcanic rock with caldera and sea views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 45,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/santorini-secret-rm1/400/300"
+        ],
+        "highlights": [
+          "Caldera & sea views",
+          "Cave carved architecture",
+          "Outdoor hot tub"
+        ]
+      },
+      {
+        "id": "rm-prm",
+        "name": "Premium Honeymoon Suite",
+        "description": "The ultimate Santorini experience — private pool and Aegean panorama.",
+        "maxOccupancy": 2,
+        "sizeSqm": 80,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/santorini-secret-rm2/400/300"
+        ],
+        "highlights": [
+          "Private infinity pool",
+          "360° caldera panorama",
+          "Champagne & rose petals on arrival"
+        ]
+      }
     ],
-    "location": {"address": "Oia, Santorini 847 02", "resort": "Santorini", "country": "Greece", "countryCode": "GR", "mapLat": 36.4618, "mapLng": 25.3754, "nearbyAttractions": ["Oia village & windmills", "Red Beach", "Akrotiri archaeological site"], "distanceToBeach": "Boat access to Ammoudi Bay beach", "distanceToCenter": "In Oia village"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.9, "count": 134, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 4.9}, {"label": "Value", "score": 4.7}, {"label": "Service", "score": 4.9}]},
-    "highlights": ["Iconic caldera views", "Cave suite architecture", "World-famous Oia sunsets"],
-    "policies": ["Free cancellation up to 30 days before arrival", "Adults only (18+)", "Minimum 3-night stay"]
+    "location": {
+      "address": "Oia, Santorini 847 02",
+      "resort": "Santorini",
+      "country": "Greece",
+      "countryCode": "GR",
+      "mapLat": 36.4618,
+      "mapLng": 25.3754,
+      "nearbyAttractions": [
+        "Oia village & windmills",
+        "Red Beach",
+        "Akrotiri archaeological site"
+      ],
+      "distanceToBeach": "Boat access to Ammoudi Bay beach",
+      "distanceToCenter": "In Oia village"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.9,
+      "count": 134,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.9
+        },
+        {
+          "label": "Value",
+          "score": 4.7
+        },
+        {
+          "label": "Service",
+          "score": 4.9
+        }
+      ]
+    },
+    "highlights": [
+      "Iconic caldera views",
+      "Cave suite architecture",
+      "World-famous Oia sunsets"
+    ],
+    "policies": [
+      "Free cancellation up to 30 days before arrival",
+      "Adults only (18+)",
+      "Minimum 3-night stay"
+    ]
   },
   {
     "id": "hot15",
@@ -444,29 +2030,142 @@
     "starRating": 4,
     "tagline": "Beachfront all-inclusive paradise on Jandia peninsula",
     "description": "The Iberostar Selection sits directly on the fine white sands of Jandia beach, offering a complete all-inclusive resort experience. Seven pools, four restaurants, a spa and nightly entertainment make this one of Fuerteventura's finest family resorts.",
-    "holidaySlugs": ["fuerteventura-beach", "crete-family-holiday"],
+    "holidaySlugs": [
+      "fuerteventura-beach",
+      "crete-family-holiday"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/iberostar-fuerteventura/800/500", "alt": "Beachfront resort with pools", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/iberostar-fuerteventura-2/800/500", "alt": "Tropical pool complex", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/iberostar-fuerteventura-3/800/500", "alt": "Buffet restaurant", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/iberostar-fuerteventura/800/500",
+        "alt": "Beachfront resort with pools",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/iberostar-fuerteventura-2/800/500",
+        "alt": "Tropical pool complex",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/iberostar-fuerteventura-3/800/500",
+        "alt": "Buffet restaurant",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏖️", "label": "Direct beachfront", "category": "general"},
-      {"icon": "🏊", "label": "7 pools including waterslides", "category": "pool"},
-      {"icon": "🍽️", "label": "All-inclusive dining", "category": "dining"},
-      {"icon": "🧖", "label": "Spa & fitness centre", "category": "wellness"},
-      {"icon": "👶", "label": "Kids' Mini Club", "category": "kids"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🏖️",
+        "label": "Direct beachfront",
+        "category": "general"
+      },
+      {
+        "icon": "🏊",
+        "label": "7 pools including waterslides",
+        "category": "pool"
+      },
+      {
+        "icon": "🍽️",
+        "label": "All-inclusive dining",
+        "category": "dining"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa & fitness centre",
+        "category": "wellness"
+      },
+      {
+        "icon": "👶",
+        "label": "Kids' Mini Club",
+        "category": "kids"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-std", "name": "Standard Room", "description": "Comfortable room with garden or pool view and private terrace.", "maxOccupancy": 3, "sizeSqm": 25, "boardBasis": "all-inclusive", "images": ["https://picsum.photos/seed/iberostar-rm1/400/300"], "highlights": ["Garden or pool view", "Private terrace", "All-inclusive included"]},
-      {"id": "rm-sup", "name": "Superior Sea View", "description": "Upgraded room with direct sea views and priority beach access.", "maxOccupancy": 4, "sizeSqm": 32, "boardBasis": "all-inclusive", "images": ["https://picsum.photos/seed/iberostar-rm2/400/300"], "highlights": ["Sea views", "Priority beach loungers", "Upgraded bathroom"]}
+      {
+        "id": "rm-std",
+        "name": "Standard Room",
+        "description": "Comfortable room with garden or pool view and private terrace.",
+        "maxOccupancy": 3,
+        "sizeSqm": 25,
+        "boardBasis": "all-inclusive",
+        "images": [
+          "https://picsum.photos/seed/iberostar-rm1/400/300"
+        ],
+        "highlights": [
+          "Garden or pool view",
+          "Private terrace",
+          "All-inclusive included"
+        ]
+      },
+      {
+        "id": "rm-sup",
+        "name": "Superior Sea View",
+        "description": "Upgraded room with direct sea views and priority beach access.",
+        "maxOccupancy": 4,
+        "sizeSqm": 32,
+        "boardBasis": "all-inclusive",
+        "images": [
+          "https://picsum.photos/seed/iberostar-rm2/400/300"
+        ],
+        "highlights": [
+          "Sea views",
+          "Priority beach loungers",
+          "Upgraded bathroom"
+        ]
+      }
     ],
-    "location": {"address": "Calle Maxorata 38, Morro Jable, Fuerteventura 35626", "resort": "Fuerteventura", "country": "Spain", "countryCode": "ES", "mapLat": 28.0456, "mapLng": -14.3542, "nearbyAttractions": ["Jandia Natural Park", "Morro Jable village", "Fuerteventura beaches"], "distanceToBeach": "Direct beach access", "distanceToCenter": "10-minute walk to Morro Jable"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.2, "count": 734, "breakdown": [{"label": "Location", "score": 4.6}, {"label": "Cleanliness", "score": 4.3}, {"label": "Value", "score": 4.4}, {"label": "Service", "score": 4.1}]},
-    "highlights": ["All-inclusive beachfront resort", "7 pools with waterslides", "Excellent family facilities"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Pets not permitted"]
+    "location": {
+      "address": "Calle Maxorata 38, Morro Jable, Fuerteventura 35626",
+      "resort": "Fuerteventura",
+      "country": "Spain",
+      "countryCode": "ES",
+      "mapLat": 28.0456,
+      "mapLng": -14.3542,
+      "nearbyAttractions": [
+        "Jandia Natural Park",
+        "Morro Jable village",
+        "Fuerteventura beaches"
+      ],
+      "distanceToBeach": "Direct beach access",
+      "distanceToCenter": "10-minute walk to Morro Jable"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.2,
+      "count": 734,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.6
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.3
+        },
+        {
+          "label": "Value",
+          "score": 4.4
+        },
+        {
+          "label": "Service",
+          "score": 4.1
+        }
+      ]
+    },
+    "highlights": [
+      "All-inclusive beachfront resort",
+      "7 pools with waterslides",
+      "Excellent family facilities"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Pets not permitted"
+    ]
   },
   {
     "id": "hot16",
@@ -475,30 +2174,148 @@
     "starRating": 5,
     "tagline": "Iconic beachfront skyscraper in the heart of Barceloneta",
     "description": "The 44-storey Hotel Arts tower is Barcelona's most recognisable luxury hotel, rising above Barceloneta beach. Designed by Frank Gehry-inspired architect Bruce Graham, it offers Michelin-star dining, a cliff-top pool, and unbeatable city-to-sea panoramas.",
-    "holidaySlugs": ["barcelona-city-break", "paris-romantic-break"],
+    "holidaySlugs": [
+      "barcelona-city-break",
+      "paris-romantic-break",
+      "rome-eternal-city"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-arts-barcelona/800/500", "alt": "Hotel Arts tower with beach backdrop", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-arts-barcelona-2/800/500", "alt": "Rooftop infinity pool", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-arts-barcelona-3/800/500", "alt": "Michelin-star restaurant", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-arts-barcelona/800/500",
+        "alt": "Hotel Arts tower with beach backdrop",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-arts-barcelona-2/800/500",
+        "alt": "Rooftop infinity pool",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-arts-barcelona-3/800/500",
+        "alt": "Michelin-star restaurant",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏖️", "label": "On Barceloneta beach", "category": "general"},
-      {"icon": "🏊", "label": "Outdoor infinity pool", "category": "pool"},
-      {"icon": "⭐", "label": "Michelin-star dining", "category": "dining"},
-      {"icon": "🧖", "label": "Six Senses Spa", "category": "wellness"},
-      {"icon": "🌆", "label": "Panoramic city & sea views", "category": "general"},
-      {"icon": "📶", "label": "High-speed WiFi", "category": "connectivity"},
-      {"icon": "🚗", "label": "Valet parking", "category": "general"}
+      {
+        "icon": "🏖️",
+        "label": "On Barceloneta beach",
+        "category": "general"
+      },
+      {
+        "icon": "🏊",
+        "label": "Outdoor infinity pool",
+        "category": "pool"
+      },
+      {
+        "icon": "⭐",
+        "label": "Michelin-star dining",
+        "category": "dining"
+      },
+      {
+        "icon": "🧖",
+        "label": "Six Senses Spa",
+        "category": "wellness"
+      },
+      {
+        "icon": "🌆",
+        "label": "Panoramic city & sea views",
+        "category": "general"
+      },
+      {
+        "icon": "📶",
+        "label": "High-speed WiFi",
+        "category": "connectivity"
+      },
+      {
+        "icon": "🚗",
+        "label": "Valet parking",
+        "category": "general"
+      }
     ],
     "rooms": [
-      {"id": "rm-dlx", "name": "Deluxe Sea View Room", "description": "Contemporary room with floor-to-ceiling windows and panoramic sea views.", "maxOccupancy": 2, "sizeSqm": 40, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-arts-rm1/400/300"], "highlights": ["Panoramic sea views", "Marble bathroom", "Nespresso & minibar"]},
-      {"id": "rm-ste", "name": "Club Suite", "description": "Expansive suite with wraparound views of sea, city and mountains.", "maxOccupancy": 3, "sizeSqm": 85, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-arts-rm2/400/300"], "highlights": ["360° panoramic views", "Club lounge access", "Personal butler"]}
+      {
+        "id": "rm-dlx",
+        "name": "Deluxe Sea View Room",
+        "description": "Contemporary room with floor-to-ceiling windows and panoramic sea views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 40,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-arts-rm1/400/300"
+        ],
+        "highlights": [
+          "Panoramic sea views",
+          "Marble bathroom",
+          "Nespresso & minibar"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Club Suite",
+        "description": "Expansive suite with wraparound views of sea, city and mountains.",
+        "maxOccupancy": 3,
+        "sizeSqm": 85,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-arts-rm2/400/300"
+        ],
+        "highlights": [
+          "360° panoramic views",
+          "Club lounge access",
+          "Personal butler"
+        ]
+      }
     ],
-    "location": {"address": "Carrer de la Marina 19-21, Barcelona 08005", "resort": "Barcelona", "country": "Spain", "countryCode": "ES", "mapLat": 41.3851, "mapLng": 2.1972, "nearbyAttractions": ["Barceloneta beach", "Sagrada Família", "Port Olímpic marina"], "distanceToBeach": "Steps from Barceloneta beach", "distanceToCenter": "Metro to Las Ramblas in 5 minutes"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.8, "count": 423, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 4.9}, {"label": "Value", "score": 4.5}, {"label": "Service", "score": 4.8}]},
-    "highlights": ["Iconic Barceloneta beach location", "Six Senses Spa", "Michelin-starred restaurant"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Pets on request"]
+    "location": {
+      "address": "Carrer de la Marina 19-21, Barcelona 08005",
+      "resort": "Barcelona",
+      "country": "Spain",
+      "countryCode": "ES",
+      "mapLat": 41.3851,
+      "mapLng": 2.1972,
+      "nearbyAttractions": [
+        "Barceloneta beach",
+        "Sagrada Família",
+        "Port Olímpic marina"
+      ],
+      "distanceToBeach": "Steps from Barceloneta beach",
+      "distanceToCenter": "Metro to Las Ramblas in 5 minutes"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.8,
+      "count": 423,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.9
+        },
+        {
+          "label": "Value",
+          "score": 4.5
+        },
+        {
+          "label": "Service",
+          "score": 4.8
+        }
+      ]
+    },
+    "highlights": [
+      "Iconic Barceloneta beach location",
+      "Six Senses Spa",
+      "Michelin-starred restaurant"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Pets on request"
+    ]
   },
   {
     "id": "hot17",
@@ -507,29 +2324,141 @@
     "starRating": 5,
     "tagline": "Music-inspired boutique luxury steps from Prague Castle",
     "description": "The Aria is a music-themed luxury boutique hotel in the heart of Malá Strana, with each floor dedicated to a different musical genre. A rooftop garden with castle views, Michelin-level dining, and personalised service create an unforgettable Prague experience.",
-    "holidaySlugs": ["prague-city-escape", "amsterdam-city-break"],
+    "holidaySlugs": [
+      "prague-city-escape",
+      "amsterdam-city-break"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/aria-hotel-prague/800/500", "alt": "Historic building with castle views", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/aria-hotel-prague-2/800/500", "alt": "Rooftop terrace with Prague Castle backdrop", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/aria-hotel-prague-3/800/500", "alt": "Music-themed suite interior", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/aria-hotel-prague/800/500",
+        "alt": "Historic building with castle views",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/aria-hotel-prague-2/800/500",
+        "alt": "Rooftop terrace with Prague Castle backdrop",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/aria-hotel-prague-3/800/500",
+        "alt": "Music-themed suite interior",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🎵", "label": "Music-themed floors & library", "category": "general"},
-      {"icon": "🏰", "label": "Prague Castle rooftop views", "category": "general"},
-      {"icon": "🍽️", "label": "Coda restaurant & bar", "category": "dining"},
-      {"icon": "🧖", "label": "Spa & fitness", "category": "wellness"},
-      {"icon": "🎫", "label": "Concierge & theatre tickets", "category": "general"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🎵",
+        "label": "Music-themed floors & library",
+        "category": "general"
+      },
+      {
+        "icon": "🏰",
+        "label": "Prague Castle rooftop views",
+        "category": "general"
+      },
+      {
+        "icon": "🍽️",
+        "label": "Coda restaurant & bar",
+        "category": "dining"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa & fitness",
+        "category": "wellness"
+      },
+      {
+        "icon": "🎫",
+        "label": "Concierge & theatre tickets",
+        "category": "general"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-clsc", "name": "Classic Room", "description": "Elegantly furnished room with music-themed décor and garden views.", "maxOccupancy": 2, "sizeSqm": 28, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/aria-hotel-rm1/400/300"], "highlights": ["Music-themed décor", "Garden views", "Premium toiletries"]},
-      {"id": "rm-ste", "name": "Junior Suite with Terrace", "description": "Spacious suite with private terrace overlooking Prague Castle.", "maxOccupancy": 3, "sizeSqm": 60, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/aria-hotel-rm2/400/300"], "highlights": ["Prague Castle terrace views", "Separate lounge", "Complimentary fruit & wine"]}
+      {
+        "id": "rm-clsc",
+        "name": "Classic Room",
+        "description": "Elegantly furnished room with music-themed décor and garden views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 28,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/aria-hotel-rm1/400/300"
+        ],
+        "highlights": [
+          "Music-themed décor",
+          "Garden views",
+          "Premium toiletries"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Junior Suite with Terrace",
+        "description": "Spacious suite with private terrace overlooking Prague Castle.",
+        "maxOccupancy": 3,
+        "sizeSqm": 60,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/aria-hotel-rm2/400/300"
+        ],
+        "highlights": [
+          "Prague Castle terrace views",
+          "Separate lounge",
+          "Complimentary fruit & wine"
+        ]
+      }
     ],
-    "location": {"address": "Tržiště 9, Malá Strana, Prague 118 00", "resort": "Prague", "country": "Czech Republic", "countryCode": "CZ", "mapLat": 50.0869, "mapLng": 14.4012, "nearbyAttractions": ["Prague Castle", "Charles Bridge", "Malá Strana square"], "distanceToCenter": "5-minute walk to Charles Bridge"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.8, "count": 267, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 4.9}, {"label": "Value", "score": 4.5}, {"label": "Service", "score": 4.8}]},
-    "highlights": ["Steps from Prague Castle & Charles Bridge", "Unique music-themed concept", "Rooftop garden with castle views"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Pets on request"]
+    "location": {
+      "address": "Tržiště 9, Malá Strana, Prague 118 00",
+      "resort": "Prague",
+      "country": "Czech Republic",
+      "countryCode": "CZ",
+      "mapLat": 50.0869,
+      "mapLng": 14.4012,
+      "nearbyAttractions": [
+        "Prague Castle",
+        "Charles Bridge",
+        "Malá Strana square"
+      ],
+      "distanceToCenter": "5-minute walk to Charles Bridge"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.8,
+      "count": 267,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.9
+        },
+        {
+          "label": "Value",
+          "score": 4.5
+        },
+        {
+          "label": "Service",
+          "score": 4.8
+        }
+      ]
+    },
+    "highlights": [
+      "Steps from Prague Castle & Charles Bridge",
+      "Unique music-themed concept",
+      "Rooftop garden with castle views"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Pets on request"
+    ]
   },
   {
     "id": "hot18",
@@ -538,29 +2467,140 @@
     "starRating": 5,
     "tagline": "Intimate Lisbon landmark hotel in the artistic Bairro Alto",
     "description": "Occupying an 18th-century palace in Lisbon's most creative neighbourhood, Bairro Alto Hotel blends Portuguese heritage with contemporary design. The rooftop terrace with castle-and-river views, acclaimed restaurant, and curated art programme make it Lisbon's most talked-about address.",
-    "holidaySlugs": ["lisbon-city-break"],
+    "holidaySlugs": [
+      "lisbon-city-break"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/bairro-alto-hotel-lisbon/800/500", "alt": "Palace facade with Lisbon rooftops", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/bairro-alto-hotel-lisbon-2/800/500", "alt": "Rooftop terrace with Tagus river views", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/bairro-alto-hotel-lisbon-3/800/500", "alt": "Contemporary Portuguese dining", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/bairro-alto-hotel-lisbon/800/500",
+        "alt": "Palace facade with Lisbon rooftops",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/bairro-alto-hotel-lisbon-2/800/500",
+        "alt": "Rooftop terrace with Tagus river views",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/bairro-alto-hotel-lisbon-3/800/500",
+        "alt": "Contemporary Portuguese dining",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🌅", "label": "Rooftop with Tagus views", "category": "general"},
-      {"icon": "🍷", "label": "Acclaimed Portuguese restaurant", "category": "dining"},
-      {"icon": "🎨", "label": "Curated art collection", "category": "general"},
-      {"icon": "🧖", "label": "Spa treatments", "category": "wellness"},
-      {"icon": "🎫", "label": "Concierge & fado show bookings", "category": "general"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🌅",
+        "label": "Rooftop with Tagus views",
+        "category": "general"
+      },
+      {
+        "icon": "🍷",
+        "label": "Acclaimed Portuguese restaurant",
+        "category": "dining"
+      },
+      {
+        "icon": "🎨",
+        "label": "Curated art collection",
+        "category": "general"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa treatments",
+        "category": "wellness"
+      },
+      {
+        "icon": "🎫",
+        "label": "Concierge & fado show bookings",
+        "category": "general"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-dlx", "name": "Deluxe Room", "description": "Refined room with hand-selected furniture and Lisbon neighbourhood views.", "maxOccupancy": 2, "sizeSqm": 32, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/bairro-alto-rm1/400/300"], "highlights": ["Handcrafted Portuguese furniture", "Neighbourhood views", "Premium minibar"]},
-      {"id": "rm-ste", "name": "Palace Suite", "description": "Opulent 18th-century suite with original ceiling frescoes and castle views.", "maxOccupancy": 2, "sizeSqm": 70, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/bairro-alto-rm2/400/300"], "highlights": ["Original ceiling frescoes", "St. George Castle views", "Complimentary chauffeur service"]}
+      {
+        "id": "rm-dlx",
+        "name": "Deluxe Room",
+        "description": "Refined room with hand-selected furniture and Lisbon neighbourhood views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 32,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/bairro-alto-rm1/400/300"
+        ],
+        "highlights": [
+          "Handcrafted Portuguese furniture",
+          "Neighbourhood views",
+          "Premium minibar"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Palace Suite",
+        "description": "Opulent 18th-century suite with original ceiling frescoes and castle views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 70,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/bairro-alto-rm2/400/300"
+        ],
+        "highlights": [
+          "Original ceiling frescoes",
+          "St. George Castle views",
+          "Complimentary chauffeur service"
+        ]
+      }
     ],
-    "location": {"address": "Praça Luís de Camões 2, Lisbon 1200-243", "resort": "Lisbon", "country": "Portugal", "countryCode": "PT", "mapLat": 38.7120, "mapLng": -9.1421, "nearbyAttractions": ["Bairro Alto & Chiado", "São Jorge Castle", "Belém Tower & Pastéis de Belém"], "distanceToCenter": "On the main square of Bairro Alto"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.9, "count": 178, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 4.9}, {"label": "Value", "score": 4.7}, {"label": "Service", "score": 4.9}]},
-    "highlights": ["18th-century palace building", "Rooftop Tagus & castle views", "Curated contemporary art programme"],
-    "policies": ["Free cancellation up to 21 days before arrival", "Children 12+ only", "Pets not permitted"]
+    "location": {
+      "address": "Praça Luís de Camões 2, Lisbon 1200-243",
+      "resort": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "mapLat": 38.712,
+      "mapLng": -9.1421,
+      "nearbyAttractions": [
+        "Bairro Alto & Chiado",
+        "São Jorge Castle",
+        "Belém Tower & Pastéis de Belém"
+      ],
+      "distanceToCenter": "On the main square of Bairro Alto"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.9,
+      "count": 178,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.9
+        },
+        {
+          "label": "Value",
+          "score": 4.7
+        },
+        {
+          "label": "Service",
+          "score": 4.9
+        }
+      ]
+    },
+    "highlights": [
+      "18th-century palace building",
+      "Rooftop Tagus & castle views",
+      "Curated contemporary art programme"
+    ],
+    "policies": [
+      "Free cancellation up to 21 days before arrival",
+      "Children 12+ only",
+      "Pets not permitted"
+    ]
   },
   {
     "id": "hot19",
@@ -569,29 +2609,142 @@
     "starRating": 5,
     "tagline": "Five-star Adriatic elegance beside the Old City walls",
     "description": "The Hotel Excelsior sits on a private peninsula just metres from Dubrovnik's medieval city walls, offering panoramic Adriatic views from every room. Its legendary terrace restaurant, beach club, and spa have made it the address of choice for royalty and celebrities since 1913.",
-    "holidaySlugs": ["dubrovnik-summer", "split-dalmatian-coast"],
+    "holidaySlugs": [
+      "dubrovnik-summer",
+      "split-dalmatian-coast"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-excelsior-dubrovnik/800/500", "alt": "Hotel terrace with Adriatic and Old City views", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-excelsior-dubrovnik-2/800/500", "alt": "Private beach club", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-excelsior-dubrovnik-3/800/500", "alt": "Terrace dining at sunset", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-excelsior-dubrovnik/800/500",
+        "alt": "Hotel terrace with Adriatic and Old City views",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-excelsior-dubrovnik-2/800/500",
+        "alt": "Private beach club",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-excelsior-dubrovnik-3/800/500",
+        "alt": "Terrace dining at sunset",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🏰", "label": "Views of Old City walls", "category": "general"},
-      {"icon": "🏖️", "label": "Private beach club", "category": "general"},
-      {"icon": "🧖", "label": "Spa & outdoor pool", "category": "wellness"},
-      {"icon": "🍷", "label": "Terrace restaurant & wine cave", "category": "dining"},
-      {"icon": "🛥️", "label": "Boat tours & kayaking", "category": "sport"},
-      {"icon": "📶", "label": "High-speed WiFi", "category": "connectivity"}
+      {
+        "icon": "🏰",
+        "label": "Views of Old City walls",
+        "category": "general"
+      },
+      {
+        "icon": "🏖️",
+        "label": "Private beach club",
+        "category": "general"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa & outdoor pool",
+        "category": "wellness"
+      },
+      {
+        "icon": "🍷",
+        "label": "Terrace restaurant & wine cave",
+        "category": "dining"
+      },
+      {
+        "icon": "🛥️",
+        "label": "Boat tours & kayaking",
+        "category": "sport"
+      },
+      {
+        "icon": "📶",
+        "label": "High-speed WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-sea", "name": "Sea View Room", "description": "Elegantly furnished room with private balcony and Adriatic sea views.", "maxOccupancy": 2, "sizeSqm": 35, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-excelsior-rm1/400/300"], "highlights": ["Adriatic sea views", "Private balcony", "Marble bathroom"]},
-      {"id": "rm-ste", "name": "Old City Suite", "description": "Grand suite with panoramic Old City and sea views — the ultimate Dubrovnik experience.", "maxOccupancy": 3, "sizeSqm": 75, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-excelsior-rm2/400/300"], "highlights": ["Old City & sea panorama", "Personal butler", "Terrace restaurant priority"]}
+      {
+        "id": "rm-sea",
+        "name": "Sea View Room",
+        "description": "Elegantly furnished room with private balcony and Adriatic sea views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 35,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-excelsior-rm1/400/300"
+        ],
+        "highlights": [
+          "Adriatic sea views",
+          "Private balcony",
+          "Marble bathroom"
+        ]
+      },
+      {
+        "id": "rm-ste",
+        "name": "Old City Suite",
+        "description": "Grand suite with panoramic Old City and sea views — the ultimate Dubrovnik experience.",
+        "maxOccupancy": 3,
+        "sizeSqm": 75,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-excelsior-rm2/400/300"
+        ],
+        "highlights": [
+          "Old City & sea panorama",
+          "Personal butler",
+          "Terrace restaurant priority"
+        ]
+      }
     ],
-    "location": {"address": "Frana Supila 12, Dubrovnik 20000", "resort": "Dubrovnik", "country": "Croatia", "countryCode": "HR", "mapLat": 42.6444, "mapLng": 18.1111, "nearbyAttractions": ["Dubrovnik Old City", "Lokrum island", "Stradun promenade"], "distanceToBeach": "Private beach on-site", "distanceToCenter": "5-minute walk to Old City gate"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.9, "count": 212, "breakdown": [{"label": "Location", "score": 5.0}, {"label": "Cleanliness", "score": 4.9}, {"label": "Value", "score": 4.6}, {"label": "Service", "score": 4.9}]},
-    "highlights": ["Old City wall views", "Private beach club", "Historic terrace restaurant since 1913"],
-    "policies": ["Free cancellation up to 21 days before arrival", "Children welcome", "Pets not permitted"]
+    "location": {
+      "address": "Frana Supila 12, Dubrovnik 20000",
+      "resort": "Dubrovnik",
+      "country": "Croatia",
+      "countryCode": "HR",
+      "mapLat": 42.6444,
+      "mapLng": 18.1111,
+      "nearbyAttractions": [
+        "Dubrovnik Old City",
+        "Lokrum island",
+        "Stradun promenade"
+      ],
+      "distanceToBeach": "Private beach on-site",
+      "distanceToCenter": "5-minute walk to Old City gate"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.9,
+      "count": 212,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 5.0
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.9
+        },
+        {
+          "label": "Value",
+          "score": 4.6
+        },
+        {
+          "label": "Service",
+          "score": 4.9
+        }
+      ]
+    },
+    "highlights": [
+      "Old City wall views",
+      "Private beach club",
+      "Historic terrace restaurant since 1913"
+    ],
+    "policies": [
+      "Free cancellation up to 21 days before arrival",
+      "Children welcome",
+      "Pets not permitted"
+    ]
   },
   {
     "id": "hot20",
@@ -600,28 +2753,143 @@
     "starRating": 5,
     "tagline": "Boutique art deco splendour on the Algarve's golden cliffs",
     "description": "Perched atop the ochre cliffs of Praia da Rocha, Hotel Bela Vista is the Algarve's most storied luxury hotel. Opened in 1934, its art deco interiors, cliffside pool and award-winning Portuguese restaurant have earned it a loyal following among discerning travellers.",
-    "holidaySlugs": ["algarve-summer-holiday", "tuscany-italian-summer", "amalfi-coast-escape", "malaga-costa-del-sol"],
+    "holidaySlugs": [
+      "algarve-summer-holiday",
+      "tuscany-italian-summer",
+      "amalfi-coast-escape",
+      "malaga-costa-del-sol"
+    ],
     "images": [
-      {"url": "https://picsum.photos/seed/hotel-bela-vista-algarve/800/500", "alt": "Art deco hotel on golden cliffs", "isPrimary": true},
-      {"url": "https://picsum.photos/seed/hotel-bela-vista-algarve-2/800/500", "alt": "Cliffside infinity pool", "isPrimary": false},
-      {"url": "https://picsum.photos/seed/hotel-bela-vista-algarve-3/800/500", "alt": "Art deco lounge", "isPrimary": false}
+      {
+        "url": "https://picsum.photos/seed/hotel-bela-vista-algarve/800/500",
+        "alt": "Art deco hotel on golden cliffs",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-bela-vista-algarve-2/800/500",
+        "alt": "Cliffside infinity pool",
+        "isPrimary": false
+      },
+      {
+        "url": "https://picsum.photos/seed/hotel-bela-vista-algarve-3/800/500",
+        "alt": "Art deco lounge",
+        "isPrimary": false
+      }
     ],
     "amenities": [
-      {"icon": "🌊", "label": "Cliff-top infinity pool", "category": "pool"},
-      {"icon": "🏖️", "label": "Steps to beach", "category": "general"},
-      {"icon": "🎨", "label": "Art deco architecture", "category": "general"},
-      {"icon": "🍷", "label": "Award-winning restaurant", "category": "dining"},
-      {"icon": "🧖", "label": "Spa & treatments", "category": "wellness"},
-      {"icon": "📶", "label": "Free WiFi", "category": "connectivity"}
+      {
+        "icon": "🌊",
+        "label": "Cliff-top infinity pool",
+        "category": "pool"
+      },
+      {
+        "icon": "🏖️",
+        "label": "Steps to beach",
+        "category": "general"
+      },
+      {
+        "icon": "🎨",
+        "label": "Art deco architecture",
+        "category": "general"
+      },
+      {
+        "icon": "🍷",
+        "label": "Award-winning restaurant",
+        "category": "dining"
+      },
+      {
+        "icon": "🧖",
+        "label": "Spa & treatments",
+        "category": "wellness"
+      },
+      {
+        "icon": "📶",
+        "label": "Free WiFi",
+        "category": "connectivity"
+      }
     ],
     "rooms": [
-      {"id": "rm-hist", "name": "Historic Room", "description": "Original art deco room with period furnishings and ocean or garden views.", "maxOccupancy": 2, "sizeSqm": 28, "boardBasis": "bed-and-breakfast", "images": ["https://picsum.photos/seed/hotel-bela-vista-rm1/400/300"], "highlights": ["1934 art deco interiors", "Ocean or garden views", "Luxury Acqua di Parma toiletries"]},
-      {"id": "rm-sea", "name": "Sea View Deluxe Suite", "description": "Expansive suite with wrap-around terraces and full Atlantic panorama.", "maxOccupancy": 3, "sizeSqm": 65, "boardBasis": "half-board", "images": ["https://picsum.photos/seed/hotel-bela-vista-rm2/400/300"], "highlights": ["Full Atlantic panorama", "Two terraces", "In-room champagne on arrival"]}
+      {
+        "id": "rm-hist",
+        "name": "Historic Room",
+        "description": "Original art deco room with period furnishings and ocean or garden views.",
+        "maxOccupancy": 2,
+        "sizeSqm": 28,
+        "boardBasis": "bed-and-breakfast",
+        "images": [
+          "https://picsum.photos/seed/hotel-bela-vista-rm1/400/300"
+        ],
+        "highlights": [
+          "1934 art deco interiors",
+          "Ocean or garden views",
+          "Luxury Acqua di Parma toiletries"
+        ]
+      },
+      {
+        "id": "rm-sea",
+        "name": "Sea View Deluxe Suite",
+        "description": "Expansive suite with wrap-around terraces and full Atlantic panorama.",
+        "maxOccupancy": 3,
+        "sizeSqm": 65,
+        "boardBasis": "half-board",
+        "images": [
+          "https://picsum.photos/seed/hotel-bela-vista-rm2/400/300"
+        ],
+        "highlights": [
+          "Full Atlantic panorama",
+          "Two terraces",
+          "In-room champagne on arrival"
+        ]
+      }
     ],
-    "location": {"address": "Avenida Tomás Cabreira, Praia da Rocha, Portimão 8500", "resort": "Algarve", "country": "Portugal", "countryCode": "PT", "mapLat": 37.1140, "mapLng": -8.5294, "nearbyAttractions": ["Praia da Rocha beach", "Portimão old town", "Algarve golden sea caves"], "distanceToBeach": "Cliff stairway to beach", "distanceToCenter": "10-minute walk to Portimão"},
-    "checkInTime": "15:00", "checkOutTime": "12:00",
-    "rating": {"average": 4.7, "count": 298, "breakdown": [{"label": "Location", "score": 4.9}, {"label": "Cleanliness", "score": 4.8}, {"label": "Value", "score": 4.5}, {"label": "Service", "score": 4.7}]},
-    "highlights": ["1934 art deco landmark", "Cliffside infinity pool with Atlantic views", "Award-winning Portuguese cuisine"],
-    "policies": ["Free cancellation up to 14 days before arrival", "Children welcome", "Pets on request in selected rooms"]
+    "location": {
+      "address": "Avenida Tomás Cabreira, Praia da Rocha, Portimão 8500",
+      "resort": "Algarve",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "mapLat": 37.114,
+      "mapLng": -8.5294,
+      "nearbyAttractions": [
+        "Praia da Rocha beach",
+        "Portimão old town",
+        "Algarve golden sea caves"
+      ],
+      "distanceToBeach": "Cliff stairway to beach",
+      "distanceToCenter": "10-minute walk to Portimão"
+    },
+    "checkInTime": "15:00",
+    "checkOutTime": "12:00",
+    "rating": {
+      "average": 4.7,
+      "count": 298,
+      "breakdown": [
+        {
+          "label": "Location",
+          "score": 4.9
+        },
+        {
+          "label": "Cleanliness",
+          "score": 4.8
+        },
+        {
+          "label": "Value",
+          "score": 4.5
+        },
+        {
+          "label": "Service",
+          "score": 4.7
+        }
+      ]
+    },
+    "highlights": [
+      "1934 art deco landmark",
+      "Cliffside infinity pool with Atlantic views",
+      "Award-winning Portuguese cuisine"
+    ],
+    "policies": [
+      "Free cancellation up to 14 days before arrival",
+      "Children welcome",
+      "Pets on request in selected rooms"
+    ]
   }
 ]

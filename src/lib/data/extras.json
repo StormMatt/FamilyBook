@@ -54,7 +54,7 @@
   {
     "id": "ext5",
     "slug": "room-upgrade",
-    "name": "Room Upgrade Request",
+    "name": "Room Upgrade",
     "description": "Upgrade to the next room category on arrival (subject to availability)",
     "longDescription": "Request a complimentary room upgrade on arrival. Subject to availability at check-in. Where an upgrade is available you will be moved to the next room category at no additional cost. Includes welcome fruit basket.",
     "category": "upgrade",
