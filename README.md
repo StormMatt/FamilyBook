@@ -74,9 +74,54 @@ This project is grounded in peer-reviewed research:
 
 AAC does not inhibit speech development — research consistently shows it **facilitates** it.
 
+## Getting Started
+
+### Prerequisites
+- Node.js 18+
+- Expo CLI (`npx expo`)
+- An Anthropic API key (for AI onboarding) — or use Demo Mode
+
+### Install & Run
+```bash
+npm install
+npx expo start
+```
+
+Scan the QR code with Expo Go on your phone, or press `w` for web.
+
+### Demo Mode
+Don't have an API key? Tap **"Try Demo Mode"** on the welcome screen to see pre-generated boards for a sample child.
+
+## Project Structure
+
+```
+app/                    # Expo Router screens
+├── (tabs)/             # Tab navigation (Boards, Parent dashboard)
+├── onboarding/         # Conversational onboarding chat
+└── index.tsx           # Welcome / API key entry
+
+src/
+├── types/              # TypeScript types (data model)
+├── constants/          # Core vocabulary, colors, theme
+├── lib/
+│   ├── ai/             # Claude API client + onboarding prompts
+│   ├── db/             # SQLite database (offline-first)
+│   ├── tts/            # Text-to-speech
+│   └── board-gen/      # Board generation engine
+├── store/              # Zustand global state
+└── components/
+    ├── board/          # AAC board display (WordButton, CoreStrip, BoardGrid)
+    ├── chat/           # Chat UI (ChatBubble, ChatInput, OnboardingProgress)
+    └── timeline/       # Visual day timeline
+
+docs/                   # Research & design documents
+```
+
 ## Status
 
-This project is in the research and design phase. See the documentation linked above for the full vision, architecture, and implementation plan.
+MVP implementation in progress. Current state:
+- **Working**: Conversational onboarding, board generation, AAC board display with TTS, visual day timeline, offline SQLite storage, demo mode
+- **Next**: Photo support, GPS context switching, SLP export, multi-language
 
 ## License
 
