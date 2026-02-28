@@ -1,0 +1,5073 @@
+[
+  {
+    "id": "h1",
+    "slug": "val-thorens-ski-week",
+    "name": "Val Thorens Ski Week",
+    "type": "ski",
+    "tagline": "Europe's highest ski resort with 600km of slopes",
+    "description": "Val Thorens sits at 2300m, making it Europe's highest resort and guaranteeing excellent snow conditions throughout the season. Part of the vast Three Valleys ski area, you'll have access to 600km of interconnected pistes spanning three world-class resorts. Perfect for all abilities from beginner to expert.",
+    "destination": {
+      "resort": "Val Thorens",
+      "country": "France",
+      "region": "French Alps",
+      "countryCode": "FR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/val-thorens/800/500",
+        "alt": "Val Thorens snowy slopes",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/val-thorens-2/800/500",
+        "alt": "Val Thorens resort village",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "vtr1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "vtr2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 180
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 200
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 160
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 999,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 999
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 749
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 1243
+    },
+    "reviews": [
+      {
+        "author": "Sarah M.",
+        "date": "2025-02-10",
+        "rating": 5,
+        "title": "Absolutely incredible ski trip!",
+        "body": "Val Thorens exceeded all expectations. The slopes were perfectly groomed and the views were breathtaking. Will definitely be back next season."
+      },
+      {
+        "author": "James T.",
+        "date": "2025-01-28",
+        "rating": 4,
+        "title": "Great resort, good value",
+        "body": "Excellent ski area with fantastic apres-ski. Hotel was clean and comfortable. Transfer from Geneva was smooth."
+      }
+    ],
+    "tags": [
+      "powder-snow",
+      "apres-ski",
+      "three-valleys",
+      "family-friendly"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "600km of interconnected pistes",
+      "Guaranteed snow at 2300m altitude",
+      "Vibrant apres-ski scene",
+      "Suits all abilities"
+    ]
+  },
+  {
+    "id": "h2",
+    "slug": "verbier-ski-escape",
+    "name": "Verbier Ski Escape",
+    "type": "ski",
+    "tagline": "World-class off-piste and iconic Swiss resort",
+    "description": "Verbier is one of the world's most famous ski resorts, renowned for its challenging terrain, vibrant nightlife and stunning Swiss mountain scenery. Part of the 4 Vallees ski area with 410km of pistes, it attracts expert skiers from around the globe.",
+    "destination": {
+      "resort": "Verbier",
+      "country": "Switzerland",
+      "region": "Swiss Alps",
+      "countryCode": "CH"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/verbier/800/500",
+        "alt": "Verbier ski terrain",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/verbier-2/800/500",
+        "alt": "Verbier village at night",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "vbr1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "vbr2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 200
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 220
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 180
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 1299,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 1299
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 949
+        }
+      ],
+      "deposit": 200,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 987
+    },
+    "reviews": [
+      {
+        "author": "Emma R.",
+        "date": "2025-02-15",
+        "rating": 5,
+        "title": "Best ski holiday ever",
+        "body": "Verbier is simply spectacular. The off-piste was phenomenal after the snowfall and the resort has a fantastic buzz."
+      },
+      {
+        "author": "David L.",
+        "date": "2025-01-20",
+        "rating": 5,
+        "title": "Worth every penny",
+        "body": "Yes it is expensive but the quality matches the price. Impeccable service, incredible terrain."
+      }
+    ],
+    "tags": [
+      "off-piste",
+      "expert-skiing",
+      "luxury",
+      "nightlife"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "410km of pistes in 4 Vallees area",
+      "World-famous off-piste routes",
+      "Lively international crowd",
+      "Stunning Swiss mountain scenery"
+    ]
+  },
+  {
+    "id": "h3",
+    "slug": "courchevel-ski-luxury",
+    "name": "Courchevel 1850 Luxury Ski",
+    "type": "ski",
+    "tagline": "The pinnacle of Alpine luxury ski holidays",
+    "description": "Courchevel 1850 is synonymous with luxury and exclusivity. At the heart of the Three Valleys, the world's largest ski area, this glamorous resort offers exceptional skiing combined with world-class dining, spas and boutiques.",
+    "destination": {
+      "resort": "Courchevel 1850",
+      "country": "France",
+      "region": "French Alps",
+      "countryCode": "FR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/courchevel/800/500",
+        "alt": "Courchevel luxury resort",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/courchevel-2/800/500",
+        "alt": "Courchevel slopes",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "cor1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "cor2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 190
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 210
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 170
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 1499,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 1499
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 1099
+        }
+      ],
+      "deposit": 200,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 654
+    },
+    "reviews": [
+      {
+        "author": "Charlotte B.",
+        "date": "2025-02-20",
+        "rating": 5,
+        "title": "Pure luxury on the slopes",
+        "body": "Courchevel 1850 is a different level of ski holiday. Everything from the service to the food was impeccable."
+      },
+      {
+        "author": "Michael W.",
+        "date": "2025-01-15",
+        "rating": 5,
+        "title": "Stunning in every way",
+        "body": "We celebrated our anniversary here and it was perfect. The resort is beautiful, the skiing superb."
+      }
+    ],
+    "tags": [
+      "luxury",
+      "three-valleys",
+      "gourmet-dining",
+      "exclusive"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": true,
+    "specialOfferLabel": "Early Bird 15% Off",
+    "originalFromPrice": 1769,
+    "highlights": [
+      "Heart of the Three Valleys ski area",
+      "Michelin-star restaurants on the slopes",
+      "Exclusive boutiques and spas",
+      "Helicopter transfers available"
+    ]
+  },
+  {
+    "id": "h4",
+    "slug": "meribel-ski-week",
+    "name": "Meribel Family Ski Week",
+    "type": "ski",
+    "tagline": "The perfect family resort in the heart of the Three Valleys",
+    "description": "Meribel is consistently voted one of the best family ski resorts in France. Centrally located in the Three Valleys, it offers superb skiing for all abilities with excellent ski schools, family-friendly accommodation and a charming chalet-style village.",
+    "destination": {
+      "resort": "Meribel",
+      "country": "France",
+      "region": "French Alps",
+      "countryCode": "FR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/meribel/800/500",
+        "alt": "Meribel ski village",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/meribel-2/800/500",
+        "alt": "Meribel slopes",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "mbr1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "mbr2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 175
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 195
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 155
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski school",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 1099,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 1099
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 799
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 1876
+    },
+    "reviews": [
+      {
+        "author": "The Johnson Family",
+        "date": "2025-02-05",
+        "rating": 5,
+        "title": "Perfect for families",
+        "body": "We went with kids aged 8 and 11 and it was brilliant. Great ski school, lovely resort and the slopes suit all levels."
+      },
+      {
+        "author": "Rachel S.",
+        "date": "2025-01-18",
+        "rating": 4,
+        "title": "Lovely resort, great skiing",
+        "body": "Meribel has such a warm atmosphere. The chalet-style architecture is beautiful and the skiing is excellent."
+      }
+    ],
+    "tags": [
+      "family-friendly",
+      "three-valleys",
+      "ski-school",
+      "charming-village"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Ideal for families with all ski abilities",
+      "Central Three Valleys location",
+      "Award-winning ski school",
+      "Traditional chalet-style resort"
+    ]
+  },
+  {
+    "id": "h5",
+    "slug": "chamonix-adventure",
+    "name": "Chamonix Mountain Adventure",
+    "type": "ski",
+    "tagline": "The birthplace of alpinism under the shadow of Mont Blanc",
+    "description": "Chamonix is the most iconic name in skiing. Nestled beneath the towering peak of Mont Blanc, the highest mountain in the Alps, this legendary resort offers challenging terrain, rich history and breathtaking scenery that has inspired adventurers for centuries.",
+    "destination": {
+      "resort": "Chamonix",
+      "country": "France",
+      "region": "French Alps",
+      "countryCode": "FR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/chamonix/800/500",
+        "alt": "Chamonix and Mont Blanc",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/chamonix-2/800/500",
+        "alt": "Chamonix town",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "chr1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "chr2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 165
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 185
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 145
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 899,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 899
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 649
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 2104
+    },
+    "reviews": [
+      {
+        "author": "Tom H.",
+        "date": "2025-02-08",
+        "rating": 5,
+        "title": "Epic skiing and scenery",
+        "body": "The Vallee Blanche off-piste was a once-in-a-lifetime experience. Chamonix has a magic that no other resort can match."
+      },
+      {
+        "author": "Lisa K.",
+        "date": "2025-01-25",
+        "rating": 4,
+        "title": "Great for advanced skiers",
+        "body": "The terrain is challenging but the reward is extraordinary views and exhilarating runs. Not for beginners though."
+      }
+    ],
+    "tags": [
+      "advanced-skiing",
+      "off-piste",
+      "alpine-history",
+      "Mont-Blanc"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Skiing under the shadow of Mont Blanc",
+      "Famous Vallee Blanche glacier run",
+      "Rich alpine history and culture",
+      "Great for intermediate to expert skiers"
+    ]
+  },
+  {
+    "id": "h6",
+    "slug": "mayrhofen-ski-week",
+    "name": "Mayrhofen Ski Week",
+    "type": "ski",
+    "tagline": "Austrian charm meets world-class skiing in the Tyrol",
+    "description": "Mayrhofen is one of Austria's most popular ski resorts, combining a charming traditional Tyrolean village atmosphere with superb skiing across two mountains — the Penken and Ahorn. Famous for its lively apres-ski, great value and friendly locals.",
+    "destination": {
+      "resort": "Mayrhofen",
+      "country": "Austria",
+      "region": "Tyrolean Alps",
+      "countryCode": "AT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/mayrhofen/800/500",
+        "alt": "Mayrhofen ski resort",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/mayrhofen-2/800/500",
+        "alt": "Mayrhofen village",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "mar1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "mar2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 160
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 180
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 140
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 849,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 849
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 629
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 3241
+    },
+    "reviews": [
+      {
+        "author": "Andy P.",
+        "date": "2025-02-12",
+        "rating": 5,
+        "title": "Brilliant Austrian skiing",
+        "body": "Mayrhofen is perfect — great skiing, lively bars and the Tyrolean hospitality is second to none."
+      },
+      {
+        "author": "Karen M.",
+        "date": "2025-01-30",
+        "rating": 4,
+        "title": "Fun resort for groups",
+        "body": "Went with a group of friends and had an absolute blast. The apres-ski is legendary."
+      }
+    ],
+    "tags": [
+      "apres-ski",
+      "tyrolean",
+      "value",
+      "lively"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Two mountains — Penken and Ahorn",
+      "Famous for lively apres-ski",
+      "Traditional Tyrolean village atmosphere",
+      "Great value for money"
+    ]
+  },
+  {
+    "id": "h7",
+    "slug": "st-anton-ski-holiday",
+    "name": "St. Anton am Arlberg",
+    "type": "ski",
+    "tagline": "The cradle of alpine skiing in Austria",
+    "description": "St. Anton am Arlberg is where modern ski technique was born. This legendary resort in the Arlberg region offers some of the most challenging and rewarding off-piste skiing in Austria, combined with a famously lively party atmosphere.",
+    "destination": {
+      "resort": "St. Anton",
+      "country": "Austria",
+      "region": "Tyrolean Alps",
+      "countryCode": "AT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/st-anton/800/500",
+        "alt": "St. Anton slopes",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/st-anton-2/800/500",
+        "alt": "St. Anton village",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "sar1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "sar2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 170
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 190
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 150
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 1199,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 1199
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 899
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 1456
+    },
+    "reviews": [
+      {
+        "author": "Mark D.",
+        "date": "2025-02-03",
+        "rating": 5,
+        "title": "Skiing paradise",
+        "body": "The Arlberg pass gives access to a huge ski area. The off-piste here is legendary and the snow quality was excellent."
+      },
+      {
+        "author": "Sophie J.",
+        "date": "2025-01-22",
+        "rating": 4,
+        "title": "Amazing for experts",
+        "body": "Not the easiest resort for beginners but if you can ski well this is incredible. The Mooserwirt apres-ski is an experience."
+      }
+    ],
+    "tags": [
+      "off-piste",
+      "arlberg",
+      "expert-skiing",
+      "apres-ski"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Birthplace of modern alpine skiing",
+      "Access to vast Arlberg ski area",
+      "World-famous off-piste terrain",
+      "Legendary party atmosphere"
+    ]
+  },
+  {
+    "id": "h8",
+    "slug": "cortina-dolomites-ski",
+    "name": "Cortina d'Ampezzo Ski Week",
+    "type": "ski",
+    "tagline": "Glamour and spectacular scenery in the Italian Dolomites",
+    "description": "Cortina d'Ampezzo, the \"Queen of the Dolomites\", is Italy's most glamorous ski resort. Surrounded by the UNESCO World Heritage Dolomite peaks, it combines superb skiing with Italian style, excellent cuisine and a sophisticated atmosphere.",
+    "destination": {
+      "resort": "Cortina d'Ampezzo",
+      "country": "Italy",
+      "region": "Dolomites",
+      "countryCode": "IT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/cortina/800/500",
+        "alt": "Cortina Dolomites scenery",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/cortina-2/800/500",
+        "alt": "Cortina town centre",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "ctr1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "ctr2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 185
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 205
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 165
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 1099,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 1099
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 799
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 876
+    },
+    "reviews": [
+      {
+        "author": "Isabella F.",
+        "date": "2025-02-16",
+        "rating": 5,
+        "title": "Stunning beyond words",
+        "body": "The Dolomites scenery is unlike anything else in the Alps. Cortina is glamorous, the food is incredible and the skiing is superb."
+      },
+      {
+        "author": "Robert C.",
+        "date": "2025-01-12",
+        "rating": 4,
+        "title": "Italian ski at its finest",
+        "body": "Beautiful resort with a wonderful Italian character. The après-ski involves espresso and aperitivi rather than beer — we loved it."
+      }
+    ],
+    "tags": [
+      "dolomites",
+      "glamour",
+      "italian-style",
+      "UNESCO"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "UNESCO World Heritage Dolomite scenery",
+      "Italian cuisine and glamour on the slopes",
+      "Hosted 1956 Winter Olympics",
+      "Suitable for intermediate and advanced skiers"
+    ]
+  },
+  {
+    "id": "h9",
+    "slug": "grandvalira-andorra-ski",
+    "name": "Grandvalira Andorra Ski",
+    "type": "ski",
+    "tagline": "Europe's largest ski area in duty-free Andorra",
+    "description": "Grandvalira is the largest ski area in the Pyrenees and in southern Europe, with 210km of slopes across six interconnected sectors. The bonus of duty-free shopping in Andorra makes it a favourite for value-conscious skiers.",
+    "destination": {
+      "resort": "Grandvalira",
+      "country": "Andorra",
+      "region": "Pyrenees",
+      "countryCode": "AD"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/grandvalira/800/500",
+        "alt": "Grandvalira Andorra slopes",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/grandvalira-2/800/500",
+        "alt": "Grandvalira resort",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "gvr1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "gvr2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 130,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 150
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 145,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 170
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 155,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 140
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 799,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 799
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 599
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 2187
+    },
+    "reviews": [
+      {
+        "author": "Phil N.",
+        "date": "2025-02-01",
+        "rating": 4,
+        "title": "Great value and good skiing",
+        "body": "Andorra is fantastic value. The duty-free is a bonus and the ski area is much bigger than I expected."
+      },
+      {
+        "author": "Fiona B.",
+        "date": "2025-01-14",
+        "rating": 4,
+        "title": "Excellent for the price",
+        "body": "You really cannot beat Grandvalira for value. Great slopes across multiple sectors and cheaper than the French resorts."
+      }
+    ],
+    "tags": [
+      "value",
+      "duty-free",
+      "pyrenees",
+      "large-ski-area"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": true,
+    "specialOfferLabel": "Save £100",
+    "originalFromPrice": 899,
+    "highlights": [
+      "210km of pistes across 6 sectors",
+      "Duty-free shopping in Andorra",
+      "Best value ski destination in Europe",
+      "Suits all abilities"
+    ]
+  },
+  {
+    "id": "h10",
+    "slug": "flaine-ski-week",
+    "name": "Flaine Ski Week",
+    "type": "ski",
+    "tagline": "Compact purpose-built resort with direct slope access",
+    "description": "Flaine is a purpose-built resort in the Grand Massif ski area with 265km of slopes. Its compact, ski-in ski-out layout makes it incredibly convenient, while its high altitude above 1600m guarantees reliable snow. A hidden gem in the French Alps.",
+    "destination": {
+      "resort": "Flaine",
+      "country": "France",
+      "region": "French Alps",
+      "countryCode": "FR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/flaine/800/500",
+        "alt": "Flaine ski resort",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/flaine-2/800/500",
+        "alt": "Flaine slopes",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "flr1",
+        "name": "Standard Room",
+        "description": "Comfortable room with mountain views and daily breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 90,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "En-suite"
+        ]
+      },
+      {
+        "id": "flr2",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate lounge and stunning alpine panorama.",
+        "maxOccupancy": 4,
+        "pricePerPersonPerNight": 130,
+        "boardBasis": "half-board",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Kitchenette",
+          "Balcony",
+          "Mountain view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 155
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 135,
+        "availableDates": [
+          "2025-12-20",
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24"
+        ],
+        "priceAdultReturn": 175
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 150,
+        "availableDates": [
+          "2025-12-27",
+          "2026-01-10",
+          "2026-01-24",
+          "2026-02-07"
+        ],
+        "priceAdultReturn": 135
+      }
+    ],
+    "included": [
+      {
+        "icon": "🎿",
+        "label": "Lift Pass",
+        "detail": "Full-week ski lift pass included"
+      },
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      }
+    ],
+    "notIncluded": [
+      "Ski hire and equipment",
+      "Travel insurance"
+    ],
+    "pricing": {
+      "fromPrice": 849,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 849
+        },
+        {
+          "label": "Child (4-15)",
+          "basePrice": 629
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 1654
+    },
+    "reviews": [
+      {
+        "author": "Nick S.",
+        "date": "2025-02-07",
+        "rating": 4,
+        "title": "Underrated resort",
+        "body": "Flaine does not get enough credit. Ski-in ski-out, great snow record and access to a huge ski area. Brilliant."
+      },
+      {
+        "author": "Anne P.",
+        "date": "2025-01-19",
+        "rating": 4,
+        "title": "Great family resort",
+        "body": "Very easy to get around as everything is on the slopes. Kids loved it and the lift queues were minimal."
+      }
+    ],
+    "tags": [
+      "ski-in-ski-out",
+      "family-friendly",
+      "grand-massif",
+      "high-altitude"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Ski-in ski-out convenience throughout",
+      "Access to 265km Grand Massif ski area",
+      "High altitude snow guarantee above 1600m",
+      "Compact and easy to navigate"
+    ]
+  },
+  {
+    "id": "h11",
+    "slug": "tenerife-sun-escape",
+    "name": "Tenerife Sun Escape",
+    "type": "beach",
+    "tagline": "Year-round sunshine on Spain's most popular island",
+    "description": "Tenerife is the largest of the Canary Islands and enjoys sunshine virtually year-round, making it the perfect escape whatever the season. With volcanic black sand beaches in the north and golden sands in the south, plus the iconic Mount Teide, there's something for everyone.",
+    "destination": {
+      "resort": "Tenerife",
+      "country": "Spain",
+      "region": "Canary Islands",
+      "countryCode": "ES"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/tenerife/800/500",
+        "alt": "Tenerife beach",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/tenerife-2/800/500",
+        "alt": "Tenerife resort",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "tnr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "tnr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 225,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 160
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 245,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 180
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 255,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 150
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Optional excursions"
+    ],
+    "pricing": {
+      "fromPrice": 599,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 599
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 399
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 4532
+    },
+    "reviews": [
+      {
+        "author": "Michelle T.",
+        "date": "2025-07-14",
+        "rating": 5,
+        "title": "Perfect summer holiday",
+        "body": "Tenerife never disappoints. The weather was gorgeous, hotel was brilliant and the food was fantastic."
+      },
+      {
+        "author": "Paul G.",
+        "date": "2025-06-20",
+        "rating": 4,
+        "title": "Great value beach holiday",
+        "body": "Everything we needed for a relaxing week in the sun. Pool was lovely, beach was nearby."
+      }
+    ],
+    "tags": [
+      "sunshine",
+      "canary-islands",
+      "year-round",
+      "family-friendly"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Sunshine virtually 365 days a year",
+      "Beautiful beaches and volcanic scenery",
+      "Iconic Mount Teide National Park",
+      "Excellent family facilities"
+    ]
+  },
+  {
+    "id": "h12",
+    "slug": "lanzarote-beach-break",
+    "name": "Lanzarote Beach Break",
+    "type": "beach",
+    "tagline": "Dramatic volcanic landscapes meet golden beaches",
+    "description": "Lanzarote is unlike any other Canary Island, with its dramatic volcanic landscape, lunar scenery of Timanfaya National Park and stunning golden beaches. César Manrique's architectural legacy has shaped the island into a place of extraordinary beauty.",
+    "destination": {
+      "resort": "Lanzarote",
+      "country": "Spain",
+      "region": "Canary Islands",
+      "countryCode": "ES"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/lanzarote/800/500",
+        "alt": "Lanzarote volcanic beach",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/lanzarote-2/800/500",
+        "alt": "Lanzarote resort pool",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "lzr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "lzr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 220,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 155
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 240,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 175
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 250,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 145
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Optional excursions"
+    ],
+    "pricing": {
+      "fromPrice": 599,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 599
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 399
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 3218
+    },
+    "reviews": [
+      {
+        "author": "Janet B.",
+        "date": "2025-07-22",
+        "rating": 5,
+        "title": "Hidden gem of the Canaries",
+        "body": "Lanzarote is so much more beautiful than the other islands. The volcanic scenery is incredible and the beaches are stunning."
+      },
+      {
+        "author": "Steve R.",
+        "date": "2025-06-28",
+        "rating": 4,
+        "title": "Relaxing and beautiful",
+        "body": "Fantastic resort, great pool and the island itself has so much character. The Timanfaya tour was brilliant."
+      }
+    ],
+    "tags": [
+      "volcanic-scenery",
+      "canary-islands",
+      "UNESCO",
+      "beach"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": true,
+    "specialOfferLabel": "Flash Sale 20% Off",
+    "originalFromPrice": 749,
+    "highlights": [
+      "Dramatic Timanfaya volcanic National Park",
+      "Stunning golden and black sand beaches",
+      "UNESCO Biosphere Reserve status",
+      "César Manrique architectural legacy"
+    ]
+  },
+  {
+    "id": "h13",
+    "slug": "mallorca-beach-holiday",
+    "name": "Mallorca Beach Holiday",
+    "type": "beach",
+    "tagline": "The jewel of the Mediterranean with stunning coves",
+    "description": "Mallorca is the Mediterranean's most visited island and for good reason. Crystal-clear turquoise coves, historic Palma, the dramatic Serra de Tramuntana mountains and a thriving food scene make it one of Europe's most complete holiday destinations.",
+    "destination": {
+      "resort": "Mallorca",
+      "country": "Spain",
+      "region": "Balearic Islands",
+      "countryCode": "ES"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/mallorca/800/500",
+        "alt": "Mallorca cove beach",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/mallorca-2/800/500",
+        "alt": "Mallorca resort",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "mcr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "mcr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 200,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 170
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 220,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 190
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 230,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 160
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Car hire"
+    ],
+    "pricing": {
+      "fromPrice": 699,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 699
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 449
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 5123
+    },
+    "reviews": [
+      {
+        "author": "Laura M.",
+        "date": "2025-08-05",
+        "rating": 5,
+        "title": "Stunning island paradise",
+        "body": "Mallorca is simply beautiful. We hired a car and explored the whole island — the north coast coves are breathtaking."
+      },
+      {
+        "author": "Peter H.",
+        "date": "2025-07-15",
+        "rating": 4,
+        "title": "Great all-rounder",
+        "body": "Perfect mix of beach, culture and food. Palma is a wonderful city and the beaches are excellent."
+      }
+    ],
+    "tags": [
+      "mediterranean",
+      "beach",
+      "culture",
+      "coves"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Crystal-clear turquoise coves and bays",
+      "Historic Palma city and cathedral",
+      "Serra de Tramuntana UNESCO mountain range",
+      "World-class Mediterranean cuisine"
+    ]
+  },
+  {
+    "id": "h14",
+    "slug": "mykonos-island-escape",
+    "name": "Mykonos Island Escape",
+    "type": "beach",
+    "tagline": "The glamorous party island of the Aegean",
+    "description": "Mykonos is Greece's most glamorous island, famous for its beautiful windmills, whitewashed Cycladic architecture, pristine beaches and electric nightlife. A playground for the international jet-set, yet still authentically Greek at its heart.",
+    "destination": {
+      "resort": "Mykonos",
+      "country": "Greece",
+      "region": "Cyclades Islands",
+      "countryCode": "GR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/mykonos/800/500",
+        "alt": "Mykonos windmills and harbour",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/mykonos-2/800/500",
+        "alt": "Mykonos white buildings",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "myr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "myr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 265,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 200
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 285,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 220
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 295,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 190
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Nightlife and clubs"
+    ],
+    "pricing": {
+      "fromPrice": 999,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 999
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 699
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 2876
+    },
+    "reviews": [
+      {
+        "author": "Chloe W.",
+        "date": "2025-07-25",
+        "rating": 5,
+        "title": "Incredible Greek island",
+        "body": "Mykonos is everything it promises. Beautiful beaches, incredible sunsets over the windmills and the nightlife was sensational."
+      },
+      {
+        "author": "Alex K.",
+        "date": "2025-08-10",
+        "rating": 4,
+        "title": "Stylish and fun",
+        "body": "Great island for a group holiday. Super Paradise Beach is amazing and the town is beautiful to explore."
+      }
+    ],
+    "tags": [
+      "glamour",
+      "nightlife",
+      "greek-islands",
+      "beaches"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Iconic whitewashed Cycladic architecture",
+      "Beautiful beaches including Paradise Beach",
+      "World-famous nightlife and beach clubs",
+      "Charming Little Venice waterfront area"
+    ]
+  },
+  {
+    "id": "h15",
+    "slug": "santorini-dream",
+    "name": "Santorini Dream Holiday",
+    "type": "beach",
+    "tagline": "The world's most romantic island with iconic caldera views",
+    "description": "Santorini is arguably the most beautiful island in the world. The iconic blue-domed churches, caldera cliffs plunging into the Aegean, famous sunsets over Oia and black sand beaches combine to create an impossibly romantic destination.",
+    "destination": {
+      "resort": "Santorini",
+      "country": "Greece",
+      "region": "Cyclades Islands",
+      "countryCode": "GR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/santorini/800/500",
+        "alt": "Santorini blue domes and caldera",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/santorini-2/800/500",
+        "alt": "Santorini sunset Oia",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "snr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "snr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 270,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 210
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 290,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 230
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 300,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 200
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Wine tasting tours"
+    ],
+    "pricing": {
+      "fromPrice": 1199,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 1199
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 849
+        }
+      ],
+      "deposit": 200,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 1987
+    },
+    "reviews": [
+      {
+        "author": "Amelia R.",
+        "date": "2025-07-30",
+        "rating": 5,
+        "title": "Most beautiful place I have ever seen",
+        "body": "Santorini lived up to every expectation. The sunset from Oia is truly magical and the caldera views from our hotel were extraordinary."
+      },
+      {
+        "author": "Tom & Lucy",
+        "date": "2025-08-15",
+        "rating": 5,
+        "title": "Perfect honeymoon destination",
+        "body": "We went for our honeymoon and it was incredible. Everything about Santorini feels special and romantic."
+      }
+    ],
+    "tags": [
+      "romantic",
+      "sunset",
+      "caldera",
+      "couples"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": true,
+    "specialOfferLabel": "Last Minute Deal",
+    "originalFromPrice": 1399,
+    "highlights": [
+      "Iconic caldera views from clifftop hotels",
+      "World-famous Oia sunset experience",
+      "Unique black and red volcanic beaches",
+      "Excellent local wine and cuisine"
+    ]
+  },
+  {
+    "id": "h16",
+    "slug": "bodrum-turkish-riviera",
+    "name": "Bodrum Turkish Riviera",
+    "type": "beach",
+    "tagline": "Aegean charm meets Turkish hospitality",
+    "description": "Bodrum sits on a peninsula on Turkey's stunning Aegean coast, with clear turquoise waters, a vibrant marina, ancient castle and lively bazaars. The nearby Bodrum Peninsula has some of the finest beaches and most exclusive resorts on the Turkish Riviera.",
+    "destination": {
+      "resort": "Bodrum",
+      "country": "Turkey",
+      "region": "Aegean Coast",
+      "countryCode": "TR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/bodrum/800/500",
+        "alt": "Bodrum harbour and castle",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/bodrum-2/800/500",
+        "alt": "Bodrum beach",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "bdr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "bdr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 270,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 185
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 290,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 205
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 300,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 175
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Excursions"
+    ],
+    "pricing": {
+      "fromPrice": 749,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 749
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 499
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 2341
+    },
+    "reviews": [
+      {
+        "author": "Diana C.",
+        "date": "2025-07-18",
+        "rating": 5,
+        "title": "Turkish hospitality is incredible",
+        "body": "Bodrum is beautiful and the all-inclusive resort was fantastic value. Turkish food is sensational and the service was impeccable."
+      },
+      {
+        "author": "John F.",
+        "date": "2025-06-25",
+        "rating": 4,
+        "title": "Great value for money",
+        "body": "Hard to beat for the price. Beautiful sea, excellent hotel and the gulet boat trip was a highlight."
+      }
+    ],
+    "tags": [
+      "turkish-riviera",
+      "all-inclusive",
+      "aegean",
+      "value"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Turquoise Aegean waters and beaches",
+      "Ancient castle of St. Peter in the harbour",
+      "Traditional gulet boat trip experiences",
+      "Excellent value all-inclusive options"
+    ]
+  },
+  {
+    "id": "h17",
+    "slug": "fuerteventura-beach",
+    "name": "Fuerteventura Beach Week",
+    "type": "beach",
+    "tagline": "Wind, waves and endless golden beaches",
+    "description": "Fuerteventura is the second largest of the Canary Islands and boasts the finest beaches in the entire archipelago. With over 150km of golden sand beaches, constant trade winds perfect for water sports and a laid-back atmosphere, it is a paradise for beach lovers.",
+    "destination": {
+      "resort": "Fuerteventura",
+      "country": "Spain",
+      "region": "Canary Islands",
+      "countryCode": "ES"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/fuerteventura/800/500",
+        "alt": "Fuerteventura dunes and beach",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/fuerteventura-2/800/500",
+        "alt": "Fuerteventura resort",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "fvr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "fvr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 225,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 150
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 245,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 170
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 255,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 140
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Water sports"
+    ],
+    "pricing": {
+      "fromPrice": 549,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 549
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 349
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 3456
+    },
+    "reviews": [
+      {
+        "author": "Gary T.",
+        "date": "2025-07-05",
+        "rating": 4,
+        "title": "Best beaches in the Canaries",
+        "body": "The beaches at Corralejo are absolutely stunning — miles of white sand dunes. Perfect for windsurfing too."
+      },
+      {
+        "author": "Sandra L.",
+        "date": "2025-08-12",
+        "rating": 4,
+        "title": "Relaxing beach holiday",
+        "body": "Exactly what we needed. Great weather, beautiful beaches and the resort was clean and well-run."
+      }
+    ],
+    "tags": [
+      "beaches",
+      "water-sports",
+      "canary-islands",
+      "windsurfing"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "150km of pristine golden beaches",
+      "Corralejo Natural Park sand dunes",
+      "World-class windsurfing and kite-surfing",
+      "Consistent sunshine and warm trade winds"
+    ]
+  },
+  {
+    "id": "h18",
+    "slug": "crete-family-holiday",
+    "name": "Crete Family Holiday",
+    "type": "beach",
+    "tagline": "Greece's largest island with something for everyone",
+    "description": "Crete is Greece's largest and most diverse island. From the turquoise waters of Elafonisi beach to the dramatic Samaria Gorge, ancient Minoan palaces and the vibrant capital Heraklion, Crete offers an unparalleled combination of beach, culture and nature.",
+    "destination": {
+      "resort": "Crete",
+      "country": "Greece",
+      "region": "Aegean Islands",
+      "countryCode": "GR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/crete/800/500",
+        "alt": "Crete beach and clear water",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/crete-2/800/500",
+        "alt": "Crete village",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "crr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "crr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 260,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 195
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 280,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 215
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 290,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 185
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Guided excursions"
+    ],
+    "pricing": {
+      "fromPrice": 799,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 799
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 549
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 2987
+    },
+    "reviews": [
+      {
+        "author": "The Williams Family",
+        "date": "2025-07-28",
+        "rating": 5,
+        "title": "Brilliant family destination",
+        "body": "Crete is perfect for families. The kids loved the beaches and waterparks while we enjoyed the culture and food."
+      },
+      {
+        "author": "Helen K.",
+        "date": "2025-08-08",
+        "rating": 4,
+        "title": "Diverse and beautiful island",
+        "body": "So much more to Crete than just beaches. The food is exceptional and the history is fascinating."
+      }
+    ],
+    "tags": [
+      "family-friendly",
+      "greek-islands",
+      "culture",
+      "beaches"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Stunning pink sands of Elafonisi beach",
+      "Ancient Minoan Palace of Knossos",
+      "Dramatic Samaria Gorge hike",
+      "Exceptional Cretan food and hospitality"
+    ]
+  },
+  {
+    "id": "h19",
+    "slug": "barcelona-city-break",
+    "name": "Barcelona City Break",
+    "type": "city",
+    "tagline": "Gaudí, tapas and sun in the Catalan capital",
+    "description": "Barcelona is one of Europe's most exciting cities, combining world-class architecture, vibrant food culture, beautiful beaches and electric nightlife. From the surreal genius of Gaudí's Sagrada Familia to the buzzing La Boqueria market, every corner holds a discovery.",
+    "destination": {
+      "resort": "Barcelona",
+      "country": "Spain",
+      "region": "Catalonia",
+      "countryCode": "ES"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/barcelona/800/500",
+        "alt": "Barcelona Sagrada Familia",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/barcelona-2/800/500",
+        "alt": "Barcelona waterfront",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 3,
+    "rooms": [
+      {
+        "id": "bar1",
+        "name": "Standard Double",
+        "description": "Central hotel double room, ideal for exploring the city.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 60,
+        "boardBasis": "room-only",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City centre location"
+        ]
+      },
+      {
+        "id": "bar2",
+        "name": "Superior Double",
+        "description": "Upgraded room with breakfast and city views.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 80,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City view",
+          "Minibar"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 155,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 130
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 170,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 145
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 180,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 120
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "3 nights in city centre hotel"
+      },
+      {
+        "icon": "🗺️",
+        "label": "City Map & Guide",
+        "detail": "Our expert city guide included"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Entrance fees",
+      "Restaurant meals"
+    ],
+    "pricing": {
+      "fromPrice": 449,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 449
+        }
+      ],
+      "deposit": 75,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 6543
+    },
+    "reviews": [
+      {
+        "author": "Nina P.",
+        "date": "2025-04-12",
+        "rating": 5,
+        "title": "Perfect city break",
+        "body": "Barcelona is simply magnificent. The architecture, the food, the people — everything is wonderful. Already planning my return."
+      },
+      {
+        "author": "Chris M.",
+        "date": "2025-05-08",
+        "rating": 5,
+        "title": "Vibrant and beautiful",
+        "body": "Brilliant city. We walked everywhere and discovered so many hidden gems. The tapas scene is extraordinary."
+      }
+    ],
+    "tags": [
+      "architecture",
+      "tapas",
+      "gaudi",
+      "beach-city"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Gaudí masterpieces including Sagrada Familia",
+      "La Rambla boulevard and La Boqueria market",
+      "Beautiful Barceloneta beach",
+      "World-class tapas and Catalan cuisine"
+    ]
+  },
+  {
+    "id": "h20",
+    "slug": "prague-city-escape",
+    "name": "Prague City Escape",
+    "type": "city",
+    "tagline": "Europe's most beautiful medieval city",
+    "description": "Prague is one of Europe's best-preserved medieval cities, with a fairy-tale old town, astronomical clock, Charles Bridge and a castle that dominates the city skyline. Excellent beer, hearty food and a lively arts scene make it endlessly enjoyable.",
+    "destination": {
+      "resort": "Prague",
+      "country": "Czech Republic",
+      "region": "Bohemia",
+      "countryCode": "CZ"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/prague/800/500",
+        "alt": "Prague old town and Vltava river",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/prague-2/800/500",
+        "alt": "Prague Charles Bridge",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 3,
+    "rooms": [
+      {
+        "id": "prr1",
+        "name": "Standard Double",
+        "description": "Central hotel double room, ideal for exploring the city.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 60,
+        "boardBasis": "room-only",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City centre location"
+        ]
+      },
+      {
+        "id": "prr2",
+        "name": "Superior Double",
+        "description": "Upgraded room with breakfast and city views.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 80,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City view",
+          "Minibar"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 130,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 110
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 145,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 125
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 155,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 100
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "3 nights in city centre hotel"
+      },
+      {
+        "icon": "🗺️",
+        "label": "City Map & Guide",
+        "detail": "Our expert city guide included"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Restaurant meals"
+    ],
+    "pricing": {
+      "fromPrice": 349,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 349
+        }
+      ],
+      "deposit": 75,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 4321
+    },
+    "reviews": [
+      {
+        "author": "Beth H.",
+        "date": "2025-03-22",
+        "rating": 5,
+        "title": "Magical city",
+        "body": "Prague blew me away. The old town is like stepping into a fairy tale and the beer is exceptional."
+      },
+      {
+        "author": "Ian R.",
+        "date": "2025-04-18",
+        "rating": 4,
+        "title": "Wonderful atmosphere",
+        "body": "One of Europe's most atmospheric cities. Charles Bridge at dawn is simply unforgettable."
+      }
+    ],
+    "tags": [
+      "medieval",
+      "beer",
+      "history",
+      "affordable"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "UNESCO World Heritage Old Town Square",
+      "Iconic Charles Bridge and Prague Castle",
+      "Excellent value for money in Europe",
+      "Vibrant arts, music and nightlife scene"
+    ]
+  },
+  {
+    "id": "h21",
+    "slug": "amsterdam-city-break",
+    "name": "Amsterdam City Break",
+    "type": "city",
+    "tagline": "Canals, culture and cycling in the Dutch capital",
+    "description": "Amsterdam is one of Europe's most charming and liveable cities. Its intricate canal network, world-class museums including the Rijksmuseum and Van Gogh Museum, vibrant food scene and cycling culture make it a city break like no other.",
+    "destination": {
+      "resort": "Amsterdam",
+      "country": "Netherlands",
+      "region": "North Holland",
+      "countryCode": "NL"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/amsterdam/800/500",
+        "alt": "Amsterdam canals",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/amsterdam-2/800/500",
+        "alt": "Amsterdam Rijksmuseum",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 3,
+    "rooms": [
+      {
+        "id": "amr1",
+        "name": "Standard Double",
+        "description": "Central hotel double room, ideal for exploring the city.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 60,
+        "boardBasis": "room-only",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City centre location"
+        ]
+      },
+      {
+        "id": "amr2",
+        "name": "Superior Double",
+        "description": "Upgraded room with breakfast and city views.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 80,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City view",
+          "Minibar"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 90,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 75
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 105,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 90
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 115,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 65
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "3 nights in city centre hotel"
+      },
+      {
+        "icon": "🗺️",
+        "label": "City Map & Guide",
+        "detail": "Our expert city guide included"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Museum entrance fees"
+    ],
+    "pricing": {
+      "fromPrice": 399,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 399
+        }
+      ],
+      "deposit": 75,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 5234
+    },
+    "reviews": [
+      {
+        "author": "Claire D.",
+        "date": "2025-04-05",
+        "rating": 5,
+        "title": "Charming canal city",
+        "body": "Amsterdam is incredibly beautiful. We hired bikes and explored the canals — pure joy. The museums are world-class."
+      },
+      {
+        "author": "Mark B.",
+        "date": "2025-05-12",
+        "rating": 4,
+        "title": "Great city for a weekend",
+        "body": "Very walkable and cycle-friendly. The Jordaan neighbourhood is wonderful and the food scene has really improved."
+      }
+    ],
+    "tags": [
+      "canals",
+      "museums",
+      "cycling",
+      "culture"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "UNESCO canal network — the Venice of the North",
+      "Rijksmuseum and Van Gogh Museum",
+      "Vibrant Jordaan neighbourhood",
+      "Easy cycling throughout the city"
+    ]
+  },
+  {
+    "id": "h22",
+    "slug": "lisbon-city-break",
+    "name": "Lisbon City Break",
+    "type": "city",
+    "tagline": "Europe's sunniest capital with pastel tiles and Fado music",
+    "description": "Lisbon is Europe's most underrated capital and one of its most beautiful. Built on seven hills overlooking the Tagus estuary, it enchants with pastel-tiled buildings, rickety trams, melancholic Fado music, exceptional seafood and some of the warmest sunshine in Europe.",
+    "destination": {
+      "resort": "Lisbon",
+      "country": "Portugal",
+      "region": "Estremadura",
+      "countryCode": "PT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/lisbon/800/500",
+        "alt": "Lisbon Alfama district",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/lisbon-2/800/500",
+        "alt": "Lisbon tram",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 3,
+    "rooms": [
+      {
+        "id": "lir1",
+        "name": "Standard Double",
+        "description": "Central hotel double room, ideal for exploring the city.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 60,
+        "boardBasis": "room-only",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City centre location"
+        ]
+      },
+      {
+        "id": "lir2",
+        "name": "Superior Double",
+        "description": "Upgraded room with breakfast and city views.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 80,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City view",
+          "Minibar"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 165,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 140
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 180,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 155
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 190,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 130
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "3 nights in city centre hotel"
+      },
+      {
+        "icon": "🗺️",
+        "label": "City Map & Guide",
+        "detail": "Our expert city guide included"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Restaurant meals"
+    ],
+    "pricing": {
+      "fromPrice": 429,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 429
+        }
+      ],
+      "deposit": 75,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 4876
+    },
+    "reviews": [
+      {
+        "author": "Amy S.",
+        "date": "2025-03-15",
+        "rating": 5,
+        "title": "Most charming city in Europe",
+        "body": "Lisbon absolutely stole my heart. The Alfama at sunset, the pastéis de nata in Belém, the Fado in a small taverna — pure magic."
+      },
+      {
+        "author": "Dan W.",
+        "date": "2025-04-22",
+        "rating": 5,
+        "title": "Perfect in every way",
+        "body": "The weather, the food, the people and the beauty of the city make Lisbon simply perfect. Cannot wait to return."
+      }
+    ],
+    "tags": [
+      "fado",
+      "seafood",
+      "sunshine",
+      "culture"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Charming Alfama historic district and São Jorge Castle",
+      "Iconic vintage trams including the famous Tram 28",
+      "World-famous pastéis de nata custard tarts",
+      "Spectacular views over the Tagus from Miradouros"
+    ]
+  },
+  {
+    "id": "h23",
+    "slug": "paris-romantic-break",
+    "name": "Paris Romantic Break",
+    "type": "city",
+    "tagline": "The city of light and love awaits",
+    "description": "Paris is the most visited city on earth and the eternal capital of romance, art and gastronomy. The Eiffel Tower, the Louvre, Notre Dame, Montmartre, the Seine — every neighbourhood tells a story and every meal is a ceremony.",
+    "destination": {
+      "resort": "Paris",
+      "country": "France",
+      "region": "Ile-de-France",
+      "countryCode": "FR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/paris/800/500",
+        "alt": "Paris Eiffel Tower",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/paris-2/800/500",
+        "alt": "Paris riverside",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 3,
+    "rooms": [
+      {
+        "id": "par1",
+        "name": "Standard Double",
+        "description": "Central hotel double room, ideal for exploring the city.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 60,
+        "boardBasis": "room-only",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City centre location"
+        ]
+      },
+      {
+        "id": "par2",
+        "name": "Superior Double",
+        "description": "Upgraded room with breakfast and city views.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 80,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City view",
+          "Minibar"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 95,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 80
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 110,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 95
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 120,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 70
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "3 nights in city centre hotel"
+      },
+      {
+        "icon": "🗺️",
+        "label": "City Map & Guide",
+        "detail": "Our expert city guide included"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Museum entrance",
+      "Restaurant meals"
+    ],
+    "pricing": {
+      "fromPrice": 499,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 499
+        }
+      ],
+      "deposit": 75,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 7654
+    },
+    "reviews": [
+      {
+        "author": "Sophie L.",
+        "date": "2025-04-28",
+        "rating": 5,
+        "title": "Timeless and magical",
+        "body": "Paris never gets old. The Louvre, a walk along the Seine, croissants at a pavement café — simply perfect."
+      },
+      {
+        "author": "Oliver T.",
+        "date": "2025-03-08",
+        "rating": 4,
+        "title": "Classic city break",
+        "body": "Paris delivers every time. Beautiful, cultural and the food is always superb. The metro is easy to use."
+      }
+    ],
+    "tags": [
+      "romance",
+      "art",
+      "cuisine",
+      "iconic"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "The Eiffel Tower illuminated at night",
+      "The Louvre — world's greatest art museum",
+      "Charming Montmartre and Sacré-Cœur",
+      "Unparalleled French cuisine and patisseries"
+    ]
+  },
+  {
+    "id": "h24",
+    "slug": "rome-eternal-city",
+    "name": "Rome — The Eternal City",
+    "type": "city",
+    "tagline": "2000 years of history at every turn",
+    "description": "Rome is one of humanity's greatest achievements — a living museum where the Colosseum, the Vatican, the Pantheon and the Trevi Fountain coexist with vibrant neighbourhoods, outstanding cuisine and passionate Romans who take as much pride in their coffee as their history.",
+    "destination": {
+      "resort": "Rome",
+      "country": "Italy",
+      "region": "Lazio",
+      "countryCode": "IT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/rome/800/500",
+        "alt": "Rome Colosseum",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/rome-2/800/500",
+        "alt": "Rome Trevi Fountain",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 3,
+    "rooms": [
+      {
+        "id": "ror1",
+        "name": "Standard Double",
+        "description": "Central hotel double room, ideal for exploring the city.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 60,
+        "boardBasis": "room-only",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City centre location"
+        ]
+      },
+      {
+        "id": "ror2",
+        "name": "Superior Double",
+        "description": "Upgraded room with breakfast and city views.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 80,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "City view",
+          "Minibar"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 175,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 155
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 190,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 170
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 200,
+        "availableDates": [
+          "2026-03-07",
+          "2026-04-04",
+          "2026-05-02",
+          "2026-06-06"
+        ],
+        "priceAdultReturn": 145
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "3 nights in city centre hotel"
+      },
+      {
+        "icon": "🗺️",
+        "label": "City Map & Guide",
+        "detail": "Our expert city guide included"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Vatican entrance fees",
+      "Restaurant meals"
+    ],
+    "pricing": {
+      "fromPrice": 479,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 479
+        }
+      ],
+      "deposit": 75,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 8932
+    },
+    "reviews": [
+      {
+        "author": "Maria G.",
+        "date": "2025-05-05",
+        "rating": 5,
+        "title": "Overwhelming and wonderful",
+        "body": "Rome is simply astonishing. Around every corner is something that takes your breath away. The food was extraordinary."
+      },
+      {
+        "author": "Patrick H.",
+        "date": "2025-04-15",
+        "rating": 5,
+        "title": "The greatest city on earth",
+        "body": "I have been to Rome four times and it never gets old. The history, the food, the energy of the city is incomparable."
+      }
+    ],
+    "tags": [
+      "history",
+      "italian-food",
+      "culture",
+      "iconic"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "The Colosseum and Roman Forum",
+      "Vatican City and Sistine Chapel",
+      "Trevi Fountain and Spanish Steps",
+      "Outstanding Roman cuisine and gelato"
+    ]
+  },
+  {
+    "id": "h25",
+    "slug": "dubrovnik-summer",
+    "name": "Dubrovnik Summer Holiday",
+    "type": "summer",
+    "tagline": "The Pearl of the Adriatic on Croatia's stunning coast",
+    "description": "Dubrovnik is one of the most beautiful walled cities on earth, perched on a rocky promontory above the impossibly blue Adriatic. Walk the ancient city walls, swim from limestone rocks into crystal water, explore the nearby Elafiti islands and enjoy superb seafood.",
+    "destination": {
+      "resort": "Dubrovnik",
+      "country": "Croatia",
+      "region": "Dalmatian Coast",
+      "countryCode": "HR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/dubrovnik/800/500",
+        "alt": "Dubrovnik old city and Adriatic",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/dubrovnik-2/800/500",
+        "alt": "Dubrovnik harbour",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "dvr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "dvr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 245,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 195
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 265,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 215
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 275,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 185
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "City wall entrance",
+      "Boat trips"
+    ],
+    "pricing": {
+      "fromPrice": 799,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 799
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 549
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 3456
+    },
+    "reviews": [
+      {
+        "author": "Harriet B.",
+        "date": "2025-07-20",
+        "rating": 5,
+        "title": "Most beautiful place I've visited",
+        "body": "Dubrovnik is simply breath-taking. The old city walls at sunset, the clear Adriatic water — absolute paradise."
+      },
+      {
+        "author": "Frank D.",
+        "date": "2025-06-15",
+        "rating": 5,
+        "title": "Perfect Croatian holiday",
+        "body": "Everything about Dubrovnik exceeded expectations. Beautiful city, wonderful people and the seafood is incredible."
+      }
+    ],
+    "tags": [
+      "adriatic",
+      "old-city",
+      "seafood",
+      "stunning"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "UNESCO World Heritage walled old city",
+      "Crystal-clear Adriatic swimming and snorkelling",
+      "Island boat trips to Lokrum and Elafiti Islands",
+      "Excellent fresh Dalmatian seafood"
+    ]
+  },
+  {
+    "id": "h26",
+    "slug": "split-dalmatian-coast",
+    "name": "Split & Dalmatian Coast",
+    "type": "summer",
+    "tagline": "Roman ruins, island hops and pure Adriatic bliss",
+    "description": "Split is Croatia's second city and one of its most dynamic destinations. Built around the ancient Diocletian's Palace, this lively city is the gateway to the Dalmatian coast island chain. Day trips to Hvar, Brac and Vis, glorious beaches and superb nightlife await.",
+    "destination": {
+      "resort": "Split",
+      "country": "Croatia",
+      "region": "Dalmatian Coast",
+      "countryCode": "HR"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/split/800/500",
+        "alt": "Split Diocletian Palace",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/split-2/800/500",
+        "alt": "Split Adriatic beach",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "spr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "spr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 240,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 190
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 260,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 210
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 270,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 180
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Island ferry tickets",
+      "Guided palace tour"
+    ],
+    "pricing": {
+      "fromPrice": 699,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 699
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 499
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 2876
+    },
+    "reviews": [
+      {
+        "author": "Zoe M.",
+        "date": "2025-07-10",
+        "rating": 5,
+        "title": "Croatia is incredible",
+        "body": "Split is the perfect base for exploring the Dalmatian coast. Hvar day trip was spectacular and the old city at night is magical."
+      },
+      {
+        "author": "Ben C.",
+        "date": "2025-08-02",
+        "rating": 4,
+        "title": "Lively and beautiful",
+        "body": "Great mix of history, beaches and nightlife. Diocletian's Palace is astonishing and Hvar is unmissable."
+      }
+    ],
+    "tags": [
+      "dalmatian-coast",
+      "roman-history",
+      "islands",
+      "beaches"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "UNESCO Diocletian's Palace at the city heart",
+      "Day trips to Hvar, Brac and Vis islands",
+      "Beautiful Bacvice beach and swimming",
+      "Vibrant café culture and nightlife"
+    ]
+  },
+  {
+    "id": "h27",
+    "slug": "algarve-summer-holiday",
+    "name": "Algarve Summer Holiday",
+    "type": "summer",
+    "tagline": "Golden cliffs, sea caves and perfect Atlantic beaches",
+    "description": "The Algarve is Portugal's premier holiday destination — a land of dramatic golden limestone cliffs, sea caves, hidden coves and long sandy Atlantic beaches. With superb golf, fresh seafood, charming whitewashed villages and reliable summer sunshine, it ticks every box.",
+    "destination": {
+      "resort": "Algarve",
+      "country": "Portugal",
+      "region": "Southern Portugal",
+      "countryCode": "PT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/algarve/800/500",
+        "alt": "Algarve golden cliffs and beach",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/algarve-2/800/500",
+        "alt": "Algarve sea caves",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "alr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "alr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 215,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 165
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 235,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 185
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 245,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 155
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Boat trips to sea caves"
+    ],
+    "pricing": {
+      "fromPrice": 749,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 749
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 499
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 4123
+    },
+    "reviews": [
+      {
+        "author": "Linda W.",
+        "date": "2025-07-08",
+        "rating": 5,
+        "title": "Stunning beaches and cliffs",
+        "body": "The Algarve beaches are extraordinary. Praia da Marinha with its rock formations is one of the most beautiful beaches in Europe."
+      },
+      {
+        "author": "Steve P.",
+        "date": "2025-06-22",
+        "rating": 4,
+        "title": "Great family holiday destination",
+        "body": "Perfect for families. Safe beaches, great food, good weather and plenty to do. The seafood restaurants are exceptional."
+      }
+    ],
+    "tags": [
+      "beaches",
+      "cliffs",
+      "seafood",
+      "golf"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Dramatic golden limestone cliff formations",
+      "Hidden sea caves and grottoes",
+      "World-class golf courses",
+      "Fresh Atlantic seafood cuisine"
+    ]
+  },
+  {
+    "id": "h28",
+    "slug": "tuscany-italian-summer",
+    "name": "Tuscany Italian Summer",
+    "type": "summer",
+    "tagline": "Rolling hills, Renaissance art and exquisite Chianti",
+    "description": "Tuscany is the embodiment of the Italian dream — rolling hills covered in vines and olive groves, cypress-lined roads, magnificent Renaissance cities, authentic trattorias and some of the world's finest wine. Florence, Siena, San Gimignano and Pisa all within reach.",
+    "destination": {
+      "resort": "Tuscany",
+      "country": "Italy",
+      "region": "Tuscany",
+      "countryCode": "IT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/tuscany/800/500",
+        "alt": "Tuscany rolling hills and cypress trees",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/tuscany-2/800/500",
+        "alt": "Tuscan villa",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "tur1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "tur2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 225,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 175
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 245,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 195
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 255,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 165
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Wine tours",
+      "Museum entrance"
+    ],
+    "pricing": {
+      "fromPrice": 899,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 899
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 649
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 2345
+    },
+    "reviews": [
+      {
+        "author": "Julia C.",
+        "date": "2025-07-15",
+        "rating": 5,
+        "title": "Italian paradise",
+        "body": "Tuscany is everything I dreamed of. The landscape, the food, the wine, the art — it is simply the most beautiful region on earth."
+      },
+      {
+        "author": "Richard A.",
+        "date": "2025-06-08",
+        "rating": 5,
+        "title": "Magical and romantic",
+        "body": "We stayed in a converted farmhouse in the Chianti hills. Florence day trip was incredible. The food was extraordinary."
+      }
+    ],
+    "tags": [
+      "wine",
+      "renaissance",
+      "rolling-hills",
+      "culture"
+    ],
+    "isFeatured": true,
+    "isSpecialOffer": true,
+    "specialOfferLabel": "10% Off",
+    "originalFromPrice": 999,
+    "highlights": [
+      "Rolling Chianti hills and vineyard landscapes",
+      "Day trips to Florence, Siena and Pisa",
+      "Authentic Tuscan farmhouse accommodation",
+      "World-class wine and cuisine experiences"
+    ]
+  },
+  {
+    "id": "h29",
+    "slug": "amalfi-coast-escape",
+    "name": "Amalfi Coast Escape",
+    "type": "summer",
+    "tagline": "Italy's most dramatic coastline of cliffs and colour",
+    "description": "The Amalfi Coast is one of the world's most scenic drives and a UNESCO World Heritage site. Clinging to vertiginous cliffs above the turquoise Tyrrhenian Sea, the colourful towns of Positano, Amalfi and Ravello are the very definition of la dolce vita.",
+    "destination": {
+      "resort": "Amalfi Coast",
+      "country": "Italy",
+      "region": "Campania",
+      "countryCode": "IT"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/amalfi/800/500",
+        "alt": "Amalfi Coast cliffs and sea",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/amalfi-2/800/500",
+        "alt": "Positano colourful buildings",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "afr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "afr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 240,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 185
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 260,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 205
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 270,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 175
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Boat trips",
+      "Restaurant meals"
+    ],
+    "pricing": {
+      "fromPrice": 1099,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 1099
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 799
+        }
+      ],
+      "deposit": 150,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 1876
+    },
+    "reviews": [
+      {
+        "author": "Vanessa H.",
+        "date": "2025-07-22",
+        "rating": 5,
+        "title": "The most beautiful coastline in the world",
+        "body": "I have no words for how beautiful the Amalfi Coast is. Positano from the sea is breathtaking. The limoncello is pretty good too."
+      },
+      {
+        "author": "Carlo B.",
+        "date": "2025-08-05",
+        "rating": 5,
+        "title": "La dolce vita perfetta",
+        "body": "Everything about this holiday was perfect. The hotel, the food, the swimming, the views. Italy at its very finest."
+      }
+    ],
+    "tags": [
+      "UNESCO",
+      "cliffs",
+      "luxury",
+      "la-dolce-vita"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "UNESCO World Heritage coastline scenery",
+      "Iconic Positano cliffside village",
+      "Ravello gardens and Amalfi cathedral",
+      "Boat trips to the Blue Grotto of Capri"
+    ]
+  },
+  {
+    "id": "h30",
+    "slug": "malaga-costa-del-sol",
+    "name": "Malaga & Costa del Sol",
+    "type": "summer",
+    "tagline": "Sun, tapas and Picasso on Spain's sunshine coast",
+    "description": "Malaga is the capital of the Costa del Sol and one of Spain's most exciting cities. Birthplace of Picasso, blessed with year-round sunshine, excellent beaches, a revitalised historic centre and outstanding tapas culture, it perfectly combines city and beach holiday.",
+    "destination": {
+      "resort": "Malaga",
+      "country": "Spain",
+      "region": "Andalusia",
+      "countryCode": "ES"
+    },
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/malaga/800/500",
+        "alt": "Malaga harbour and city",
+        "isPrimary": true
+      },
+      {
+        "url": "https://picsum.photos/seed/malaga-2/800/500",
+        "alt": "Costa del Sol beach",
+        "isPrimary": false
+      }
+    ],
+    "durationNights": 7,
+    "rooms": [
+      {
+        "id": "mgr1",
+        "name": "Standard Room",
+        "description": "Comfortable sea-view room with daily buffet breakfast.",
+        "maxOccupancy": 2,
+        "pricePerPersonPerNight": 55,
+        "boardBasis": "bed-and-breakfast",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access"
+        ]
+      },
+      {
+        "id": "mgr2",
+        "name": "All-Inclusive Room",
+        "description": "Generous all-inclusive package with drinks and meals.",
+        "maxOccupancy": 3,
+        "pricePerPersonPerNight": 85,
+        "boardBasis": "all-inclusive",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air conditioning",
+          "Pool access",
+          "Sea view"
+        ]
+      }
+    ],
+    "departures": [
+      {
+        "airport": "London Gatwick",
+        "airportCode": "LGW",
+        "flightDurationMinutes": 225,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 175
+      },
+      {
+        "airport": "London Heathrow",
+        "airportCode": "LHR",
+        "flightDurationMinutes": 245,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 195
+      },
+      {
+        "airport": "Manchester",
+        "airportCode": "MAN",
+        "flightDurationMinutes": 255,
+        "availableDates": [
+          "2026-06-13",
+          "2026-07-04",
+          "2026-07-18",
+          "2026-08-01"
+        ],
+        "priceAdultReturn": 165
+      }
+    ],
+    "included": [
+      {
+        "icon": "✈️",
+        "label": "Return Flights",
+        "detail": "From London Gatwick"
+      },
+      {
+        "icon": "🏨",
+        "label": "Accommodation",
+        "detail": "7 nights in chosen room type"
+      },
+      {
+        "icon": "🧳",
+        "label": "Hold Luggage",
+        "detail": "20kg per person"
+      },
+      {
+        "icon": "🚌",
+        "label": "Airport Transfers",
+        "detail": "Return airport-hotel transfers"
+      }
+    ],
+    "notIncluded": [
+      "Travel insurance",
+      "Museum entrance"
+    ],
+    "pricing": {
+      "fromPrice": 649,
+      "pricingTiers": [
+        {
+          "label": "Adult (16+)",
+          "basePrice": 649
+        },
+        {
+          "label": "Child (2-15)",
+          "basePrice": 449
+        }
+      ],
+      "deposit": 100,
+      "depositType": "fixed"
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 3456
+    },
+    "reviews": [
+      {
+        "author": "Paula R.",
+        "date": "2025-07-12",
+        "rating": 5,
+        "title": "Wonderful city-beach combination",
+        "body": "Malaga surprised us completely. The historic centre is gorgeous, the tapas are incredible and the beaches are just minutes away."
+      },
+      {
+        "author": "Colin S.",
+        "date": "2025-08-20",
+        "rating": 4,
+        "title": "Underrated Spanish gem",
+        "body": "People underestimate Malaga. The Picasso Museum is world-class, the Alcazaba is stunning and the food scene has exploded."
+      }
+    ],
+    "tags": [
+      "sunshine",
+      "tapas",
+      "culture",
+      "beach"
+    ],
+    "isFeatured": false,
+    "isSpecialOffer": false,
+    "highlights": [
+      "Birthplace of Picasso with dedicated museum",
+      "Moorish Alcazaba citadel and Gibralfaro castle",
+      "Beautiful La Malagueta beach",
+      "Outstanding Andalusian tapas culture"
+    ]
+  }
+]

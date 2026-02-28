@@ -1,0 +1,14 @@
+[
+  { "code": "LGW", "name": "London Gatwick", "city": "London" },
+  { "code": "LHR", "name": "London Heathrow", "city": "London" },
+  { "code": "STN", "name": "London Stansted", "city": "London" },
+  { "code": "LTN", "name": "London Luton", "city": "London" },
+  { "code": "MAN", "name": "Manchester", "city": "Manchester" },
+  { "code": "BHX", "name": "Birmingham", "city": "Birmingham" },
+  { "code": "EDI", "name": "Edinburgh", "city": "Edinburgh" },
+  { "code": "GLA", "name": "Glasgow", "city": "Glasgow" },
+  { "code": "BRS", "name": "Bristol", "city": "Bristol" },
+  { "code": "NCL", "name": "Newcastle", "city": "Newcastle" },
+  { "code": "LBA", "name": "Leeds Bradford", "city": "Leeds" },
+  { "code": "EMA", "name": "East Midlands", "city": "Nottingham" }
+]
